@@ -1,0 +1,10 @@
+{a=2, e=4, f=3, e=4, f=5}{a=2, e=4, f=3, e=4, f=5}{a=2, e=4, f=3, e=4, f=5}{a=2, e=4, f=3, e=4, f=5}
+2014_09_09_20_24_47 LogValidos { =6, a=2, q=1, r=3, e=3, u=2, v=1, g=1, o=2}
+2014_09_09_20_30_39 LogValidos { =6, a=2, q=1, r=3, e=3, u=2, v=1, g=1, o=2}
+2014_09_09_20_48_26 LogInvalidos {	=1}
+2014_09_09_20_48_27 LogValidos { =5, a=2, q=1, r=3, e=3, u=2, v=1, g=1, o=2}2014_09_09_21_12_51 Arquivo: teste1.txt Log Validos{ =5, a=2, q=1, r=3, e=3, u=2, v=1, g=1, o=2} Log Invalidos{	=1}/n2014_09_09_21_12_52 Arquivo: teste1.txt Log Validos{ =5, a=2, q=1, r=3, e=3, u=2, v=1, g=1, o=2} Log Invalidos{	=1}/n2014_09_09_21_12_53 Arquivo: teste1.txt Log Validos{ =5, a=2, q=1, r=3, e=3, u=2, v=1, g=1, o=2} Log Invalidos{	=1}/n2014_09_09_21_15_17 Arquivo: teste1.txt Log Validos{ =5, a=2, q=1, r=3, e=3, u=2, v=1, g=1, o=2} Log Invalidos{	=1}
+2014_09_09_21_15_18 Arquivo: teste1.txt Log Validos{ =5, a=2, q=1, r=3, e=3, u=2, v=1, g=1, o=2} Log Invalidos{	=1}
+2014_09_09_21_15_19 Arquivo: teste1.txt Log Validos{ =5, a=2, q=1, r=3, e=3, u=2, v=1, g=1, o=2} Log Invalidos{	=1}
+2014_09_09_21_15_23 Arquivo: teste1.txt Log Validos{ =5, a=2, q=1, r=3, e=3, u=2, v=1, g=1, o=2} Log Invalidos{	=1}
+2014_09_09_21_15_23 Arquivo: teste1.txt Log Validos{ =5, a=2, q=1, r=3, e=3, u=2, v=1, g=1, o=2} Log Invalidos{	=1}
+2014_09_09_21_15_23 Arquivo: teste1.txt Log Validos{ =5, a=2, q=1, r=3, e=3, u=2, v=1, g=1, o=2} Log Invalidos{	=1}
