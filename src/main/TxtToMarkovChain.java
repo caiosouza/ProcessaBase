@@ -31,6 +31,7 @@ public class TxtToMarkovChain {
 		
 		//imprime o dicionario
 		List<String> textoDicionario = new ArrayList<String>();
+		//TODO trocar isso pela funcao que foi criada no utils
 		for	(Entry<String, Integer> palavraId:	baseEstruturada.getDicionarioBiGrama().entrySet()){
 			temp = palavraId.getValue()+";"+palavraId.getKey();
 			textoDicionario.add(temp);

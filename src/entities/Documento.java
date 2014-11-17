@@ -5,6 +5,7 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
+import preProcessaTexto.NGrama;
 import preProcessamento.PreProcessaCorpus;
 import processamento.ValidaCaracteres;
 import util.Util;
@@ -17,10 +18,11 @@ public class Documento {
 	private Map<String, Integer> termoFrequencia;
 	private Map<String, Integer> biGramaFrequencia;
 	private Integer idCategoria;
-	private Map< Integer, Map<String, Integer>> nGramaFrequencia;
-	private Map< Integer, Map<String, Integer>> nGramaPresenca;
+	private Map<String, Integer> nGramaFrequencia;
+	private Map<String, Integer> nGramaPresenca;
 	
 	public Documento(String conteudoOriginal, Integer idCategoria) {
+		/*reduzir os setups iniciais e passar isso para os getters and setters*/
 		this.conteudoOriginal = conteudoOriginal;
 		this.biGramaFrequencia = new HashMap<String, Integer>();
 		this.termoFrequencia = new HashMap<String, Integer>();
@@ -85,6 +87,66 @@ public class Documento {
 
 	public void setBiGramaFrequencia(Map<String, Integer> biGramaFrequencia) {
 		this.biGramaFrequencia = biGramaFrequencia;
+	}
+	
+	/**
+	 * @return the nGramaFrequencia
+	 */
+	public Map<String, Integer> getnGramaFrequencia() {
+		if (nGramaFrequencia == null){
+			loadNgramaFrequencia();
+		}
+		return nGramaFrequencia;
+	}
+
+	private void loadNgramaFrequencia() {
+		
+		nGramaFrequencia = new HashMap<String, Integer>();
+		String conteudo = getConteudoProcessado();
+		String[] tokens = conteudo.split(" ");
+		
+		for (int n = 1; n <= tokens.length; n++) {
+    		//System.out.println(n);
+    		for (String ngram : NGrama.ngrams(n, conteudo))
+    			Util.incrementaFrequencia(nGramaFrequencia, ngram);
+        }
+	}
+
+	/**
+	 * @param nGramaFrequencia the nGramaFrequencia to set
+	 */
+	public void setnGramaFrequencia(Map<String, Integer> nGramaFrequencia) {
+		this.nGramaFrequencia = nGramaFrequencia;
+	}
+
+	/**
+	 * @return the nGramaPresenca
+	 */
+	public Map<String, Integer> getnGramaPresenca() {
+		if (nGramaPresenca == null){
+			loadNgramaPresenca();
+		}
+		return nGramaPresenca;
+	}
+
+	private void loadNgramaPresenca() {
+		
+		nGramaPresenca = new HashMap<String, Integer>();
+		String conteudo = getConteudoProcessado();
+		String[] tokens = conteudo.split(" ");
+		
+		for (int n = 1; n <= tokens.length; n++) {
+    		//System.out.println(n);
+    		for (String ngram : NGrama.ngrams(n, conteudo))
+    			Util.incrementaPresenca(nGramaPresenca, ngram);
+        }
+	}
+
+	/**
+	 * @param nGramaPresenca the nGramaPresenca to set
+	 */
+	public void setnGramaPresenca(Map<String, Integer> nGramaPresenca) {
+		this.nGramaPresenca = nGramaPresenca;
 	}
 
 	public void processaDocumento(ParametrosEntrada parametrosEntrada, Set<String> stopList) {

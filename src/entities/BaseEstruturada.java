@@ -25,9 +25,12 @@ public class BaseEstruturada {
 	private Map<String, Integer> biGramasFrequenciasGlobal;
 	private LinkedHashMap<String, Integer> dicionarioUniGrama;
 	private LinkedHashMap<String, Integer> dicionarioBiGrama;
+	private Map<String, Integer> nGramaFrequenciaGlobal;
+	private Map<String, Integer> nGramaPresencaGlobal;
+	
 	
 	public BaseEstruturada(ParametrosEntrada parametrosEntrada) {
-		
+		/*reduzir os setups iniciais e passar isso para os getters and setters*/
 		this.termosUniGrama = new LinkedHashSet<String>();
 		this.termosBiGrama = new LinkedHashSet<String>();
 		this.documentos = new LinkedHashSet<Documento>();
@@ -236,5 +239,61 @@ public class BaseEstruturada {
 	 */
 	public LinkedHashMap<String, Integer> getDicionarioBiGrama() {
 		return dicionarioBiGrama;
-	}	
+	}
+
+	/**
+	 * nGramaFrequenciaGlobal eh carregado sob demanda
+	 * @return the nGramaFrequenciaGlobal
+	 */
+	public Map<String, Integer> getnGramaFrequenciaGlobal() {
+		if (nGramaFrequenciaGlobal == null){
+			loadNGramaFrequenciaGlobal();
+		}
+		
+		return nGramaFrequenciaGlobal;
+	}
+
+	private void loadNGramaFrequenciaGlobal() {
+
+		nGramaFrequenciaGlobal = new LinkedHashMap<String, Integer>();
+		for (Documento documento: getDocumentos()){
+			nGramaFrequenciaGlobal = Util.consolidaNgramaFrequencia(nGramaFrequenciaGlobal, documento.getnGramaFrequencia());
+		}
+	}
+
+	/**
+	 * @param nGramaFrequenciaGlobal the nGramaFrequenciaGlobal to set
+	 */
+	public void setnGramaFrequenciaGlobal(Map<String, Integer> nGramaFrequenciaGlobal) {
+		this.nGramaFrequenciaGlobal = nGramaFrequenciaGlobal;
+	}
+
+	/**
+	 * nGramaPresencaGlobal eh carregado sob demanda
+	 * @return the nGramaPresencaGlobal
+	 */
+	public Map<String, Integer> getnGramaPresencaGlobal() {
+		if (nGramaPresencaGlobal == null){
+			loadNGramaPresencaGlobal();
+		}
+		
+		return nGramaPresencaGlobal;
+	}
+
+	private void loadNGramaPresencaGlobal() {
+		nGramaPresencaGlobal = new LinkedHashMap<String, Integer>();
+		for (Documento documento: getDocumentos()){
+			nGramaPresencaGlobal = Util.consolidaNgramaFrequencia(nGramaPresencaGlobal, documento.getnGramaPresenca());
+		}
+		
+	}
+
+	/**
+	 * @param nGramaPresencaGlobal the nGramaPresencaGlobal to set
+	 */
+	public void setnGramaPresencaGlobal(Map<String, Integer> nGramaPresencaGlobal) {
+		this.nGramaPresencaGlobal = nGramaPresencaGlobal;
+	}
+	
+	
 }
