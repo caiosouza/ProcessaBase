@@ -42,7 +42,8 @@ public class BaseEstruturada {
 		
 		loadStopList(parametrosEntrada.getStopListFileName());
 		loadDocumentos(parametrosEntrada.getNomeArquivoOriginal());
-		loadDicionarios(parametrosEntrada);
+		processaDocumentos(parametrosEntrada);
+		//loadDicionarios(parametrosEntrada);
 
 	}
 	
@@ -67,13 +68,8 @@ public class BaseEstruturada {
 		loadDocumentos(linhas);
 	}
 
+	@SuppressWarnings("unused")
 	private void loadDicionarios(ParametrosEntrada parametrosEntrada) {
-		
-		Set<Documento> documentos = getDocumentos();
-		for (Documento documento : documentos) {
-			documento.processaDocumento(parametrosEntrada,getStopList());
-			documento.posProcessaDocumento(parametrosEntrada.getMinLocalFreq());
-		}
 		
 		for (Documento documento : documentos) {
 			termosFrequenciasGlobal = Util.consolidaNgramaFrequencia(termosFrequenciasGlobal, documento.getTermoFrequencia());
@@ -110,6 +106,16 @@ public class BaseEstruturada {
 		dicionarioUniGrama = montaDicionario(termosUniGrama);
 		dicionarioBiGrama = montaDicionario(termosBiGrama);		
 		validaInicioFimDocumentos();
+	}
+
+	private void processaDocumentos( ParametrosEntrada parametrosEntrada) {
+		
+		for (Documento documento : getDocumentos()) {
+			documento.processaDocumento(parametrosEntrada, getStopList());
+			documento.posProcessaDocumento(parametrosEntrada.getMinLocalFreq());
+		}
+		System.out.println("Documentos processados com sucesso.");
+		
 	}
 
 	private void validaInicioFimDocumentos() {
@@ -152,6 +158,7 @@ public class BaseEstruturada {
 			dicionarioNGrama.put(termoUniGrama, i);
 			i++;
 		}
+		System.out.println("Dicionario montado com sucesso.");
 		return dicionarioNGrama;
 	}
 	
@@ -257,6 +264,11 @@ public class BaseEstruturada {
 	 * @return the dicionarioUniGrama
 	 */
 	public LinkedHashMap<String, Integer> getDicionarioUniGrama() {
+		//TODO: corrigir essa parte
+		if (dicionarioUniGrama == null){
+			//loadDicionarios(parametrosEntrada);
+		}
+		
 		return dicionarioUniGrama;
 	}
 
@@ -264,6 +276,10 @@ public class BaseEstruturada {
 	 * @return the dicionarioBiGrama
 	 */
 	public LinkedHashMap<String, Integer> getDicionarioBiGrama() {
+		//TODO: corrigir essa parte
+		if (dicionarioUniGrama == null){
+			//loadDicionarios(parametrosEntrada);
+		}
 		return dicionarioBiGrama;
 	}
 
@@ -285,6 +301,7 @@ public class BaseEstruturada {
 		for (Documento documento: getDocumentos()){
 			nGramaFrequenciaGlobal = Util.consolidaNgramaFrequencia(nGramaFrequenciaGlobal, documento.getnGramaFrequencia());
 		}
+		System.out.println("NGramas carregados com sucesso.");
 	}
 
 	/**
@@ -311,7 +328,7 @@ public class BaseEstruturada {
 		for (Documento documento: getDocumentos()){
 			nGramaPresencaGlobal = Util.consolidaNgramaFrequencia(nGramaPresencaGlobal, documento.getnGramaPresenca());
 		}
-		
+		System.out.println("NGramas carregados com sucesso.");
 	}
 
 	/**
