@@ -158,11 +158,18 @@ public class Documento {
 				parametrosEntrada.getMinSizeWord(), parametrosEntrada.getMaxSizeWord());
 		
 		ValidaCaracteres validaCaracteres = new ValidaCaracteres();
+		if (conteudoProcessado.length() == 0 ){
+			System.out.println("Documentos ficou vazio");
+			System.out.println("Texto original:" + getConteudoOriginal());
+		}
 		if(validaCaracteres.validaLinhas(conteudoProcessado, parametrosEntrada.getPodeNumero())){
 			//conteudoProcessado = "INICIO "+ conteudoProcessado+ " FIM";
 			setConteudoProcessado(conteudoProcessado);
 			//setTermos(new HashSet<String>(Arrays.asList(conteudoProcessado.split(" "))));
-		} 
+		} else{
+			System.out.println("Documentos ficou vazio");
+			System.out.println("Texto original:" + getConteudoOriginal());
+		}
 	}
 	
 	public void posProcessaDocumento(int freqMinLocal){
@@ -201,7 +208,7 @@ public class Documento {
 			atual = anterior + " " + fim;
 			Util.incrementaFrequencia(biGramaFrequencia, atual);
 			
-			Util.removeFreqMin(termoFrequencia, freqMinLocal);
+			Util.removeFreqMin(biGramaFrequencia, freqMinLocal);
 		}
 	}
 	

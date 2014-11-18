@@ -5,6 +5,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 import java.util.Set;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import preProcessaTexto.PorterStemmer;
 import preProcessaTexto.StopWords;
@@ -89,13 +91,35 @@ public class PreProcessaCorpus {
 
 	public String preProcessaLinha(String linha, Boolean removeStopWords, Boolean reduzStemme, 
 			String stopListNameFile, Boolean podeNumero, Set<String> stopList, int minSizeWord, int maxSizeWord) {
-
+		
+		/*
 		if (podeNumero){
 			//nao remove os numeros
-			linha = linha.toLowerCase().replaceAll("[.,:;<>{}|_!@#$%&*()/?+=-]", " ");
+			linha = linha.toLowerCase().replaceAll("[.,:;<>{}|_!@#$%&*()/?+=-~]", " ");
+			
 		} else {
-			linha = linha.toLowerCase().replaceAll("[.,:;<>{}|_1234567890!@#$%&*()/?+=-]", " ");
+			linha = linha.toLowerCase().replaceAll("[.,:;<>{}|_1234567890!@#$%&*()/?+=-~]", " ");
 		}
+		*/
+		
+		Pattern pattern;
+		if (podeNumero) {
+			pattern = Pattern.compile(" |[a-z]|[0-9]");
+		} else {
+			pattern = Pattern.compile(" |[a-z]");
+		}
+		
+		String linhatemp = "";
+		Matcher matcher;
+		
+		for (int i = 0; i < linha.length(); i++) {
+			String caractere = "" + linha.charAt(i);
+			matcher = pattern.matcher(caractere);
+			if (matcher.matches()) {
+				linhatemp =  linhatemp + linha.charAt(i);
+			}
+		}
+		linha = linhatemp;
 		
 		String outPutText = "";
 		String [] tokens = linha.split(" ");

@@ -109,7 +109,33 @@ public class BaseEstruturada {
 		
 		dicionarioUniGrama = montaDicionario(termosUniGrama);
 		dicionarioBiGrama = montaDicionario(termosBiGrama);		
+		validaInicioFimDocumentos();
+	}
+
+	private void validaInicioFimDocumentos() {
 		
+		boolean achouInicio;
+		boolean achouFim;
+		for (Documento documento : documentos) {
+			Map<String, Integer> bigramas = documento.getBiGramaFrequencia();
+			achouInicio = false;
+			achouFim = false;
+			for ( String bigrama : bigramas.keySet()) {
+				if(bigrama.startsWith("INICIO")){
+					achouInicio = true;
+				}
+				if(bigrama.endsWith("FIM")){
+					achouFim = true;
+				}
+			}
+			if(!achouInicio || !achouFim){
+				System.out.println("Documento com problema");
+				System.out.println(documento.getConteudoOriginal());
+				System.out.println(documento.getConteudoProcessado());
+				
+			}
+		}
+
 	}
 
 	/**
