@@ -1,0 +1,291 @@
+esd emergency shutdown
+fahh asv nd stage
+fahh asv rd stage
+fahh vazao alta fv bomba
+fahh vazao alta fv bomba
+fahh vazao alta fv bomba
+fall suction line st stage
+fall vazao baixa fv bomba
+fall vazao baixa fv bomba
+fall vazao baixa fv bomba
+fit falha sinal
+gcz gas confirmado zona
+hs esd panel
+lahh drum uc
+lahh lo tank
+lahh nivel alto succao urvs
+lahh nivel alto uc booster
+lahh nivel alto uc urv
+lahh nivel alto uc urv
+lahh separador atmosferico
+lahh separador atmosferico
+lall drum uc
+lall lo tank
+lall nivel alto desaeradora
+lall nivel baixo succao urvs
+lall nivel baixo uc booster
+lall nivel baixo uc urv
+lall nivel baixo uc urv
+lall nivel baixo tq uc selagem urvs
+lhh gbhdex gearbox hss drive end vibration high shutd
+lhh gbhdey gearbox hss drive end vibration high shutd
+lhh gbhney gearbox hss non drive end vibr high shutdo
+lhh gbla gearbox lss axial displacement high shutdown
+lhh gbldex gearbox lss drive end vibration high shutd
+lhh gbldey gearbox lss drive end vibration high shutd
+lhh gblnex gearbox lss non drive end vibr high shutdo
+lhh gblney gearbox lss non drive end vibr high shutdo
+lhh ggba gg bearing cooling air pressure high shutdown
+lhh gg gg exhaust average temperature high shutdown
+lhh gg gg module temperature high shutdown
+lhh ggi gg front brg vibration high shutdown
+lhh ggsd gg starter differential crash speed shutdown
+lhh gndex generator drive end vibration high shutdown
+lhh gnnex generator non drive end vibration high shut
+lhh gnney generator non drive end vibration high shut
+lhh ptdex pt drive end vibration high shutdown
+lhh ptnex pt non drive end vibration high shutdown
+lhh ptta pt axial displacement high shutdown
+lhh pttb pt axial displacement high shutdown
+lll fgs fuel gas supply temperature low shutdown
+lll fls liquid fuel supply pressure low shutdown
+lll ggnh gg nh speed low shutdown
+lll ggnl gg nl speed low shutdown
+lll qms main lube oil supply pressure low shutdown
+lsdl fc gas downstream pressure fault shutdown
+lsdl fc gas emv actuator fault shutdown
+lsdl fc gas emv bus under voltage shutdown
+lsdl fc gas emv over bridge over current shutdown
+lsdl fc gas emv position control shutdown
+lsdl fc gas metering valve failure shutdown
+lsdl fc gas upstream pressure fault shutdown
+lsdl fc gas valve position error failure shutdown
+lsdl fc ignition failure shutdown
+lsdl fc liq emv actuator fault shutdown
+lsdl fc liq emv bus under voltage shutdown
+lsdl fc liq emv over bridge over current shutdown
+lsdl fc liq metering valve failure shutdown
+lsdl fc liq upstream pressure fault shutdown
+lsdl fc liq valve position error failure shutdown
+lsdl fc lvdt vigv position error shutdown
+lsdl fc nh pullaway speed achieved failure shutdown
+lsdl fc nl failsafe shutdown
+lsdl fc nl software overspeed shutdown
+lsdl fc nl underspeed shutdown
+lsdl fc ns crash re engagement shutdown
+lsdl fc ns open circuit shutdown
+lsdl fc overfuel to ignition failure shutdown
+lsdl fc failsafe shutdown
+lsdl fc ssloc control valve driver shutdown
+lsdl fc ssloc flow control valve high dp shutdown
+lsdl fc ssloc high temperature shutdown
+lsdl fc ssloc dp signal failure
+lsdl fc ssloc low dp shutdown
+lsdl fc ssloc low hydraulic pressure shutdown
+lsdl fc ssloc scavenge blockage shutdown
+lsdl fc ssloc oil level low shutdown
+lsdl fc ssloc sel vlv schedule pos failure shutdo
+lsdl fc failsafe shutdown
+lsdl fc vigv position controller shutdown
+lss at is sd gg acceleration timeout
+lss at is sd gg light up verification timeout
+lsscisi emergency shutdown from cis
+lss cm off control mode off or maintenance sdn
+lss exc excitation trip
+lss fcsdn ecs common shutdown
+lssff ggba module temperature sensor failure sdn
+lss fgi emergency general alarm
+lss fgi equipment shutdown
+lss gp generator protection shutdown
+lss gsp generator set suply breaker tripped by protect
+lss gtevf gt encl vent failure shutdown
+lss gtevw is sd gt encl ventilation watchdog timeout
+lss gt gt esd pushbutton shutdown
+lss hr whru guilliotine damper out of position
+lss hr whru inlet bypass damper linkage failure
+lss hr whru logic failure
+lss hscp hydraulic start control panel shutdown
+lss mcb tripped mcb pmg
+lsspb emergency shutdown pushbutton on mgcp
+lss phase differential current shutdown
+lss qrdt is sd main lo rundown tank fill timeout
+lss sd common vibration shutdown
+lss sr is sd starter acceleration timeout
+lss sr is sd starter engagement timeout
+lss voltage restrained overcurrent shutdown
+lss loss of excitation shutdown
+mca pahh discharge line st stage
+mca pall inlet drum uc
+mca pdall diff press xv bypass valve
+mca qall analyzer
+mca tahh downstr cool uc
+mca tahh hp compressor outside thrust bear
+mca tahh motor cold air
+mca us vsd common trip
+mca xsl esd
+mcb sip teg or bypass valve not ok
+mcb tahh downstr cool uc
+mcb us vsd common trip
+mcb xsl esd
+mcc tahh downstr cool uc
+mcc us vsd common trip
+mcc xsl esd
+mudanca status
+pahh cool water downstr uc
+pahh discharge line nd stage
+pahh discharge line rd stage
+pahh discharge line st stage
+pahh inlet drum uc
+pahh pressao alta descarga booster
+pahh pressao alta descarga urv
+pahh pressao alta descarga urv
+pahh pressao alta succao urvs
+pahh pressao alta succao boosters
+pahh pressao alta sistema selagem boos
+pahh pressao alta sist selagem urv
+pahh pressao alta sist selagem urv
+pahh prim leak hp compr
+pahh prim leak hp compr nde
+pahh prim leak lp compr
+pahh prim leak lp compr nde
+pahh separador atmosferico
+pahh separador atmosferico
+pahh suction line nd stage
+pahh suction line rd stage
+pah inlet drum uc
+pah pressao alta manifold injecao
+pah pressao alta poco injecao br
+pall pressao baixa lub mancais bomba
+pall pressao baixa lub mancais bomba
+pall pressao baixa lub mancais bomba
+pall cool water downstr uc
+pall discharge line rd stage
+pall discharge line st stage
+pall inlet drum uc
+pall lo header
+pall pressao baixa descarga urv
+pall pressao baixa descarga urv
+pall pressao baixa succao urvs
+pall pressao baixa sistema selagem boo
+pall pressao baixa topo desareadora
+pall pressao baixa saida gas desaeradora
+pall pressao baixa sist selagem urv
+pall pressao baixa sist selagem urv
+pall pressao baixa unidade purga painel urvs
+pall prim leak hp compr nde
+pall prim leak lp compr nde
+pall suction line nd stage
+pall suction line rd stage
+pal pressao baixa manifold injecao
+pal pressao baixa saida agua desaeradora
+parada normal
+pdahh cooler uc
+pdahh pressao dif alta filtro bomba
+pdahh pressao dif alta filtro bomba
+pdahh pressao dif alta filtro bomba
+pdahh pressao dif alta filtro bomba
+pdahh pressao dif alta filtro bomba
+pdahh pressao dif alta filtro bomba
+pdahh seal gas filter
+pdall cooler uc
+pdall diff press xv bypass valve
+pdall filter suction line st stage
+pdall pressao diferencial baixa gasxoleo boo
+pdall pressao dif baixa gasxoleo urv
+pdall pressao dif baixa gasxoleo urv
+pdall seal gas filter
+pit falha sinal
+psll vsd cu pressure fault
+qahh analyzer
+qall analyzer
+sahh vsd psr actual speed
+sip teg or bypass valve not ok
+tah temperatura alta mancal traseiro bomba
+tahh temp alta enrolamento motor urv
+tahh temp alta enrolamento motor urv
+tahh temp alta mancal acionamento bomba
+tahh temp alta mancal acionamento bomba
+tahh temp alta mancal acionamento bomba
+tahh temp alta mancal traseiro bomba
+tahh temp alta enrolamento motor urv
+tahh discharge line nd stage
+tahh discharge line rd stage
+tahh discharge line st stage
+tahh downstr cool uc
+tahh temp alta enrolamento motor urv
+tahh temp alta enrolamento motor urv
+tahh gearbox hsp journal bear
+tahh gearbox hsp journal bear nde
+tahh gearbox lsp journal bear nde
+tahh gearbox lsp outside thrust bear
+tahh hp compressor journal bear
+tahh hp compressor outside thrust bear
+tahh lo header
+tahh lo return hp compr
+tahh lo return hp compr nde
+tahh lo return lp compr
+tahh lo return motor
+tahh lo return motor nde
+tahh lp compressor inside thrust bear
+tahh lp compressor journal bear
+tahh lp compressor journal bear nde
+tahh lp compressor outside thrust bear
+tahh motor cold air
+tahh motor journal bear
+tahh motor winding
+tahh motor winding
+tahh motor winding
+tahh qualquer temperatura alta bomba
+tahh qualquer temperatura alta bomba
+tahh qualquer temperatura alta bomba
+tahh temperatura alta gas header su
+tahh temperatura alta fase bomba
+tahh temperatura alta fase bomba
+tahh temperatura alta fase bomba
+tahh temperatura alta montante
+tahh temp alta descarga urv
+tahh temp alta descarga urv
+tahh temp alta gas header succao urvs
+tahh temp alta montante
+tall discharge line rd stage
+tall discharge line st stage
+tall downstr cool uc
+tall gearbox hsp journal bear
+tall gearbox lsp journal bear nde
+tall hp compressor journal bear nde
+tall hp compressor outside thrust bear
+tall lo return motor
+tall motor winding
+tall motor winding
+tall temp baixa descarga urv
+tall temp baixa descarga urv
+lsdl fc liq upstream pressure fault shutdown
+lsdl fc overfuel to ignition failure shutdown
+lss fcsdn ecs common shutdown
+lsdl fc gas upstream pressure fault shutdown
+lss fcsdn ecs common shutdown
+lhh gg gg exhaust average temperature high shutdo
+us vsd common trip
+vahh gearbox housing
+vahh gearbox hsp shaft
+vahh gearbox lsp nde shaft
+vahh hp compressor shaft
+vahh hp compressor nde shaft
+vahh lp compressor shaft
+vahh qualquer vibracao alta bomba
+vahh qualquer vibracao alta bomba
+vahh qualquer vibracao alta bomba
+vahh resumo trips circuito vibracao urv
+vahh resumo trips circuito vibracao urv
+xa falha monitoracao vibracao bomba
+xa falha monitoracao vibracao bomba
+xa falha monitoracao vibracao bomba
+xa intertravamento motor bomba
+xa intertravamento motor bomba
+xa intertravamento motor bomba
+xsl esd
+xs vibration monitoring trip
+yall sequence failure step
+yall sequence status interface to
+ys popup teg unit fault
+zit slide valve

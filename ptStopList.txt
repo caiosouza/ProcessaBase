@@ -195,3 +195,7 @@ uma
 voce
 voces
 vos
+tga
+tgb
+tgc
+tgd
