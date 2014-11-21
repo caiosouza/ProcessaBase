@@ -1,0 +1,2103 @@
+5;8;lssqrdt issd main lo rundown
+1;6;lllggnl
+2;741;mudana status
+1;6;lllggnh
+4;40;fc ns crash reengagement
+2;15;fase bomba
+2;46;alta fv
+3;250;pal presso baixa
+2;20;tall discharge
+1;115;teg
+8;6;lhhgbhdex gearbox hss drive end vibration high shutd
+2;7;pressure shutdown
+3;4;pdahh seal gas
+4;2;lsdl fc liq metering
+3;34;tahh gearbox hsp
+3;2;out of position
+5;3;lllqms main lube oil supply
+2;5;alta gs
+4;2;gearbox hss non drive
+2;9;alta enrolamento
+3;667;tahh temp alta
+7;5;lllfgs fuel gas supply temperature low shutdown
+3;7;hydraulic pressure shutdown
+3;9;temp alta enrolamento
+3;92;tahh qualquer temperatura
+3;52;cu pressure fault
+3;110;sip teg or
+3;2;ll low dp
+2;5;lssgt gt
+4;25;fc overfuel to ignition
+2;3;high shut
+1;6;lhhgbhdex
+1;8;lhhgbhdey
+1;7;booster
+4;51;pahh prim leak hp
+1;286;downstr
+5;8;lllfls liquid fuel supply pressure
+6;6;lhhgbhdex gearbox hss drive end vibration
+4;23;lsspbe emergency shutdown pushbutton
+5;3;drive end vibration high shut
+1;2;mcbxsl
+6;19;gg exhaust average temperature high shutdown
+4;4;lhhgblney gearbox lss non
+2;5;mcaus vsd
+3;149;lall nvel baixo
+5;19;tall discharge line rd stage
+2;38;motor winding
+5;2;fc ssloc oil level low
+1;19;resumo
+2;2;dp signal
+2;3;dp shutdown
+2;3;mcbtahh downstr
+6;10;taha temperatura alta mancal traseiro bomba
+2;4;lhhgblney gearbox
+1;2;lssmcb
+4;3;issd starter acceleration timeout
+1;257;pah
+2;19;vahh resumo
+3;9;valve failure shutdown
+5;42;pall presso baixa sistselagem urv
+2;2;ventilation watchdog
+2;9;motor urv
+1;250;pal
+4;4;diff press xv bypass
+2;2;watchdog timeout
+3;4;teg unit fault
+4;3;ssloc control valve driver
+5;9;palla presso baixa lub mancais
+4;5;lllfgs fuel gas supply
+5;7;tahh lp compressor journal bear
+3;4;bus under voltage
+3;25;nvel baixo suco
+4;9;fc nl failsafe shutdown
+4;4;fc ssloc scavenge blockage
+2;217;nvel alto
+4;2;lsdl fc vigv position
+2;3;lssfgi fg
+5;2;gt encl ventilation watchdog timeout
+5;8;generator set suply breaker tripped
+4;2;lsdl fc nl software
+4;4;gearbox lsp outside thrust
+2;4;under voltage
+2;3;starter acceleration
+4;15;tahh temperatura alta fase
+3;46;fahh vazo alta
+2;5;tall gearbox
+3;6;lllggnl gg nl
+4;3;tahh hp compressor journal
+1;7;cis
+2;5;pdall cooler
+1;161;xsl
+4;14;pahh prim leak lp
+2;89;failure shutdown
+2;2;lahh lo
+5;12;prim leak lp compr nde
+3;14;gearbox hss drive
+3;4;temperatura alta montante
+4;9;metering valve failure shutdown
+2;7;ssloc low
+1;128;qualquer
+4;7;fc gas metering valve
+1;29;pdahh
+2;4;xv bypass
+6;7;fc ssloc low hydraulic pressure shutdown
+2;115;fault shutdown
+1;2;lhhptdex
+2;2;position controller
+2;40;crash reengagement
+5;8;fuel supply pressure low shutdown
+5;46;fahh vazo alta fv bomba
+3;19;lahh separador atmosferico
+5;7;lsscisi emergency shutdown from cis
+1;241;lahh
+4;54;pall inlet drum vuc
+6;2;gearbox hss non drive end vibr
+2;7;end vibr
+5;3;lssgtevf gt encl vent failure
+8;5;gearbox lss non drive end vibr high shutdo
+7;10;lhhggsd gg starter differential crash speed shutdown
+2;14;traseiro bomba
+6;23;lsspbe emergency shutdown pushbutton on mgcp
+3;5;gs header su
+3;3;compressor inside thrust
+2;30;vibration high
+2;2;ll dp
+3;2;temperature high shutdo
+4;3;fc ssloc control valve
+1;10;shutdo
+2;6;cooler puc
+7;8;lssgsp generator set suply breaker tripped by
+2;125;alta gsheader
+2;38;tahha temp
+2;9;air pressure
+1;1681;presso
+4;12;lsshscp hydraulic start control
+5;36;pahh presso alta suco urvs
+4;2;position error failure shutdown
+2;5;temperature low
+7;3;lsdl fc liq emv bus under voltage
+4;9;pall presso baixa sada
+2;2;signal failure
+6;2;lhhgg gg module temperature high shutdown
+3;2;baixo vuca booster
+2;673;descarga urv
+4;207;alta poo injeo br
+2;10;taha temperatura
+2;13;lsssd common
+3;42;baixa sistselagem urv
+6;3;fc liq emv bus under voltage
+3;2;lp compressor outside
+7;2;lhhgbldex gearbox lss drive end vibration high
+1;219;gua
+2;3;descarga booster
+8;2;lhhgnnex generator non drive end vibration high shut
+2;125;gsheader suco
+2;14;lsshr whru
+3;23;pushbutton on mgcp
+6;2;tahh lp compressor outside thrust bear
+4;3;tahhc temp alta enrolamento
+2;2;return hp
+2;3;lssgtevf gt
+3;12;tahh gearbox lsp
+2;3;circuit shutdown
+2;312;lsdl fc
+1;29;compressor
+6;2;lssgtevw issd gt encl ventilation watchdog
+2;51;baixa descarga
+1;3;circuit
+5;24;pdahh presso dif alta filtro
+3;9;baixa lub mancais
+3;16;temp baixa descarga
+1;14;protection
+6;4;tahha temp alta mancal traseiro bomba
+5;9;gearbox hsp journal bear nde
+5;3;lsdl fc ssloc control valve
+4;111;or bypass valve not
+2;4;vahh lp
+3;2;lhhgnnex generator non
+2;7;lsscisi emergency
+4;2;hss non drive end
+5;111;teg or bypass valve not
+4;10;gg starter differential crash
+3;23;journal bear nde
+2;47;gas upstream
+2;10;crash speed
+5;92;tahh qualquer temperatura alta bomba
+3;2;actuator fault shutdown
+3;2;position error failure
+1;867;pdall
+4;6;nh speed low shutdown
+3;30;mancal acionamento bomba
+2;247;downstr cool
+4;4;end vibration high shutdown
+3;6;gg nl speed
+3;107;lahh drum vuc
+7;2;lssgtevw issd gt encl ventilation watchdog timeout
+2;8;mcaxsl esd
+6;219;pal presso baixa sada gua desaeradora
+1;13;fuel
+1;275;lall
+1;14;traseiro
+3;19;resumo trips circuito
+2;9;valve failure
+6;5;gearbox lss non drive end vibr
+2;2;painel urvs
+6;22;fc lvdt vigv position error shutdown
+4;19;resumo trips circuito vibrao
+7;3;main lube oil supply pressure low shutdown
+3;22;lvdt vigv position
+1;9;pit
+2;128;alta bomba
+1;24;separador
+1;6;verification
+3;133;presso alta descarga
+3;141;line st stage
+5;25;lsdl fc overfuel to ignition
+2;2;baixa unidade
+3;43;ecs common shutdown
+2;4;scavenge blockage
+5;36;vahh qualquer vibrao alta bomba
+2;219;gua desaeradora
+3;10;motor cold air
+3;10;gearbox lsp journal
+5;3;tall gearbox hsp journal bear
+4;24;liq upstream pressure fault
+2;8;lhhgbhdey gearbox
+5;4;pahh suction line rd stage
+2;43;fc ns
+4;46;fc gas upstream pressure
+2;857;pdall presso
+3;50;temp alta montante
+2;12;fc nl
+2;4;vahh hp
+4;219;presso baixa sada gua
+7;46;lsdl fc gas upstream pressure fault shutdown
+2;2;overspeed shutdown
+2;24;pdahh presso
+3;12;lsshscp hydraulic start
+4;3;tall gearbox hsp journal
+3;10;lhhggsd gg starter
+2;13;lo tank
+3;5;lllfgs fuel gas
+2;23;bear nde
+2;2;fahh asv
+3;24;liq upstream pressure
+4;3;vahh hp compressor nde
+6;5;fuel gas supply temperature low shutdown
+5;2;ssloc ll low dp shutdown
+2;4;ys popup
+3;100;nvel alto vuca
+2;14;generator protection
+6;46;fc gas upstream pressure fault shutdown
+4;3;lllqms main lube oil
+1;3;maintenance
+1;27;tquc
+1;66;falha
+5;4;lss phase differential current shutdown
+5;22;fc lvdt vigv position error
+3;32;line nd stage
+4;36;presso alta suco urvs
+1;2;pmg
+1;16;supply
+5;2;pall suction line nd stage
+3;3;valve driver shutdown
+2;9;damper linkage
+3;14;alta mancal traseiro
+4;52;psll vsd cu pressure
+4;92;tahh qualquer temperatura alta
+2;854;dif baixa
+2;5;supply temperature
+5;19;resumo trips circuito vibrao urv
+1;4;press
+4;3;liq emv bus under
+3;17;prim leak lp
+6;2;lsshr whru guilliotine damper out of
+3;3;encl vent failure
+2;5;fuel gas
+3;2;tall gearbox lsp
+3;29;end vibration high
+4;6;issd gg lightup verification
+5;2;tall hp compressor outside thrust
+3;2;lssmcb tripped mcb
+5;2;gearbox hss non drive end
+2;3;lube oil
+3;13;presso baixa suco
+5;2;exhaust average temperature high shutdo
+3;10;taha temperatura alta
+1;28;pushbutton
+2;185;drum vuc
+2;10;starter differential
+2;74;ignition failure
+4;27;lall nvel baixo tquc
+1;207;poo
+4;6;lllggnh gg nh speed
+3;9;baixa sada gs
+4;125;alta gsheader suco urvs
+3;22;vigv position error
+4;2;ssloc ll low dp
+2;23;fc ssloc
+6;2;pall presso baixa unidade purga painel
+3;3;pdall presso diferencial
+3;42;monitorao vibrao bomba
+2;19;lp compr
+3;2;emv over bridge
+3;8;tripped by protect
+4;4;popup teg unit fault
+4;5;lsdl fc failsafe shutdown
+3;2;oil level low
+6;2;lhhptdex pt drive end vibration high
+9;2;lhhgbhney gearbox hss non drive end vibr high shutdo
+1;21;lhhgg
+4;8;lllfls liquid fuel supply
+4;7;non drive end vibr
+2;26;lssexc excitation
+1;676;descarga
+3;3;lsscmoff control mode
+4;4;emv bus under voltage
+2;36;vibrao alta
+3;325;us vsd common
+1;445;pahh
+6;22;lsdl fc lvdt vigv position error
+3;19;gg exhaust average
+5;31;pal presso baixa manifold injeo
+3;10;lsp journal bear
+3;5;fuel gas supply
+3;52;prim leak hp
+1;69;prim
+3;24;pdahh presso dif
+1;32;liq
+5;4;non drive end vibration high
+3;207;alta poo injeo
+5;98;lahh nvel alto vuca urv
+3;5;presso baixa topo
+2;4;displacement high
+7;22;lsdl fc lvdt vigv position error shutdown
+2;5;gt encl
+3;9;nl failsafe shutdown
+3;42;downstream pressure fault
+3;3;issd starter acceleration
+2;366;presso baixa
+3;13;lsssd common vibration
+3;4;lss phase differential
+2;2;return lp
+6;25;fc overfuel to ignition failure shutdown
+2;2;tripped mcb
+7;2;lsdl fc ssloc ll dp signal failure
+4;6;gg nl speed low
+2;27;baixo tquc
+2;2;fc vigv
+3;13;nvel alto suco
+3;2;lsshr whru guilliotine
+1;2;mccus
+4;150;vazo baixa fv bomba
+2;42;baixa sistselagem
+2;6;lllggnh gg
+2;30;acionamento bomba
+3;5;lsdl fc failsafe
+5;2;lhhgnnex generator non drive end
+4;50;tahh temp alta montante
+6;3;lsscmoff control mode off or maintenance
+4;9;lhhggba gg bearing cooling
+3;2;pall cool water
+3;42;gas downstream pressure
+3;4;lsp outside thrust
+6;8;lssqrdt issd main lo rundown tank
+4;6;gg lightup verification timeout
+2;7;vibr high
+5;2;fc liq metering valve failure
+3;3;alta descarga booster
+7;7;lsdl fc gas metering valve failure shutdown
+5;2;lsdl fc ssloc oil level
+1;12;start
+7;19;lhhgg gg exhaust average temperature high shutdown
+5;3;lp compressor journal bear nde
+3;2;ssloc ll dp
+1;115;bypass
+3;2;mcapahh discharge line
+1;6;cooler
+2;150;baixa fv
+2;2;ll low
+2;7;lo return
+1;5;encl
+5;4;tahh gearbox lsp outside thrust
+3;2;issd gt encl
+4;8;breaker tripped by protect
+6;7;lsdl fc ssloc low hydraulic pressure
+1;292;puc
+2;9;pit falha
+5;2;mcatahh hp compressor outside thrust
+8;2;lhhgbldex gearbox lss drive end vibration high shutd
+1;189;pall
+3;10;starter differential crash
+6;9;lhhggba gg bearing cooling air pressure
+3;7;fc gas metering
+3;40;fc ns crash
+4;2;lsshr whru guilliotine damper
+2;6;nh speed
+6;8;generator set suply breaker tripped by
+2;3;compressor inside
+2;8;set suply
+3;2;fg equipment shutdown
+5;4;diff press xv bypass valve
+3;7;drive end vibr
+5;25;fc overfuel to ignition failure
+3;2;lhhptta pt axial
+3;2;return lp compr
+6;5;lllfgs fuel gas supply temperature low
+4;38;pahh presso alta suco
+4;3;pdall presso diferencial baixa
+2;15;alta fase
+1;67;inlet
+2;9;pall discharge
+3;2;tgdlhhgggg exhaust average
+3;10;temperatura alta mancal
+4;5;supply temperature low shutdown
+5;8;liquid fuel supply pressure low
+5;4;tahha temp alta mancal traseiro
+3;11;pahh inlet drum
+2;30;hs esd
+3;15;fit falha sinal
+3;3;tall gearbox hsp
+4;2;average temperature high shutdo
+2;9;sada gs
+1;9;inletbypass
+3;9;cooling air pressure
+4;492;temp alta descarga urv
+1;2;ventilation
+2;4;emv bus
+1;29;selagem
+5;30;temp alta mancal acionamento bomba
+4;4;ssloc scavenge blockage shutdown
+2;3;gsxleo boo
+1;30;acionamento
+5;9;presso baixa lub mancais bomba
+1;39;low
+2;3;open circuit
+2;19;gg exhaust
+5;4;ys popup teg unit fault
+4;2;damper out of position
+6;23;fc liq upstream pressure fault shutdown
+3;7;emergency shutdown from
+4;52;prim leak hp compr
+3;48;lsdl fc ignition
+3;150;fall vazo baixa
+2;100;fc gas
+2;12;module temperature
+3;4;displacement high shutdown
+7;23;lsdl fc liq upstream pressure fault shutdown
+3;12;speed low shutdown
+3;24;tahh temperatura alta
+4;9;bearing cooling air pressure
+6;2;tgdlhhgggg exhaust average temperature high shutdo
+4;7;lp compressor journal bear
+4;36;vahh qualquer vibrao alta
+5;5;gas supply temperature low shutdown
+2;21;compr nde
+2;3;mode off
+7;8;gearbox lss drive end vibration high shutd
+3;3;gt encl vent
+5;219;presso baixa sada gua desaeradora
+2;161;xsl esd
+4;26;to ignition failure shutdown
+5;16;tall temp baixa descarga urv
+4;7;lsdl fc ssloc low
+3;35;tahh motor winding
+2;4;pall prim
+6;3;tahhc temp alta enrolamento motor urv
+2;24;alta filtro
+3;2;lo return hp
+1;77;bear
+4;2;fc ssloc ll low
+3;6;alta sistselagem urv
+4;4;press xv bypass valve
+1;11;damper
+4;3;pdall diff press xv
+2;8;liquid fuel
+3;2;encl ventilation watchdog
+1;9;mancais
+6;3;lube oil supply pressure low shutdown
+1;39;water
+3;14;hss drive end
+2;71;upstream pressure
+3;12;lp compr nde
+6;2;tall hp compressor outside thrust bear
+2;10;differential crash
+2;4;pdahh seal
+6;110;sip teg or bypass valve not
+2;111;valve not
+1;2;tgalsdlfc
+1;895;shutdown
+2;11;lall drum
+5;3;tahhc temp alta enrolamento motor
+5;2;lhhptdex pt drive end vibration
+5;2;lall nvel baixo vuca booster
+1;857;gsxleo
+1;15;lsp
+3;2;whru guilliotine damper
+5;4;fc ssloc scavenge blockage shutdown
+1;18;lss
+4;11;supply pressure low shutdown
+7;42;lsdl fc gas downstream pressure fault shutdown
+3;36;vibrao alta bomba
+3;2;tripped mcb pmg
+5;8;tahh gearbox lsp journal bear
+1;726;temp
+3;27;tquc selagem urvs
+8;8;lssgsp generator set suply breaker tripped by protect
+2;24;vigv position
+4;22;fc lvdt vigv position
+4;2;encl ventilation watchdog timeout
+4;3;encl vent failure shutdown
+2;5;fc failsafe
+3;2;purga painel urvs
+2;100;alto vuca
+4;8;lssqrdt issd main lo
+4;3;tahh lp compressor inside
+1;9;lub
+6;5;tahh temperatura alta gs header su
+5;7;lsdl fc gas metering valve
+2;42;falha monitorao
+5;8;lo rundown tank fill timeout
+4;43;lssfcsdn ecs common shutdown
+1;10;taha
+1;2;actuator
+1;367;trip
+3;2;over bridge over
+3;9;gg bearing cooling
+2;4;press xv
+4;10;module temperature sensor failure
+1;1318;tahh
+3;2;lo return lp
+4;42;pall presso baixa sistselagem
+6;8;liquid fuel supply pressure low shutdown
+4;111;bypass valve not ok
+5;8;tahh discharge line nd stage
+2;2;mcatahh hp
+3;168;tahh discharge line
+3;2;hss non drive
+6;3;tahh lp compressor journal bear nde
+3;2;liq metering valve
+3;49;alta manifold injeo
+1;4;scavenge
+5;42;fc gas downstream pressure fault
+2;2;bridge over
+3;207;presso alta poo
+3;5;baixa topo desareadora
+2;12;hydraulic start
+3;5;tahh motor journal
+4;97;lall nvel baixo vuca
+5;2;lhhgbhney gearbox hss non drive
+5;8;lhhgbhdey gearbox hss drive end
+3;4;xv bypass valve
+3;113;pressure fault shutdown
+1;21;average
+2;19;resumo trips
+4;47;gas upstream pressure fault
+2;26;to ignition
+2;2;tgdlhhgggg exhaust
+4;14;lssgp generator protection shutdown
+1;2;unidade
+1;9;linkage
+2;111;not ok
+3;22;lsdl fc lvdt
+4;10;temperatura alta mancal traseiro
+4;4;lsdl fc ssloc scavenge
+1;63;journal
+3;3;inside thrust bear
+4;854;dif baixa gsxleo urv
+4;2;emv over bridge over
+4;13;pall presso baixa suco
+3;2;position controller shutdown
+3;42;presso baixa sistselagem
+5;3;liq emv bus under voltage
+3;27;baixo tquc selagem
+2;17;leak lp
+4;4;temp alta mancal traseiro
+3;5;lss non drive
+3;232;tahh downstr cool
+2;10;speed shutdown
+3;65;pahh prim leak
+5;10;gearbox lsp journal bear nde
+4;4;tahh temperatura alta montante
+3;46;vazo alta fv
+4;3;generator non drive end
+3;40;crash reengagement shutdown
+2;3;oil supply
+5;46;lsdl fc gas upstream pressure
+3;854;baixa gsxleo urv
+4;325;us vsd common trip
+7;8;issd main lo rundown tank fill timeout
+4;8;lss drive end vibration
+5;6;lllggnh gg nh speed low
+5;3;lsdl fc ns open circuit
+1;363;stage
+5;5;fuel gas supply temperature low
+3;2;fc vigv position
+1;4;under
+1;312;lsdl
+2;7;lssat issd
+2;9;enrolamento motor
+1;878;dif
+3;16;intertravamento motor bomba
+3;3;lllqms main lube
+2;24;falha sinal
+4;6;nl speed low shutdown
+6;9;palla presso baixa lub mancais bomba
+1;405;emergency
+3;39;cool water downstr
+6;6;lllggnh gg nh speed low shutdown
+4;24;dif alta filtro bomba
+5;8;issd main lo rundown tank
+1;4;acceleration
+1;19;hydraulic
+4;3;diferencial baixa gsxleo boo
+3;10;gg starter differential
+1;56;tall
+4;46;lsdl fc gas upstream
+1;2;signal
+2;6;lhhgbhdex gearbox
+1;71;upstream
+5;8;main lo rundown tank fill
+3;207;poo injeo br
+2;30;mancal acionamento
+1;21;exhaust
+7;3;fc liq emv bus under voltage shutdown
+4;19;trips circuito vibrao urv
+5;9;pall presso baixa sada gs
+8;9;lhhggba gg bearing cooling air pressure high shutdown
+1;2;overspeed
+4;5;pall presso baixa topo
+3;2;lssgtevw issd gt
+2;9;whru inletbypass
+2;8;fuel supply
+1;38;hsp
+4;9;hsp journal bear nde
+1;8;mcaxsl
+4;13;presso baixa suco urvs
+4;111;teg or bypass valve
+1;16;hss
+4;9;lsdl fc nl failsafe
+5;2;fc ssloc ll dp signal
+4;4;pdahh seal gas filter
+4;2;lhhgbhney gearbox hss non
+6;8;issd main lo rundown tank fill
+5;110;sip teg or bypass valve
+4;19;tall discharge line rd
+2;3;compressor nde
+4;2;presso baixa unidade purga
+2;250;pal presso
+1;21;tank
+4;100;lahh nvel alto vuca
+2;2;of position
+2;2;liq metering
+3;25;lsdl fc overfuel
+2;23;shutdown pushbutton
+5;9;whru inletbypass damper linkage failure
+4;3;mode off or maintenance
+3;14;generator protection shutdown
+2;10;motor cold
+2;3;maintenance sdn
+5;3;lp compressor inside thrust bear
+4;19;gg exhaust average temperature
+4;34;tahh gearbox hsp journal
+3;2;dp signal failure
+3;374;esd emergency shutdown
+2;12;control panel
+3;52;leak hp compr
+4;3;off or maintenance sdn
+5;9;lsshr whru inletbypass damper linkage
+2;14;lssgp generator
+5;2;presso baixa unidade purga painel
+5;2;lhhgg gg module temperature high
+5;2;valve position error failure shutdown
+6;2;lhhptta pt axial displacement high shutdown
+3;219;sada gua desaeradora
+5;4;emv bus under voltage shutdown
+1;2;lssgtevw
+1;9;palla
+1;9;lhhggba
+4;4;vahh lp compressor shaft
+6;8;gearbox lss drive end vibration high
+4;2;fc nl software overspeed
+1;149;baixo
+3;9;bearing cooling air
+1;80;manifold
+1;4;displacement
+3;9;pit falha sinal
+1;3;lllqms
+2;38;alta suco
+2;16;temp baixa
+4;2;liq metering valve failure
+2;2;error failure
+1;4;blockage
+4;7;end vibr high shutdo
+7;8;lssqrdt issd main lo rundown tank fill
+7;2;lsdl fc liq metering valve failure shutdown
+1;742;status
+4;4;lsdl fc gas emv
+4;35;pall presso baixa descarga
+4;10;lhhggsd gg starter differential
+6;2;fc ssloc ll dp signal failure
+2;43;ecs common
+4;19;lhhgg gg exhaust average
+3;46;alta fv bomba
+2;2;oil level
+5;3;generator non drive end vibration
+1;2;painel
+3;2;pall lo header
+2;5;gas supply
+2;178;pahh presso
+3;3;tall motor winding
+3;8;lhhgbhdey gearbox hss
+6;2;hss non drive end vibr high
+2;10;gg starter
+3;2;module temperature high
+5;6;pahh presso alta sistselagem urv
+4;150;fall vazo baixa fv
+5;5;tahh temperatura alta gs header
+2;24;separador atmosferico
+1;1796;urv
+4;17;prim leak lp compr
+2;374;esd emergency
+2;6;vahh gearbox
+4;8;pall discharge line st
+1;7;return
+3;52;vsd cu pressure
+5;34;tahh gearbox hsp journal bear
+6;2;lsdl fc vigv position controller shutdown
+1;24;sinal
+3;854;presso dif baixa
+2;2;level low
+4;2;mcapahh discharge line st
+1;11;main
+3;2;lssfgi fg equipment
+1;2;mcb
+3;10;crash speed shutdown
+3;4;pall prim leak
+3;2;ventilation watchdog timeout
+2;24;tahh lo
+2;12;tahh lp
+3;42;fc gas downstream
+6;2;issd gt encl ventilation watchdog timeout
+2;2;gg module
+3;3;ssloc control valve
+3;47;gas upstream pressure
+4;52;vsd cu pressure fault
+3;97;nvel baixo vuca
+4;7;fc ssloc low hydraulic
+6;19;lhhgg gg exhaust average temperature high
+2;15;fit falha
+1;9;bearing
+3;8;lo rundown tank
+1;2;equipment
+2;2;suco boosters
+6;2;mcatahh hp compressor outside thrust bear
+1;192;pressure
+1;8;fill
+4;207;pah presso alta poo
+2;149;nvel baixo
+5;7;gas metering valve failure shutdown
+3;3;pdall diff press
+4;3;fc ns open circuit
+1;25;header
+1;29;position
+4;9;temp alta enrolamento motor
+7;25;lsdl fc overfuel to ignition failure shutdown
+2;37;hsp journal
+3;8;tall downstr cool
+4;3;lssgtevf gt encl vent
+2;21;average temperature
+2;19;suction line
+5;22;drive end vibration high shutd
+4;7;gas metering valve failure
+4;7;lsscisi emergency shutdown from
+4;8;issd main lo rundown
+2;4;teg unit
+4;31;presso baixa manifold injeo
+5;8;suply breaker tripped by protect
+2;9;nl failsafe
+2;16;tall temp
+2;8;tripped by
+1;1389;baixa
+3;4;phase differential current
+2;8;xs vibration
+3;11;compressor journal bear
+2;52;leak hp
+5;2;pt drive end vibration high
+2;38;gearbox hsp
+2;16;gearbox hss
+3;15;alta fase bomba
+4;31;pal presso baixa manifold
+1;2;tgdlhhgggg
+4;2;baixa unidade purga painel
+3;2;presso baixa unidade
+2;5;gt esd
+1;3;lssgtevf
+3;2;nl software overspeed
+2;8;lssgsp generator
+6;8;set suply breaker tripped by protect
+5;6;gg nh speed low shutdown
+2;8;lssqrdt issd
+5;3;lsscmoff control mode off or
+3;3;off or maintenance
+4;5;temperatura alta gs header
+4;232;tahh downstr cool puc
+4;29;drive end vibration high
+4;6;lssat issd gg lightup
+1;50;crash
+4;6;lhhgbhdex gearbox hss drive
+3;6;nl speed low
+2;4;tahh hp
+4;492;tahh temp alta descarga
+4;12;leak lp compr nde
+5;26;overfuel to ignition failure shutdown
+4;8;rundown tank fill timeout
+2;2;actuator fault
+1;12;module
+6;2;lsdl fc nl software overspeed shutdown
+4;42;falha monitorao vibrao bomba
+5;111;or bypass valve not ok
+2;104;alto desaeradora
+5;7;fc gas metering valve failure
+6;9;bearing cooling air pressure high shutdown
+7;5;lss non drive end vibr high shutdo
+2;4;phase differential
+3;111;teg or bypass
+2;107;pall presso
+5;2;ssloc ll dp signal failure
+4;2;lssmcb tripped mcb pmg
+5;2;mcapahh discharge line st stage
+5;10;lssffggba module temperature sensor failure
+3;5;esd pushbutton shutdown
+2;16;intertravamento motor
+4;16;temp baixa descarga urv
+2;52;psll vsd
+1;39;temperature
+6;3;fc ssloc control valve driver shutdown
+2;150;fall vazo
+1;126;temperatura
+2;434;presso alta
+3;4;diff press xv
+1;43;lssfcsdn
+1;2;controller
+3;100;lsdl fc gas
+2;42;vibrao bomba
+3;2;ssloc oil level
+6;8;lhhgbhdey gearbox hss drive end vibration
+2;92;tahh qualquer
+2;24;dif alta
+5;9;lsdl fc nl failsafe shutdown
+1;19;trips
+3;9;whru inletbypass damper
+1;3;open
+4;30;alta mancal acionamento bomba
+6;3;tahh lp compressor inside thrust bear
+6;2;lsdl fc ssloc ll low dp
+7;14;gearbox hss drive end vibration high shutd
+1;3;inside
+8;6;lhhgbldey gearbox lss drive end vibration high shutd
+3;14;lssgp generator protection
+3;5;hp compressor outside
+6;46;lsdl fc gas upstream pressure fault
+5;3;presso diferencial baixa gsxleo boo
+7;2;lsdl fc ssloc ll low dp shutdown
+4;37;gearbox hsp journal bear
+3;2;lahh lo tank
+3;35;presso baixa descarga
+3;9;inletbypass damper linkage
+4;6;lhhgbldey gearbox lss drive
+2;3;tall hp
+8;3;lllqms main lube oil supply pressure low shutdown
+4;2;ll dp signal failure
+3;2;mcatahh hp compressor
+2;39;cool water
+3;2;mccus vsd common
+2;5;seal gas
+4;42;downstream pressure fault shutdown
+3;23;lsdl fc ssloc
+5;2;fc ssloc ll low dp
+6;6;lhhgbldey gearbox lss drive end vibration
+4;2;lhhgbldex gearbox lss drive
+2;26;overfuel to
+2;5;topo desareadora
+2;48;sistselagem urv
+1;54;montante
+4;14;alta mancal traseiro bomba
+5;2;lsdl fc nl software overspeed
+2;207;alta poo
+1;2;purga
+3;4;fc gas emv
+7;2;lhhptdex pt drive end vibration high shutdown
+1;24;speed
+3;23;emergency shutdown pushbutton
+1;8;suply
+5;19;vahh resumo trips circuito vibrao
+2;30;esd panel
+4;2;gt encl ventilation watchdog
+1;48;fahh
+1;393;common
+1;9;metering
+2;3;inside thrust
+2;24;liq upstream
+4;92;qualquer temperatura alta bomba
+4;2;nvel alto vuca booster
+4;2;ssloc ll dp signal
+5;6;issd gg lightup verification timeout
+3;247;downstr cool puc
+5;23;lsspbe emergency shutdown pushbutton on
+4;12;start control panel shutdown
+3;4;lp compressor shaft
+3;8;tank fill timeout
+1;73;compr
+1;10;lssffggba
+3;107;pall presso baixa
+2;13;alto suco
+1;4;popup
+3;74;ignition failure shutdown
+6;2;lsdl fc ssloc oil level low
+4;22;lsdl fc lvdt vigv
+1;52;psll
+4;9;cooling air pressure high
+3;3;fc ssloc control
+3;3;liq emv bus
+4;8;lhhgbhdey gearbox hss drive
+3;3;lo return motor
+7;110;sip teg or bypass valve not ok
+2;11;lall lo
+2;110;sip teg
+2;5;pushbutton shutdown
+1;2;sistema
+2;4;issd starter
+2;4;vuca booster
+3;3;mcbtahh downstr cool
+4;9;inletbypass damper linkage failure
+6;12;lsshscp hydraulic start control panel shutdown
+3;2;vigv position controller
+5;3;lube oil supply pressure low
+2;111;or bypass
+2;10;lsp journal
+4;2;lhhptta pt axial displacement
+2;4;lsssr issd
+3;2;lhhgg gg module
+4;2;lhhptdex pt drive end
+6;2;pt drive end vibration high shutdown
+1;10;lhhggsd
+2;31;fc liq
+2;40;reengagement shutdown
+5;40;fc ns crash reengagement shutdown
+5;5;hp compressor outside thrust bear
+2;3;whru logic
+1;31;qahh
+8;4;lhhgblney gearbox lss non drive end vibr high
+2;97;baixo vuca
+4;3;pt axial displacement high
+1;3;mcbtahh
+4;40;ns crash reengagement shutdown
+3;7;fc ssloc low
+5;10;temperatura alta mancal traseiro bomba
+4;8;suply breaker tripped by
+4;3;lube oil supply pressure
+2;36;drive end
+3;5;lssgt gt esd
+5;130;pahh presso alta descarga urv
+2;7;hydraulic pressure
+2;7;gas metering
+7;2;lsshr whru guilliotine damper out of position
+1;131;valve
+2;21;exhaust average
+3;37;hsp journal bear
+5;19;exhaust average temperature high shutdown
+2;2;guilliotine damper
+1;38;tahha
+3;4;lsssr issd starter
+1;3;tahhc
+3;4;press xv bypass
+3;15;temperatura alta fase
+3;3;starter acceleration timeout
+1;151;fall
+5;2;tahh lp compressor outside thrust
+2;42;downstream pressure
+2;13;hp compressor
+3;7;lp compressor journal
+3;4;ssloc scavenge blockage
+5;9;lhhggba gg bearing cooling air
+4;3;pall prim leak lp
+1;42;downstream
+1;197;vuca
+1;8;lssgsp
+3;31;presso baixa manifold
+1;8;liquid
+4;8;tahh gearbox lsp journal
+2;2;mcapahh discharge
+3;6;nh speed low
+2;2;pall cool
+5;7;ssloc low hydraulic pressure shutdown
+2;4;ssloc scavenge
+7;9;lhhggba gg bearing cooling air pressure high
+2;8;fill timeout
+4;5;alta gs header su
+5;42;xa falha monitorao vibrao bomba
+9;4;lhhgblney gearbox lss non drive end vibr high shutdo
+3;9;lhhggba gg bearing
+5;13;lahh nvel alto suco urvs
+4;42;xa falha monitorao vibrao
+1;43;ecs
+6;27;lall nvel baixo tquc selagem urvs
+1;7;from
+6;7;pahh prim leak hp compr nde
+6;14;hss drive end vibration high shutd
+7;5;gearbox lss non drive end vibr high
+1;2;qall
+3;36;vahh qualquer vibrao
+3;5;alta gs header
+3;3;compressor nde shaft
+3;9;pressure high shutdown
+3;4;differential current shutdown
+2;2;purga painel
+4;22;lvdt vigv position error
+1;2;lhhgnnex
+1;2;sequence
+1;23;lsspbe
+5;95;lall nvel baixo vuca urv
+4;10;differential crash speed shutdown
+1;14;thrust
+4;42;fc gas downstream pressure
+5;2;tahh lo return lp compr
+2;3;lllqms main
+5;42;gas downstream pressure fault shutdown
+5;8;pall discharge line st stage
+2;2;emv actuator
+6;2;fc liq metering valve failure shutdown
+2;49;tahh motor
+5;2;lhhptta pt axial displacement high
+1;6;lhhgbldey
+1;2;lhhgbldex
+3;12;start control panel
+3;13;baixa suco urvs
+1;24;error
+5;25;lall nvel baixo suco urvs
+1;14;differential
+4;2;valve position error failure
+2;256;pah presso
+4;5;gearbox lss non drive
+3;42;xa falha monitorao
+2;5;liq emv
+4;8;liquid fuel supply pressure
+5;4;tahha temp alta enrolamento motor
+2;11;compressor journal
+3;2;guilliotine damper out
+6;7;lsdl fc gas metering valve failure
+2;8;suply breaker
+5;7;pahh discharge line rd stage
+2;141;st stage
+4;10;taha temperatura alta mancal
+5;42;lsdl fc gas downstream pressure
+4;5;lss non drive end
+4;2;unidade purga painel urvs
+2;11;pall suction
+3;143;pahh discharge line
+4;3;lsscmoff control mode off
+3;13;common vibration shutdown
+4;9;pall suction line rd
+1;741;mudana
+4;2;suction line st stage
+3;12;tahh lp compressor
+2;342;discharge line
+4;34;tahha temp alta mancal
+5;22;lvdt vigv position error shutdown
+4;2;lsdl fc ssloc oil
+5;13;pall presso baixa suco urvs
+4;26;overfuel to ignition failure
+5;148;tahh discharge line rd stage
+4;133;pahh presso alta descarga
+4;2;lhhgnnex generator non drive
+2;46;vazo alta
+3;27;nvel baixo tquc
+5;8;lssgsp generator set suply breaker
+3;4;tahh hp compressor
+4;2;issd gt encl ventilation
+2;10;sensor failure
+2;3;driver shutdown
+2;48;fc ignition
+4;3;oil supply pressure low
+4;49;presso alta manifold injeo
+4;2;pall presso baixa unidade
+3;9;metering valve failure
+1;125;gsheader
+4;9;gg bearing cooling air
+4;2;tahh lo return hp
+3;9;alta enrolamento motor
+2;10;temperature sensor
+6;3;lssgtevf gt encl vent failure shutdown
+4;42;presso baixa sistselagem urv
+4;125;tahh temp alta gsheader
+6;3;non drive end vibration high shut
+5;3;fc liq emv bus under
+2;8;vibration monitoring
+2;4;gearbox housing
+1;366;nvel
+3;7;ssloc low hydraulic
+4;3;control valve driver shutdown
+1;15;fase
+6;9;gg bearing cooling air pressure high
+3;854;pdall presso dif
+1;19;suction
+4;13;nvel alto suco urvs
+2;37;pahh cool
+3;113;lahh nvel alto
+2;9;cooling air
+3;3;generator non drive
+6;2;lsdl fc ssloc ll dp signal
+5;492;tahh temp alta descarga urv
+2;8;generator set
+3;37;pahh cool water
+2;6;lightup verification
+2;6;pahh suction
+3;219;baixa sada gua
+2;141;line st
+5;8;set suply breaker tripped by
+4;2;pall suction line nd
+2;9;bearing cooling
+8;3;lsdl fc liq emv bus under voltage shutdown
+2;26;excitation trip
+4;14;hss drive end vibration
+3;3;mode off or
+3;26;to ignition failure
+3;8;fuel supply pressure
+2;126;temperatura alta
+2;854;gsxleo urv
+5;37;pahh cool water downstr puc
+5;116;pahh discharge line st stage
+3;51;baixa descarga urv
+5;3;pdall diff press xv bypass
+6;25;lsdl fc overfuel to ignition failure
+5;2;pahh presso alta suco boosters
+3;2;ssloc ll low
+5;8;prim leak hp compr nde
+2;2;pall lo
+2;20;lo header
+4;10;temperature sensor failure sdn
+1;6;mcatahh
+5;6;lllggnl gg nl speed low
+6;14;gearbox hss drive end vibration high
+5;48;lsdl fc ignition failure shutdown
+3;6;tahh lo return
+1;21;issd
+4;10;lsp journal bear nde
+2;8;main lo
+1;9;emv
+6;2;presso baixa unidade purga painel urvs
+5;854;pdall presso dif baixa gsxleo
+4;8;lo rundown tank fill
+1;36;end
+2;2;lssmcb tripped
+2;2;unidade purga
+3;111;bypass valve not
+4;25;nvel baixo suco urvs
+2;2;lhhgnnex generator
+4;125;temp alta gsheader suco
+5;4;temp alta mancal traseiro bomba
+3;2;alta suco boosters
+2;2;yall sequence
+3;6;issd gg lightup
+4;219;baixa sada gua desaeradora
+5;3;lsssr issd starter acceleration timeout
+4;15;temperatura alta fase bomba
+2;11;supply pressure
+4;9;presso baixa sada gs
+4;6;lllggnl gg nl speed
+4;98;nvel alto vuca urv
+5;3;control mode off or maintenance
+1;10;shaft
+3;4;fc ssloc ll
+1;24;filtro
+7;2;lhhgbhney gearbox hss non drive end vibr
+4;23;fc liq upstream pressure
+5;19;gg exhaust average temperature high
+3;22;vibration high shutd
+2;3;tgalssfcsdnecs common
+2;13;baixa suco
+1;4;lsssr
+2;3;vent failure
+3;3;open circuit shutdown
+1;2;boosters
+2;2;mcb pmg
+3;12;control panel shutdown
+2;6;gg nh
+5;2;emv over bridge over current
+3;4;popup teg unit
+3;3;diferencial baixa gsxleo
+2;6;gg nl
+2;8;lo rundown
+3;2;lhhgbhney gearbox hss
+4;2;lp compressor outside thrust
+2;3;lsscmoff control
+5;125;temp alta gsheader suco urvs
+5;6;lhhgbldey gearbox lss drive end
+4;5;fuel gas supply temperature
+1;3;driver
+3;111;or bypass valve
+1;13;lsssd
+4;9;lsshr whru inletbypass damper
+1;4;lhhgblney
+3;7;compressor outside thrust
+1;386;vsd
+6;2;emv over bridge over current shutdown
+3;3;oil supply pressure
+1;19;air
+6;3;lsdl fc ns open circuit shutdown
+6;19;vahh resumo trips circuito vibrao urv
+5;2;lsdl fc vigv position controller
+4;2;lssfgi fg equipment shutdown
+2;2;lhhgbhney gearbox
+3;5;gt esd pushbutton
+2;10;lhhggsd gg
+4;2;mccus vsd common trip
+1;49;nde
+3;46;fc gas upstream
+5;5;lllfgs fuel gas supply temperature
+2;23;pushbutton on
+1;588;esd
+1;3;logic
+2;14;hss drive
+4;8;gearbox lss drive end
+2;9;linkage failure
+1;8;breaker
+1;185;vuc
+5;3;pdall presso diferencial baixa gsxleo
+3;9;air pressure high
+4;14;gearbox hss drive end
+1;51;vibration
+1;5;topo
+5;10;gg starter differential crash speed
+1;3;mode
+4;3;lsshr whru logic failure
+2;6;gg lightup
+2;5;baixa topo
+3;22;position error shutdown
+3;11;pressure low shutdown
+4;11;pahh inlet drum vuc
+1;16;intertravamento
+3;95;baixo vuca urv
+4;2;emv actuator fault shutdown
+1;4;unit
+5;49;pah presso alta manifold injeo
+5;3;pahh presso alta descarga booster
+2;212;suco urvs
+2;2;nl software
+1;10;sensor
+2;9;pressure high
+4;2;fc vigv position controller
+2;13;common vibration
+5;2;lhhgbldex gearbox lss drive end
+5;9;bearing cooling air pressure high
+5;47;gas upstream pressure fault shutdown
+6;3;liq emv bus under voltage shutdown
+3;8;suply breaker tripped
+7;8;generator set suply breaker tripped by protect
+3;256;pah presso alta
+4;25;lall nvel baixo suco
+5;2;lsshr whru guilliotine damper out
+4;8;generator set suply breaker
+4;2;tahh lo return lp
+4;13;lahh nvel alto suco
+5;5;pall presso baixa topo desareadora
+3;178;pahh presso alta
+6;30;tahha temp alta mancal acionamento bomba
+2;2;emv over
+3;8;breaker tripped by
+2;4;nde shaft
+1;5;desareadora
+3;3;lp compressor inside
+3;5;gearbox lss non
+6;8;main lo rundown tank fill timeout
+4;2;lo return hp compr
+7;9;gg bearing cooling air pressure high shutdown
+4;5;tahh temperatura alta gs
+5;3;vahh hp compressor nde shaft
+3;71;upstream pressure fault
+2;24;position error
+2;3;generator non
+2;4;lsp outside
+3;24;presso dif alta
+2;5;gs header
+2;2;lssgtevw issd
+2;4;bus under
+2;6;alta sistselagem
+3;2;lhhptdex pt drive
+5;2;ssloc oil level low shutdown
+1;3;diferencial
+2;24;filtro bomba
+4;19;vahh resumo trips circuito
+2;69;prim leak
+3;4;vahh gearbox housing
+3;37;gearbox hsp journal
+4;2;tgdlhhgggg exhaust average temperature
+2;31;baixa manifold
+3;16;xa intertravamento motor
+3;30;hs esd panel
+2;54;alta montante
+2;5;pahh separador
+3;19;circuito vibrao urv
+2;23;temperature high
+3;9;damper linkage failure
+3;3;hp compressor nde
+4;5;gas supply temperature low
+4;2;whru guilliotine damper out
+5;7;drive end vibr high shutdo
+3;28;discharge line nd
+4;3;fc liq emv bus
+4;3;presso diferencial baixa gsxleo
+4;6;presso alta sistselagem urv
+3;6;gg nh speed
+1;241;urvs
+1;8;monitoring
+2;2;qall analyzer
+3;31;lsdl fc liq
+4;27;nvel baixo tquc selagem
+2;8;by protect
+2;8;lllfls liquid
+4;2;pt drive end vibration
+3;14;mancal traseiro bomba
+2;25;baixo suco
+7;2;hss non drive end vibr high shutdo
+1;2;lhhgbhney
+5;30;tahha temp alta mancal acionamento
+1;4;housing
+6;10;gg starter differential crash speed shutdown
+4;23;emergency shutdown pushbutton on
+3;6;presso alta sistselagem
+5;2;pall cool water downstr puc
+2;80;manifold injeo
+2;232;tahh downstr
+3;4;axial displacement high
+3;104;lall nvel alto
+2;2;lhhptta pt
+2;12;panel shutdown
+2;113;lahh nvel
+4;22;vigv position error shutdown
+2;54;hp compr
+3;9;lub mancais bomba
+2;2;ssloc oil
+2;6;nl speed
+8;8;lhhgbhdey gearbox hss drive end vibration high shutd
+3;21;exhaust average temperature
+4;16;tall temp baixa descarga
+4;22;end vibration high shutd
+3;3;whru logic failure
+5;46;fc gas upstream pressure fault
+4;42;lsdl fc gas downstream
+4;3;main lube oil supply
+1;2;watchdog
+2;3;valve driver
+1;7;vibr
+3;92;temperatura alta bomba
+6;10;lhhggsd gg starter differential crash speed
+1;214;suco
+5;4;gearbox lsp outside thrust bear
+2;9;high shutdo
+4;40;lsdl fc ns crash
+1;2;asv
+5;3;tahh lp compressor inside thrust
+3;139;discharge line st
+5;3;oil supply pressure low shutdown
+5;2;fc vigv position controller shutdown
+4;7;lsdl fc gas metering
+3;3;presso diferencial baixa
+2;11;outside thrust
+5;8;lss drive end vibration high
+4;2;fc liq metering valve
+4;12;tahh discharge line st
+3;2;gg module temperature
+3;8;vibration monitoring trip
+5;9;cooling air pressure high shutdown
+6;24;pdahh presso dif alta filtro bomba
+4;6;pahh presso alta sistselagem
+3;175;discharge line rd
+5;2;tahh lo return hp compr
+6;2;lsdl fc liq metering valve failure
+6;854;pdall presso dif baixa gsxleo urv
+5;10;module temperature sensor failure sdn
+6;3;lllqms main lube oil supply pressure
+1;3;lssfgi
+3;5;fc liq emv
+7;3;lsdl fc ssloc control valve driver shutdown
+3;3;tgalssfcsdnecs common shutdown
+4;148;tahh discharge line rd
+4;175;discharge line rd stage
+1;2;yall
+3;125;temp alta gsheader
+1;287;injeo
+4;16;xa intertravamento motor bomba
+1;38;winding
+4;9;alta enrolamento motor urv
+5;2;pahh suction line nd stage
+3;2;unidade purga painel
+4;3;lp compressor inside thrust
+3;2;damper out of
+4;3;compressor inside thrust bear
+3;13;alto suco urvs
+2;27;selagem urvs
+5;23;emergency shutdown pushbutton on mgcp
+2;4;voltage shutdown
+3;125;alta gsheader suco
+3;2;ll dp signal
+1;11;non
+2;39;water downstr
+2;325;us vsd
+2;2;fg equipment
+1;111;not
+3;4;gearbox lsp outside
+1;24;vigv
+4;13;lsssd common vibration shutdown
+4;10;lssffggba module temperature sensor
+2;27;tquc selagem
+1;7;lssat
+3;34;temp alta mancal
+3;19;trips circuito vibrao
+3;2;pt drive end
+5;20;pahh discharge line nd stage
+2;19;vibrao urv
+7;8;lhhgbhdey gearbox hss drive end vibration high
+2;14;gearbox lss
+2;3;ns open
+5;3;gt encl vent failure shutdown
+3;6;gg lightup verification
+3;22;fc lvdt vigv
+2;15;gearbox lsp
+2;21;lhhgg gg
+6;3;pall prim leak lp compr nde
+2;7;from cis
+2;3;presso diferencial
+3;8;lssgsp generator set
+5;40;lsdl fc ns crash reengagement
+6;10;lssffggba module temperature sensor failure sdn
+4;2;fc ssloc oil level
+5;12;hydraulic start control panel shutdown
+6;9;tahh gearbox hsp journal bear nde
+3;3;or maintenance sdn
+2;12;start control
+7;4;lhhgblney gearbox lss non drive end vibr
+4;95;nvel baixo vuca urv
+2;7;issd gg
+2;24;tahh temperatura
+3;4;ys popup teg
+1;19;circuito
+2;3;diferencial baixa
+2;30;low shutdown
+3;333;vsd common trip
+3;2;suction line st
+1;26;overfuel
+2;2;issd gt
+2;9;metering valve
+5;15;tahh temperatura alta fase bomba
+2;22;error shutdown
+4;3;ns open circuit shutdown
+4;2;presso alta suco boosters
+2;22;lvdt vigv
+4;2;tahh lp compressor outside
+3;92;qualquer temperatura alta
+4;8;tahh discharge line nd
+5;27;nvel baixo tquc selagem urvs
+4;3;lsdl fc ssloc control
+3;11;outside thrust bear
+6;6;lssat issd gg lightup verification timeout
+4;2;guilliotine damper out of
+2;8;monitoring trip
+3;3;lsshr whru logic
+3;13;suction line rd
+1;5;mcaus
+4;2;fc ssloc ll dp
+7;2;pall presso baixa unidade purga painel urvs
+2;3;ssloc control
+5;4;lhhgblney gearbox lss non drive
+4;49;pah presso alta manifold
+5;7;fc ssloc low hydraulic pressure
+2;188;line rd
+3;5;vibration high shutdown
+4;10;gearbox lsp journal bear
+4;3;presso alta descarga booster
+6;2;lhhgnnex generator non drive end vibration
+5;10;taha temperatura alta mancal traseiro
+1;8;protect
+4;2;pall cool water downstr
+4;7;compressor outside thrust bear
+2;3;tall motor
+1;12;lsshscp
+3;11;supply pressure low
+3;2;emv actuator fault
+3;3;control valve driver
+2;253;lall nvel
+4;42;gas downstream pressure fault
+2;19;lahh separador
+3;67;inlet drum vuc
+4;3;lsssr issd starter acceleration
+3;4;lhhgblney gearbox lss
+2;16;lp compressor
+4;39;cool water downstr puc
+4;4;axial displacement high shutdown
+1;42;monitorao
+4;2;tall gearbox lsp journal
+5;3;mode off or maintenance sdn
+1;3;shut
+2;8;issd main
+3;8;main lo rundown
+7;6;lhhgbldey gearbox lss drive end vibration high
+3;17;leak lp compr
+7;3;lllqms main lube oil supply pressure low
+4;48;lsdl fc ignition failure
+1;8;mccxsl
+5;4;lsdl fc ssloc scavenge blockage
+1;2;guilliotine
+3;9;palla presso baixa
+2;4;gas emv
+2;857;baixa gsxleo
+1;14;lssgp
+2;3;pdall diff
+4;4;ys popup teg unit
+4;8;fuel supply pressure low
+3;2;lsdl fc vigv
+1;5;lssgt
+6;8;lllfls liquid fuel supply pressure low
+6;4;lsdl fc ssloc scavenge blockage shutdown
+2;9;lhhggba gg
+5;2;lssgtevw issd gt encl ventilation
+4;9;whru inletbypass damper linkage
+2;219;sada gua
+5;2;baixa unidade purga painel urvs
+1;23;mgcp
+3;150;baixa fv bomba
+1;11;outside
+2;3;mcatahh downstr
+4;25;lsdl fc overfuel to
+4;219;pal presso baixa sada
+4;2;gg module temperature high
+1;44;mancal
+1;3;lube
+2;5;motor journal
+8;8;lssqrdt issd main lo rundown tank fill timeout
+3;4;suction line nd
+1;26;generator
+2;10;cold air
+1;217;alto
+2;13;vibration shutdown
+3;8;generator set suply
+4;37;pahh cool water downstr
+4;5;lssgt gt esd pushbutton
+3;42;falha monitorao vibrao
+6;207;pah presso alta poo injeo br
+2;92;qualquer temperatura
+5;9;gg bearing cooling air pressure
+7;3;generator non drive end vibration high shut
+3;11;lall lo tank
+2;54;pall inlet
+3;10;lssffggba module temperature
+2;9;inletbypass damper
+2;5;esd pushbutton
+2;32;line nd
+4;4;suction line nd stage
+3;54;pall inlet drum
+2;7;shutdown from
+3;40;ns crash reengagement
+2;2;controller shutdown
+4;5;tahh motor journal bear
+2;2;valve position
+1;14;lsshr
+1;1376;alta
+7;7;lsdl fc ssloc low hydraulic pressure shutdown
+2;6;current shutdown
+4;8;leak hp compr nde
+2;6;verification timeout
+2;63;journal bear
+6;8;tahh gearbox lsp journal bear nde
+3;9;hp compr nde
+4;3;hp compressor nde shaft
+1;15;fit
+1;26;lssexc
+5;4;drive end vibration high shutdown
+4;4;compressor journal bear nde
+1;48;sistselagem
+2;2;over current
+4;2;pahh suction line nd
+1;6;lightup
+2;3;main lube
+3;3;ns open circuit
+3;8;liquid fuel supply
+4;3;gt encl vent failure
+2;29;end vibration
+4;110;sip teg or bypass
+3;5;pahh separador atmosferico
+1;4;diff
+3;3;control mode off
+3;26;lssexc excitation trip
+2;8;tank fill
+6;8;lssgsp generator set suply breaker tripped
+2;44;alta mancal
+1;3;lsscmoff
+2;11;pressure low
+5;2;lsdl fc ssloc ll low
+3;3;baixa gsxleo boo
+3;4;fc ssloc scavenge
+3;9;tahh motor cold
+4;104;lall nvel alto desaeradora
+1;36;drive
+2;8;rundown tank
+1;13;sdn
+2;6;lllggnl gg
+4;4;lsp outside thrust bear
+4;9;baixa sada gs desaeradora
+2;3;encl vent
+2;52;cu pressure
+1;207;br
+3;2;bridge over current
+4;2;vigv position controller shutdown
+6;9;pahh prim leak lp compr nde
+2;23;on mgcp
+1;8;by
+3;2;alto vuca booster
+6;3;pdall diff press xv bypass valve
+3;2;low dp shutdown
+1;42;panel
+3;3;pt axial displacement
+1;74;ignition
+2;10;lssffggba module
+1;8;set
+2;3;return motor
+1;474;bomba
+5;10;starter differential crash speed shutdown
+3;52;psll vsd cu
+4;2;tahh lo return motor
+5;52;psll vsd cu pressure fault
+1;8;lllfls
+3;5;supply temperature low
+6;6;lllggnl gg nl speed low shutdown
+6;3;generator non drive end vibration high
+1;52;cu
+2;47;common shutdown
+4;4;bus under voltage shutdown
+2;49;alta manifold
+5;24;presso dif alta filtro bomba
+4;854;presso dif baixa gsxleo
+5;3;ssloc control valve driver shutdown
+2;165;pressure fault
+4;139;discharge line st stage
+6;2;lhhgbldex gearbox lss drive end vibration
+2;8;mccxsl esd
+2;36;qualquer vibrao
+1;3;vent
+6;8;lss drive end vibration high shutd
+4;8;lssgsp generator set suply
+7;2;lhhgnnex generator non drive end vibration high
+1;5;dp
+7;6;lhhgbhdex gearbox hss drive end vibration high
+2;4;differential current
+5;3;tahh hp compressor journal bear
+2;2;over bridge
+1;342;discharge
+2;8;tall downstr
+3;30;alta mancal acionamento
+1;40;reengagement
+2;196;fv bomba
+3;10;sensor failure sdn
+5;14;hss drive end vibration high
+5;51;pahh prim leak hp compr
+4;7;tahh lp compressor journal
+1;9;enrolamento
+3;622;alta descarga urv
+4;9;tahh motor cold air
+5;9;temp alta enrolamento motor urv
+5;207;presso alta poo injeo br
+3;25;baixo suco urvs
+1;312;fc
+4;2;ssloc oil level low
+1;3;fg
+5;5;lssgt gt esd pushbutton shutdown
+3;48;fc ignition failure
+1;21;timeout
+2;4;control valve
+1;196;fv
+2;2;damper out
+4;8;xs vibration monitoring trip
+3;8;issd main lo
+1;110;sip
+1;69;vahh
+2;2;mccus vsd
+3;5;temperature low shutdown
+1;60;gg
+1;2;over
+2;2;software overspeed
+1;14;whru
+3;5;motor journal bear
+2;4;ssloc ll
+1;7;lsscisi
+3;3;vent failure shutdown
+1;15;gs
+4;3;end vibration high shut
+1;10;gt
+4;5;hp compressor outside thrust
+5;2;whru guilliotine damper out of
+2;5;gas filter
+3;24;dif alta filtro
+3;8;lllfls liquid fuel
+7;3;lsscmoff control mode off or maintenance sdn
+2;333;common trip
+1;3465;parada
+2;5;compressor shaft
+5;5;gearbox lss non drive end
+3;10;temperature sensor failure
+3;125;gsheader suco urvs
+2;3;tahhc temp
+2;3;off or
+4;4;non drive end vibration
+4;4;lsdl fc ssloc ll
+4;8;set suply breaker tripped
+1;67;hp
+6;3;lsdl fc ssloc control valve driver
+5;3;pt axial displacement high shutdown
+1;30;hs
+5;3;fc ssloc control valve driver
+4;5;lsdl fc liq emv
+3;8;set suply breaker
+2;6;lhhgbldey gearbox
+2;14;failsafe shutdown
+3;31;baixa manifold injeo
+4;12;hydraulic start control panel
+3;9;presso baixa lub
+6;2;fc ssloc oil level low shutdown
+2;3465;parada normal
+3;4;vahh lp compressor
+4;4;phase differential current shutdown
+3;16;tall temp baixa
+4;2;tall hp compressor outside
+2;19;circuito vibrao
+4;2;lhhgg gg module temperature
+4;9;presso baixa lub mancais
+5;2;lahh nvel alto vuca booster
+3;228;presso baixa sada
+3;6;lightup verification timeout
+3;7;low hydraulic pressure
+3;2;return hp compr
+6;3;lsdl fc liq emv bus under
+4;3;lsdl fc ns open
+2;11;non drive
+2;2;lhhptdex pt
+3;3;lube oil supply
+2;4;diff press
+6;9;lsshr whru inletbypass damper linkage failure
+2;710;temp alta
+4;2;nl software overspeed shutdown
+5;19;lhhgg gg exhaust average temperature
+2;3;control mode
+4;9;palla presso baixa lub
+6;23;lsdl fc liq upstream pressure fault
+3;5;fc failsafe shutdown
+4;2;nvel baixo vuca booster
+3;4;vahh hp compressor
+3;2;valve position error
+4;46;vazo alta fv bomba
+3;6;lhhgbldey gearbox lss
+2;143;pahh discharge
+2;42;gas downstream
+3;2;lhhgbldex gearbox lss
+3;26;overfuel to ignition
+3;2;gearbox hss non
+5;2;guilliotine damper out of position
+3;3;tall hp compressor
+2;625;alta descarga
+3;19;vahh resumo trips
+4;23;shutdown pushbutton on mgcp
+3;111;valve not ok
+2;9;mancais bomba
+1;3;off
+4;8;main lo rundown tank
+3;19;lhhgg gg exhaust
+5;6;gg nl speed low shutdown
+5;7;non drive end vibr high
+3;9;lsshr whru inletbypass
+5;5;lss non drive end vibr
+4;10;starter differential crash speed
+5;22;lsdl fc lvdt vigv position
+1;4;ll
+2;207;poo injeo
+3;5;pdall cooler puc
+1;48;lo
+1;35;lp
+5;150;fall vazo baixa fv bomba
+6;9;pall presso baixa sada gs desaeradora
+4;28;discharge line nd stage
+2;4;popup teg
+3;7;vibr high shutdo
+2;65;pahh prim
+1;75;high
+2;107;lahh drum
+6;2;lhhgbhney gearbox hss non drive end
+1;332;desaeradora
+4;19;average temperature high shutdown
+2;111;teg or
+3;7;lsscisi emergency shutdown
+6;5;lss non drive end vibr high
+1;2;level
+3;23;fc liq upstream
+3;8;xs vibration monitoring
+3;4;under voltage shutdown
+6;4;lhhgblney gearbox lss non drive end
+7;2;lsdl fc ssloc oil level low shutdown
+3;24;alta filtro bomba
+5;6;lhhgbhdex gearbox hss drive end
+4;7;low hydraulic pressure shutdown
+2;9;palla presso
+2;2;equipment shutdown
+2;46;fahh vazo
+1;22;shutd
+3;2;fc ssloc oil
+1;33;nd
+2;43;lssfcsdn ecs
+1;7;nh
+4;8;tall downstr cool puc
+4;36;qualquer vibrao alta bomba
+6;3;control mode off or maintenance sdn
+1;18;nl
+2;33;nd stage
+5;2;gg module temperature high shutdown
+1;4;boo
+3;38;presso alta suco
+1;43;ns
+5;3;main lube oil supply pressure
+1;8;rundown
+1;5;seal
+4;2;ll low dp shutdown
+5;23;fc liq upstream pressure fault
+3;20;tall discharge line
+4;24;presso dif alta filtro
+2;12;lsshscp hydraulic
+2;16;xa intertravamento
+2;9;baixa lub
+3;8;gearbox lss drive
+5;2;fc nl software overspeed shutdown
+1;5;oil
+1;3;of
+3;11;lall drum vuc
+1;111;ok
+1;23;on
+1;114;or
+5;3;lsdl fc liq emv bus
+3;150;vazo baixa fv
+5;9;presso baixa sada gs desaeradora
+1;20;control
+3;492;temp alta descarga
+5;2;hss non drive end vibr
+4;9;air pressure high shutdown
+6;2;tall gearbox lsp journal bear nde
+3;23;shutdown pushbutton on
+3;2;gt encl ventilation
+4;5;presso baixa topo desareadora
+2;12;speed low
+1;6;pt
+5;7;lsdl fc ssloc low hydraulic
+2;404;emergency shutdown
+5;2;lsdl fc ssloc ll dp
+6;42;fc gas downstream pressure fault shutdown
+4;6;gg nh speed low
+4;130;presso alta descarga urv
+2;228;baixa sada
+5;6;lssat issd gg lightup verification
+3;3;vibration high shut
+2;7;low hydraulic
+5;2;tgdlhhgggg exhaust average temperature high
+3;10;module temperature sensor
+5;9;pall suction line rd stage
+5;2;issd gt encl ventilation watchdog
+6;2;whru guilliotine damper out of position
+3;21;temperature high shutdown
+3;29;drive end vibration
+5;854;presso dif baixa gsxleo urv
+5;14;gearbox hss drive end vibration
+1;10;tripped
+3;12;hydraulic start control
+3;9;enrolamento motor urv
+2;2;encl ventilation
+3;5;mcaus vsd common
+3;2;software overspeed shutdown
+2;207;injeo br
+1;189;rd
+5;3;pall prim leak lp compr
+2;52;vsd cu
+5;2;lp compressor outside thrust bear
+1;2;bridge
+1;2;mcapahh
+3;11;pall suction line
+1;81;motor
+3;25;fc overfuel to
+2;2;low dp
+2;4;axial displacement
+2;4;acceleration timeout
+3;7;end vibr high
+5;3;fc ns open circuit shutdown
+3;9;sada gs desaeradora
+2;168;tahh discharge
+5;8;gearbox lss drive end vibration
+1;6;current
+4;3;control mode off or
+4;21;exhaust average temperature high
+1;34;analyzer
+4;4;hp compressor journal bear
+2;8;breaker tripped
+3;4;scavenge blockage shutdown
+5;2;lsdl fc liq metering valve
+1;141;st
+1;5;su
+3;3;fc ns open
+1;14;starter
+5;24;liq upstream pressure fault shutdown
+3;43;lssfcsdn ecs common
+4;27;baixo tquc selagem urvs
+2;150;vazo baixa
+1;23;ssloc
+3;9;pall discharge line
+2;333;vsd common
+2;39;high shutdown
+3;18;tahh lo header
+5;207;pah presso alta poo injeo
+3;188;line rd stage
+2;36;vahh qualquer
+1;27;to
+2;2;mcbxsl esd
+1;4;bus
+2;42;monitorao vibrao
+3;3;mcatahh downstr cool
+5;2;over bridge over current shutdown
+2;4;blockage shutdown
+3;10;differential crash speed
+4;4;tahh gearbox lsp outside
+3;8;rundown tank fill
+1;325;us
+5;125;tahh temp alta gsheader suco
+2;3;pt axial
+4;9;baixa lub mancais bomba
+3;6;pahh suction line
+2;878;presso dif
+4;4;lss phase differential current
+4;2;mcatahh hp compressor outside
+4;7;ssloc low hydraulic pressure
+1;115;failure
+5;2;pall presso baixa unidade purga
+3;2;level low shutdown
+3;98;alto vuca urv
+6;40;lsdl fc ns crash reengagement shutdown
+1;10;cold
+2;189;rd stage
+4;116;pahh discharge line st
+3;3;main lube oil
+2;5;lllfgs fuel
+3;2;over current shutdown
+4;13;suction line rd stage
+3;49;presso alta manifold
+4;30;temp alta mancal acionamento
+1;111;gas
+4;2;lo return lp compr
+2;39;downstr puc
+5;23;lsdl fc liq upstream pressure
+2;2;lhhgbldex gearbox
+3;7;gas metering valve
+1;97;vibrao
+1;3465;normal
+3;8;lssqrdt issd main
+1;58;xa
+5;2;liq metering valve failure shutdown
+4;23;lsdl fc liq upstream
+1;5;voltage
+2;3;or maintenance
+2;8;lss drive
+2;247;cool puc
+4;2;module temperature high shutdown
+2;2;sistema selagem
+3;36;qualquer vibrao alta
+3;5;gas supply temperature
+3;38;tahha temp alta
+1;8;xs
+2;42;xa falha
+3;7;lssat issd gg
+1;4;xv
+2;7;compressor outside
+2;16;motor bomba
+8;2;gearbox hss non drive end vibr high shutdo
+1;2;software
+1;5;lllfgs
+6;4;tahh gearbox lsp outside thrust bear
+3;39;water downstr puc
+2;11;pahh inlet
+4;207;presso alta poo injeo
+3;5;seal gas filter
+2;9;lub mancais
+6;7;fc gas metering valve failure shutdown
+1;196;vazo
+4;46;fahh vazo alta fv
+1;4;ys
+3;2;baixa unidade purga
+2;22;high shutd
+4;7;pahh discharge line rd
+4;5;gt esd pushbutton shutdown
+1;4;phase
+4;3;mcatahh downstr cool puc
+2;9;gs desaeradora
+6;111;teg or bypass valve not ok
+4;2;lssgtevw issd gt encl
+2;25;fc overfuel
+6;3;main lube oil supply pressure low
+2;9;gg bearing
+7;8;lllfls liquid fuel supply pressure low shutdown
+1;4;axial
+4;3;mcbtahh downstr cool puc
+1;9;cooling
+5;12;lsshscp hydraulic start control panel
+3;5;temperatura alta gs
+4;24;pdahh presso dif alta
+2;14;mancal traseiro
+6;7;non drive end vibr high shutdo
+2;2;pt drive
+6;4;tahha temp alta enrolamento motor urv
+2;4;lss phase
+1;2;out
+3;7;shutdown from cis
+1;69;leak
+1;24;atmosferico
+2;14;thrust bear
+5;10;lhhggsd gg starter differential crash
+3;2;fc nl software
+4;854;pdall presso dif baixa
+4;5;mcaus vsd common trip
+1;2;lhhptta
+1;87;gearbox
+2;115;bypass valve
+2;2;hss non
+3;6;lhhgbhdex gearbox hss
+1;286;cool
+3;6;lllggnh gg nh
+2;193;vuca urv
+1;6;filter
+6;2;fc ssloc ll low dp shutdown
+3;3;lssgtevf gt encl
+1;228;sada
+6;125;tahh temp alta gsheader suco urvs
+2;3;logic failure
+5;27;lall nvel baixo tquc selagem
+1;3;tgalssfcsdnecs
+3;11;non drive end
+4;7;drive end vibr high
+4;2;oil level low shutdown
+4;48;fc ignition failure shutdown
+1;185;drum
+2;23;lsspbe emergency
+2;4;unit fault
+2;67;inlet drum
+2;2;whru guilliotine
+1;27;excitation
+4;4;pahh suction line rd
+3;21;average temperature high
+3;8;lss drive end
+4;20;pahh discharge line nd
+2;19;trips circuito
+2;5;header su
+2;46;tahh gearbox
+5;14;pahh prim leak lp compr
+1;22;lvdt
+2;667;tahh temp
+6;42;lsdl fc gas downstream pressure fault
+5;5;temperatura alta gs header su
+3;4;hp compressor journal
+3;3;tahhc temp alta
+3;2;error failure shutdown
+2;5;lss non
+2;22;fc lvdt
+2;14;protection shutdown
+5;219;pal presso baixa sada gua
+3;9;fc nl failsafe
+5;35;pall presso baixa descarga urv
+3;43;lsdl fc ns
+4;2;over bridge over current
+2;10;failure sdn
+1;361;line
+3;12;lsdl fc nl
+4;4;tahha temp alta enrolamento
+3;23;lsspbe emergency shutdown
+4;7;emergency shutdown from cis
+3;4;emv bus under
+2;31;qahh analyzer
+8;2;lhhgbhney gearbox hss non drive end vibr high
+4;2;bridge over current shutdown
+7;2;gearbox hss non drive end vibr high
+6;3;pdall presso diferencial baixa gsxleo boo
+3;104;nvel alto desaeradora
+1;8;lssqrdt
+4;35;presso baixa descarga urv
+3;36;alta suco urvs
+1;14;failsafe
+5;12;tahh discharge line st stage
+2;2;out of
+3;854;dif baixa gsxleo
+1;171;fault
+4;71;upstream pressure fault shutdown
+5;2;tall gearbox lsp journal bear
+2;40;ns crash
+3;2;fc liq metering

@@ -102,6 +102,7 @@ public class PreProcessaCorpus {
 		}
 		*/
 		
+		linha = linha.toLowerCase();
 		Pattern pattern;
 		if (podeNumero) {
 			pattern = Pattern.compile(" |[a-z]|[0-9]");

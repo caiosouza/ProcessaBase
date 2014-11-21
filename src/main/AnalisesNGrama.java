@@ -28,7 +28,7 @@ public class AnalisesNGrama {
 		Map<String, Integer> nGramasPresencas = baseEstruturada.getnGramaPresencaGlobal();
 		
 		List<String>  linhasNgramasPresenca = Util.MapToListString(nGramasPresencas, parametrosEntrada.getMinGlobalFreq());
-		Arquivo.salvaArquivo(linhasNgramasPresenca, "NGramasPresencas.txt");
+		Arquivo.salvaArquivo(linhasNgramasPresenca, parametrosEntrada.getNomeArquivoOriginal()+ "_NGramasPresencas.txt");
 		
 	}
 	
@@ -37,7 +37,7 @@ public class AnalisesNGrama {
 		Map<String, Integer> nGramasFrequencias = baseEstruturada.getnGramaFrequenciaGlobal();
 		
 		List<String>  linhasNgramasFrequencias = Util.MapToListString(nGramasFrequencias, parametrosEntrada.getMinGlobalFreq());
-		Arquivo.salvaArquivo(linhasNgramasFrequencias, "NGramasFrequencias.txt");
+		Arquivo.salvaArquivo(linhasNgramasFrequencias, parametrosEntrada.getNomeArquivoOriginal()+ "_NGramasFrequencias.txt");
 		
 	}
 	
