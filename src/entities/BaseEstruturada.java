@@ -19,7 +19,7 @@ public class BaseEstruturada {
 
 	private Set<String> termosUniGrama;
 	private Set<String> termosBiGrama;
-	private Set<Documento> documentos;
+	private Set<Categoria> categorias;
 	private Set<String> stopList;
 	private Map<String, Integer> termosFrequenciasGlobal;
 	private Map<String, Integer> biGramasFrequenciasGlobal;
@@ -33,7 +33,7 @@ public class BaseEstruturada {
 		/*reduzir os setups iniciais e passar isso para os getters and setters*/
 		this.termosUniGrama = new LinkedHashSet<String>();
 		this.termosBiGrama = new LinkedHashSet<String>();
-		this.documentos = new LinkedHashSet<Documento>();
+		this.categorias = new LinkedHashSet<Categoria>();
 		this.stopList = new LinkedHashSet<String>();
 		this.termosFrequenciasGlobal = new HashMap<String, Integer>();
 		this.biGramasFrequenciasGlobal = new HashMap<String, Integer>();
@@ -41,51 +41,80 @@ public class BaseEstruturada {
 		this.dicionarioBiGrama = new LinkedHashMap<String, Integer>();
 		
 		loadStopList(parametrosEntrada.getStopListFileName());
-		loadDocumentos(parametrosEntrada.getNomeArquivoOriginal());
-		processaDocumentos(parametrosEntrada);
+		loadCategorias(parametrosEntrada.getNomeArquivoCategoriasDocs(), parametrosEntrada.getNomeArquivoBaseTxt());
+		processaCategorias(parametrosEntrada);
 		//loadDicionarios(parametrosEntrada);
 
 	}
 	
 	/**
-	 * Recebe um lista de linhas e a cada linha nao vazia associa um documento.
-	 * @param linhas
+	 * 
+	 * @param nomeArquivoCategoriasDocs
+	 * @param nomeArquivoBaseTxt
 	 */
-	public void loadDocumentos(List<String> linhas) {
+	private void loadCategorias(String nomeArquivoCategoriasDocs,
+			String nomeArquivoBaseTxt) {
 		
-		//cria o set de documentos para cada linha nao branca do arquivo
-		for (String linha : linhas) {
-			if (linha.trim().length() > 0){
-				documentos.add(new Documento(linha, null));
-			}	
+		if(nomeArquivoCategoriasDocs == null || nomeArquivoCategoriasDocs.isEmpty()){
+			this.categorias.add(new Categoria(nomeArquivoBaseTxt));
+		} else {
+			// le o arquivo de categorias e de documentos ao mesmo tempo e vai colocando cada documento na categoria correta
+			boolean mantemVazias = false;
+			List<String> linhasArquivoCategorias = Arquivo.abreArquivo(nomeArquivoCategoriasDocs);
+			List<String> linhasArquivoDocumentos = Arquivo.abreArquivo(nomeArquivoBaseTxt, mantemVazias);
+			if (linhasArquivoCategorias.size() != linhasArquivoDocumentos.size()){
+				System.out.println("Tamanho de arquivos de categorias e documentos diferentes.");
+			}
+			else {
+				String linhaCategoria;
+				String linhaDocumento;
+				String[] partesLinhaCategoria;
+				int tipoDocumento;
+				for (int i = 0; i < linhasArquivoCategorias.size(); i++) {
+					linhaCategoria = linhasArquivoCategorias.get(i);
+					linhaDocumento = linhasArquivoDocumentos.get(i);
+					partesLinhaCategoria = linhaCategoria.split(";");
+					if (partesLinhaCategoria.length > 1)
+					{
+						tipoDocumento = Integer.parseInt(partesLinhaCategoria[1]);
+					}
+					else {
+						tipoDocumento = 0; //treino
+					}
+					Categoria categoriaAtual = procuraCategoria(Integer.parseInt(partesLinhaCategoria[0]));
+					categoriaAtual.addDocumento(linhaDocumento, tipoDocumento);
+				}
+			}
+			
 		}
-		System.out.println(getDocumentos().size()+ " Documentos carregados para a base.");
 	}
 
-	private void loadDocumentos(String nomeArquivoOriginal) {
+	private Categoria procuraCategoria(Integer idCategoriaProcurada) {
 		
-		List<String> linhas = Arquivo.abreArquivo(nomeArquivoOriginal);
-		loadDocumentos(linhas);
+		Categoria categoriaCorreta = null;
+		for (Categoria categoria : categorias) {
+			if(categoria.getIdCategoria() == idCategoriaProcurada){
+				categoriaCorreta = categoria;
+				break;
+			}
+		}
+		return categoriaCorreta;
 	}
 
 	@SuppressWarnings("unused")
 	private void loadDicionarios(ParametrosEntrada parametrosEntrada) {
 		
-		for (Documento documento : documentos) {
-			termosFrequenciasGlobal = Util.consolidaNgramaFrequencia(termosFrequenciasGlobal, documento.getTermoFrequencia());
-			biGramasFrequenciasGlobal = Util.consolidaNgramaFrequencia(biGramasFrequenciasGlobal, documento.getBiGramaFrequencia());
+		for (Categoria categoria : categorias) {
+			termosFrequenciasGlobal = Util.consolidaNgramaFrequencia(termosFrequenciasGlobal, categoria.getTermoFrequencia());
+			biGramasFrequenciasGlobal = Util.consolidaNgramaFrequencia(biGramasFrequenciasGlobal, categoria.getBiGramaFrequencia());
 		}
 		
 		List<String> termosRemovidos = Util.removeFreqMin(termosFrequenciasGlobal, parametrosEntrada.getMinGlobalFreq());
 		List<String> biGramasRemovidos = Util.removeFreqMin(biGramasFrequenciasGlobal, parametrosEntrada.getMinGlobalFreq());
 		
-		for (Documento documento : documentos) {
-			for (String termoRemovido : termosRemovidos) {
-				documento.getTermoFrequencia().remove(termoRemovido);
-			}
-			for (String biGramaRemovido : biGramasRemovidos) {
-				documento.getBiGramaFrequencia().remove(biGramaRemovido);
-			}
+		for (Categoria categoria : categorias) {
+			categoria.removeTermoFrequencia(termosRemovidos);
+			categoria.removeBiGramaFrequencia(biGramasRemovidos);
 		}
 		
 		for (String termoRemovido : termosRemovidos){
@@ -105,44 +134,19 @@ public class BaseEstruturada {
 		
 		dicionarioUniGrama = montaDicionario(termosUniGrama);
 		dicionarioBiGrama = montaDicionario(termosBiGrama);		
-		validaInicioFimDocumentos();
-	}
-
-	private void processaDocumentos( ParametrosEntrada parametrosEntrada) {
 		
-		for (Documento documento : getDocumentos()) {
-			documento.processaDocumento(parametrosEntrada, getStopList());
-			documento.posProcessaDocumento(parametrosEntrada.getMinLocalFreq());
+		for (Categoria categoria : categorias) {
+			categoria.validaInicioFimDocumentos();
 		}
-		System.out.println("Documentos processados com sucesso.");
-		
 	}
 
-	private void validaInicioFimDocumentos() {
-		
-		boolean achouInicio;
-		boolean achouFim;
-		for (Documento documento : documentos) {
-			Map<String, Integer> bigramas = documento.getBiGramaFrequencia();
-			achouInicio = false;
-			achouFim = false;
-			for ( String bigrama : bigramas.keySet()) {
-				if(bigrama.startsWith("INICIO")){
-					achouInicio = true;
-				}
-				if(bigrama.endsWith("FIM")){
-					achouFim = true;
-				}
-			}
-			if(!achouInicio || !achouFim){
-				System.out.println("Documento com problema");
-				System.out.println(documento.getConteudoOriginal());
-				System.out.println(documento.getConteudoProcessado());
-				
-			}
+	private void processaCategorias( ParametrosEntrada parametrosEntrada) {
+		for (Categoria categoria : categorias) {
+			categoria.processaCategoria(parametrosEntrada, getStopList());
 		}
-
+		System.out.println("Categorias processadas com sucesso.");
 	}
+
 
 	/**
 	 * 
@@ -205,18 +209,6 @@ public class BaseEstruturada {
 		this.termosBiGrama.addAll(termosBiGrama);
 	}
 	
-	/**
-	 * @return the documentos
-	 */
-	public Set<Documento> getDocumentos() {
-		return documentos;
-	}
-	/**
-	 * @param documentos the documentos to set
-	 */
-	public void setDocumentos(Set<Documento> documentos) {
-		this.documentos = documentos;
-	}
 	/**
 	 * @return the stopList
 	 */
@@ -298,8 +290,8 @@ public class BaseEstruturada {
 	private void loadNGramaFrequenciaGlobal() {
 
 		nGramaFrequenciaGlobal = new LinkedHashMap<String, Integer>();
-		for (Documento documento: getDocumentos()){
-			nGramaFrequenciaGlobal = Util.consolidaNgramaFrequencia(nGramaFrequenciaGlobal, documento.getnGramaFrequencia());
+		for (Categoria categoria : categorias) {
+				nGramaFrequenciaGlobal = Util.consolidaNgramaFrequencia(nGramaFrequenciaGlobal, categoria.getnGramaFrequencia());
 		}
 		System.out.println("NGramas carregados com sucesso.");
 	}
@@ -325,8 +317,8 @@ public class BaseEstruturada {
 
 	private void loadNGramaPresencaGlobal() {
 		nGramaPresencaGlobal = new LinkedHashMap<String, Integer>();
-		for (Documento documento: getDocumentos()){
-			nGramaPresencaGlobal = Util.consolidaNgramaFrequencia(nGramaPresencaGlobal, documento.getnGramaPresenca());
+		for (Categoria categoria : categorias) {
+				nGramaPresencaGlobal = Util.consolidaNgramaFrequencia(nGramaPresencaGlobal, categoria.getnGramaPresenca());
 		}
 		System.out.println("NGramas carregados com sucesso.");
 	}
@@ -337,6 +329,21 @@ public class BaseEstruturada {
 	public void setnGramaPresencaGlobal(Map<String, Integer> nGramaPresencaGlobal) {
 		this.nGramaPresencaGlobal = nGramaPresencaGlobal;
 	}
-	
+
+	public int getNumDocumentos() {
+		int numDocumentos=0;
+		for (Categoria categoria : categorias) {
+			numDocumentos = numDocumentos + categoria.getNumDocumentos();
+		}
+		return numDocumentos;
+	}
+	/**
+	 * @return the categorias
+	 */
+	public Set<Categoria> getCategorias() {
+		return categorias;
+	}
 	
 }
+
+	

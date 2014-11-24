@@ -55,6 +55,7 @@ public class ValidaCaracteres {
 		return valido;
 	}
 
+	@SuppressWarnings("unused")
 	private void criaLogValidacao( Map<String, Integer> caracteresFrequenciasValidos,
 			Map<String, Integer> caracteresFrequenciasInvalidos, String nomeArquivo) {
 
@@ -65,8 +66,7 @@ public class ValidaCaracteres {
 		novaLinhaLogCaracteres += " " + INVALIDOS + caracteresFrequenciasInvalidos.toString();
 		novaLinhaLogCaracteres += " " + VALIDOS + caracteresFrequenciasValidos.toString();
 		
-		Arquivo classArquivo = new Arquivo();
-		classArquivo.insereLinhas(NOME_ARQUIVO_LOG_CARACTERES, novaLinhaLogCaracteres);
+		Arquivo.insereLinhas(NOME_ARQUIVO_LOG_CARACTERES, novaLinhaLogCaracteres);
 
 	}
 

@@ -17,20 +17,15 @@ public class Documento {
 	private Set<String> termos;
 	private Map<String, Integer> termoFrequencia;
 	private Map<String, Integer> biGramaFrequencia;
-	private Integer idCategoria;
 	private Map<String, Integer> nGramaFrequencia;
 	private Map<String, Integer> nGramaPresenca;
 	
-	public Documento(String conteudoOriginal, Integer idCategoria) {
+	public Documento(String conteudoOriginal) {
 		/*reduzir os setups iniciais e passar isso para os getters and setters*/
 		this.conteudoOriginal = conteudoOriginal;
 		this.biGramaFrequencia = new HashMap<String, Integer>();
 		this.termoFrequencia = new HashMap<String, Integer>();
 		this.termos = new HashSet<String>();
-		
-		if (idCategoria != null){
-			this.idCategoria = idCategoria;
-		}
 	}
 	
 	public String getConteudoOriginal() {
@@ -73,12 +68,6 @@ public class Documento {
 	}
 	public void setTermoFrequencia(Map<String, Integer> termoFrequencia) {
 		this.termoFrequencia = termoFrequencia;
-	}
-	public int getIdCategoria() {
-		return idCategoria;
-	}
-	public void setIdCategoria(Integer idCategoria) {
-		this.idCategoria = idCategoria;
 	}
 
 	public Map<String, Integer> getBiGramaFrequencia() {
@@ -163,9 +152,7 @@ public class Documento {
 			System.out.println("Texto original:" + getConteudoOriginal());
 		}
 		if(validaCaracteres.validaLinhas(conteudoProcessado, parametrosEntrada.getPodeNumero())){
-			//conteudoProcessado = "INICIO "+ conteudoProcessado+ " FIM";
 			setConteudoProcessado(conteudoProcessado);
-			//setTermos(new HashSet<String>(Arrays.asList(conteudoProcessado.split(" "))));
 		} else{
 			System.out.println("Documentos ficou vazio");
 			System.out.println("Texto original:" + getConteudoOriginal());

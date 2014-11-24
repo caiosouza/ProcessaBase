@@ -34,6 +34,7 @@ public class PreProcessaCorpus {
 		}
 		else {
 			System.out.println("Entre com o nome do Diretorio a ser preprocessado");
+			@SuppressWarnings("resource")
 			Scanner scanner = new Scanner(System.in);
 			nomeDiretorio = scanner.next();
 		}
@@ -92,17 +93,8 @@ public class PreProcessaCorpus {
 	public String preProcessaLinha(String linha, Boolean removeStopWords, Boolean reduzStemme, 
 			String stopListNameFile, Boolean podeNumero, Set<String> stopList, int minSizeWord, int maxSizeWord) {
 		
-		/*
-		if (podeNumero){
-			//nao remove os numeros
-			linha = linha.toLowerCase().replaceAll("[.,:;<>{}|_!@#$%&*()/?+=-~]", " ");
-			
-		} else {
-			linha = linha.toLowerCase().replaceAll("[.,:;<>{}|_1234567890!@#$%&*()/?+=-~]", " ");
-		}
-		*/
-		
 		linha = linha.toLowerCase();
+		linha = Util.limpacaracteres(linha);
 		Pattern pattern;
 		if (podeNumero) {
 			pattern = Pattern.compile(" |[a-z]|[0-9]");
@@ -131,7 +123,6 @@ public class PreProcessaCorpus {
 		for (String word : tokens) {
 			remove = false;
 			if (word.trim().length() > 0 ){
-				word = Util.limpacaracteres(word);
 				if(removeStopWords && stopwords.isStopWord(stopList, word)){
 					remove = true;
 				} else	if (reduzStemme){

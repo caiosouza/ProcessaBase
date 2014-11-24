@@ -1,0 +1,138 @@
+Mon Nov 24 10:19:45 BRST 2014 INICIO
+
+
+Parametros de Entrada:
+##parametros para carregar a base
+# se for um arquivo pega as linhas dele, se for um diretorio pega os arquivos txt dentro dele
+nomeArquivoBaseTxt = acan_tx_desc_even.txt
+nomeArquivoCategoriasDocs = 
+stemme = false
+stopWord = true
+stopList = ptStopList.txt
+podeNumero = false
+minLocalFreq = 1
+minGlobalFreq = 2
+minSizeWord = 2
+maxSizeWord = 100
+
+inputCategFileName =
+inputLucineIndexName =
+nomeArquivoLog = processaBase.log
+
+
+Arquivos gerados:
+outPut\acan_tx_desc_even_WithoutStopWords.txt
+
+
+Mon Nov 24 10:19:46 BRST 2014 Fim
+Mon Nov 24 10:52:45 BRST 2014 INICIO
+
+
+Parametros de Entrada:
+##parametros para carregar a base
+# se for um arquivo pega as linhas dele, se for um diretorio pega os arquivos txt dentro dele
+nomeArquivoBaseTxt = evnt_tx_desc.txt
+nomeArquivoCategoriasDocs = 
+stemme = false
+stopWord = true
+stopList = ptStopList.txt
+podeNumero = false
+minLocalFreq = 1
+minGlobalFreq = 1
+minSizeWord = 2
+maxSizeWord = 100
+
+inputCategFileName =
+inputLucineIndexName =
+nomeArquivoLog = processaBase.log
+
+
+Arquivos gerados:
+outPut\evnt_tx_desc_WithoutStopWords.txt
+
+
+Mon Nov 24 10:52:46 BRST 2014 Fim
+Mon Nov 24 12:15:29 BRST 2014 INICIO
+
+
+Parametros de Entrada:
+##parametros para carregar a base
+# se for um arquivo pega as linhas dele, se for um diretorio pega os arquivos txt dentro dele
+nomeArquivoBaseTxt = outPut\evnt_tx_desc_WithoutStopWords.txt
+nomeArquivoCategoriasDocs = 
+stemme = false
+stopWord = true
+stopList = ptStopList.txt
+podeNumero = false
+minLocalFreq = 1
+minGlobalFreq = 1
+minSizeWord = 2
+maxSizeWord = 100
+
+inputCategFileName =
+inputLucineIndexName =
+nomeArquivoLog = processaBase.log
+
+
+Arquivos gerados:
+outPut\outPutevnt_tx_desc_WithoutStopWords.txt_NGramasFrequencias.txt
+outPut\outPutevnt_tx_desc_WithoutStopWords.txt_NGramasPresencas.txt
+
+
+Mon Nov 24 12:15:29 BRST 2014 Fim
+Mon Nov 24 12:15:50 BRST 2014 INICIO
+
+
+Parametros de Entrada:
+##parametros para carregar a base
+# se for um arquivo pega as linhas dele, se for um diretorio pega os arquivos txt dentro dele
+nomeArquivoBaseTxt = outPut/evnt_tx_desc_WithoutStopWords.txt
+nomeArquivoCategoriasDocs = 
+stemme = false
+stopWord = true
+stopList = ptStopList.txt
+podeNumero = false
+minLocalFreq = 1
+minGlobalFreq = 1
+minSizeWord = 2
+maxSizeWord = 100
+
+inputCategFileName =
+inputLucineIndexName =
+nomeArquivoLog = processaBase.log
+
+
+Arquivos gerados:
+outPut\outPut/evnt_tx_desc_WithoutStopWords.txt_NGramasFrequencias.txt
+outPut\outPut/evnt_tx_desc_WithoutStopWords.txt_NGramasPresencas.txt
+
+
+Mon Nov 24 12:15:56 BRST 2014 Fim
+Mon Nov 24 12:17:14 BRST 2014 INICIO
+
+
+Parametros de Entrada:
+##parametros para carregar a base
+# se for um arquivo pega as linhas dele, se for um diretorio pega os arquivos txt dentro dele
+nomeArquivoBaseTxt = outPut/evnt_tx_desc_WithoutStopWords.txt
+nomeArquivoCategoriasDocs = 
+stemme = false
+stopWord = true
+stopList = ptStopList.txt
+podeNumero = false
+minLocalFreq = 1
+minGlobalFreq = 2
+minSizeWord = 2
+maxSizeWord = 100
+
+inputCategFileName =
+inputLucineIndexName =
+nomeArquivoLog = processaBase.log
+
+
+Arquivos gerados:
+outPut\outPut/evnt_tx_desc_WithoutStopWords.txt_NGramasFrequencias.txt
+outPut\outPut/evnt_tx_desc_WithoutStopWords.txt_NGramasPresencas.txt
+
+
+Mon Nov 24 12:17:20 BRST 2014 Fim

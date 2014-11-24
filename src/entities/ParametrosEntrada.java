@@ -5,7 +5,8 @@ import util.Util;
 public class ParametrosEntrada {
 
 	//parametros de entrada
-	private String nomeArquivoOriginal;
+	private String nomeArquivoBaseTxt;
+	private String nomeArquivoCategoriasDocs;
 	private Boolean stemme;
 	private Boolean stopWord;
 	private String stopListFileName;
@@ -14,41 +15,45 @@ public class ParametrosEntrada {
 	private Integer minGlobalFreq;
 	private Integer minSizeWord;
 	private Integer maxSizeWord;
+	private String nomeArquivoLog;
 	private static final String PROCESSA_BASE_PARAMETERS_PROPERTIES = "parameters.properties";
 	
 	public ParametrosEntrada() {
-		String nomeArquivoOriginal = Util.readFromProperties("inputBaseFileName", PROCESSA_BASE_PARAMETERS_PROPERTIES);
-		Boolean stemme = "true".equals(Util.readFromProperties("stemme", PROCESSA_BASE_PARAMETERS_PROPERTIES));
-		Boolean stopWord = "true".equals(Util.readFromProperties("stopWord", PROCESSA_BASE_PARAMETERS_PROPERTIES));
-		Boolean podeNumero = "true".equals(Util.readFromProperties("podeNumero", PROCESSA_BASE_PARAMETERS_PROPERTIES));
-		String stopListFileName = Util.readFromProperties("stopList", PROCESSA_BASE_PARAMETERS_PROPERTIES);
-		Integer minLocalFreq = Integer.parseInt(Util.readFromProperties("minLocalFreq", PROCESSA_BASE_PARAMETERS_PROPERTIES));
-		Integer minGlobalFreq = Integer.parseInt(Util.readFromProperties("minGlobalFreq", PROCESSA_BASE_PARAMETERS_PROPERTIES));
-		Integer minSizeWord = Integer.parseInt(Util.readFromProperties("minSizeWord", PROCESSA_BASE_PARAMETERS_PROPERTIES));
-		Integer maxSizeWord = Integer.parseInt(Util.readFromProperties("maxSizeWord", PROCESSA_BASE_PARAMETERS_PROPERTIES));
-		
-		this.nomeArquivoOriginal = nomeArquivoOriginal;
-		this.stemme = stemme;
-		this.stopWord = stopWord;
-		this.stopListFileName = stopListFileName;
-		this.podeNumero = podeNumero;
-		this.minLocalFreq = minLocalFreq;
-		this.minGlobalFreq = minGlobalFreq;
-		this.minSizeWord = minSizeWord;
-		this.maxSizeWord = maxSizeWord;
-		
+		this.nomeArquivoBaseTxt = Util.readFromProperties("nomeArquivoBaseTxt", PROCESSA_BASE_PARAMETERS_PROPERTIES);
+		this.nomeArquivoCategoriasDocs = Util.readFromProperties("nomeArquivoCategoriasDocs", PROCESSA_BASE_PARAMETERS_PROPERTIES);
+		this.stemme = "true".equals(Util.readFromProperties("stemme", PROCESSA_BASE_PARAMETERS_PROPERTIES));
+		this.stopWord = "true".equals(Util.readFromProperties("stopWord", PROCESSA_BASE_PARAMETERS_PROPERTIES));
+		this.podeNumero = "true".equals(Util.readFromProperties("podeNumero", PROCESSA_BASE_PARAMETERS_PROPERTIES));
+		this.stopListFileName = Util.readFromProperties("stopList", PROCESSA_BASE_PARAMETERS_PROPERTIES);
+		this.minLocalFreq = Integer.parseInt(Util.readFromProperties("minLocalFreq", PROCESSA_BASE_PARAMETERS_PROPERTIES));
+		this.minGlobalFreq = Integer.parseInt(Util.readFromProperties("minGlobalFreq", PROCESSA_BASE_PARAMETERS_PROPERTIES));
+		this.minSizeWord = Integer.parseInt(Util.readFromProperties("minSizeWord", PROCESSA_BASE_PARAMETERS_PROPERTIES));
+		this.maxSizeWord = Integer.parseInt(Util.readFromProperties("maxSizeWord", PROCESSA_BASE_PARAMETERS_PROPERTIES));
+		this.nomeArquivoLog = Util.readFromProperties("nomeArquivoLog", PROCESSA_BASE_PARAMETERS_PROPERTIES);
 	}
 	/**
-	 * @return the nomeArquivoOriginal
+	 * @return the nomeArquivoBaseTxt
 	 */
-	public String getNomeArquivoOriginal() {
-		return nomeArquivoOriginal;
+	public String getNomeArquivoBaseTxt() {
+		return nomeArquivoBaseTxt;
 	}
 	/**
-	 * @param nomeArquivoOriginal the nomeArquivoOriginal to set
+	 * @param nomeArquivoBaseTxt the nomeArquivoBaseTxt to set
 	 */
-	public void setNomeArquivoOriginal(String nomeArquivoOriginal) {
-		this.nomeArquivoOriginal = nomeArquivoOriginal;
+	public void setNomeArquivoBaseTxt(String nomeArquivoBaseTxt) {
+		this.nomeArquivoBaseTxt = nomeArquivoBaseTxt;
+	}
+	/**
+	 * @return the nomeArquivoCategoriasDocs
+	 */
+	public String getNomeArquivoCategoriasDocs() {
+		return nomeArquivoCategoriasDocs;
+	}
+	/**
+	 * @param nomeArquivoCategoriasDocs the nomeArquivoCategoriasDocs to set
+	 */
+	public void setNomeArquivoCategoriasDocs(String nomeArquivoCategoriasDocs) {
+		this.nomeArquivoCategoriasDocs = nomeArquivoCategoriasDocs;
 	}
 	/**
 	 * @return the stemme
@@ -145,6 +150,21 @@ public class ParametrosEntrada {
 	 */
 	public void setMaxSizeWord(Integer maxSizeWord) {
 		this.maxSizeWord = maxSizeWord;
+	}
+	public String getNomeProperties() {
+		return PROCESSA_BASE_PARAMETERS_PROPERTIES;
+	}
+	/**
+	 * @return the nomeArquivoLog
+	 */
+	public String getNomeArquivoLog() {
+		return nomeArquivoLog;
+	}
+	/**
+	 * @param nomeArquivoLog the nomeArquivoLog to set
+	 */
+	public void setNomeArquivoLog(String nomeArquivoLog) {
+		this.nomeArquivoLog = nomeArquivoLog;
 	}
 
 }
