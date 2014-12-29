@@ -10,9 +10,9 @@ tahh qualquer temperatura alta bomba
 pal pressao baixa saida agua desaeradora
 pal pressao baixa saida agua desaeradora
 fall vazao baixa fv bomba
-tahh temp alta mancal acionamento bomba
-tahh temp alta mancal acionamento bomba
-tahh temp alta mancal acionamento bomba
+tahha temp alta mancal acionamento bomba
+tahha temp alta mancal acionamento bomba
+tahha temp alta mancal acionamento bomba
 mudanca status
 mudanca status
 mudanca status
@@ -82,15 +82,15 @@ pal pressao baixa saida agua desaeradora
 parada normal
 parada normal
 parada normal
-pall pressao baixa lub mancais bomba
-pall pressao baixa lub mancais bomba
-pall pressao baixa lub mancais bomba
+palla pressao baixa lub mancais bomba
+palla pressao baixa lub mancais bomba
+palla pressao baixa lub mancais bomba
 parada normal
 pal pressao baixa saida agua desaeradora
 parada normal
 pah pressao alta manifold injecao
 pah pressao alta manifold injecao
-pall pressao baixa lub mancais bomba
+palla pressao baixa lub mancais bomba
 parada normal
 parada normal
 pah pressao alta manifold injecao
@@ -133,22 +133,22 @@ mudanca status
 lsdl fc gas upstream pressure fault shutdown
 parada normal
 mudanca status
-mca xsl esd
-mca xsl esd
-mcc xsl esd
-mcc xsl esd
+mcaxsl esd
+mcaxsl esd
+mccxsl esd
+mccxsl esd
 mudanca status
 fahh vazao alta fv bomba
-pall pressao baixa lub mancais bomba
+palla pressao baixa lub mancais bomba
 parada normal
 parada normal
 parada normal
 esd emergency shutdown
-lall nivel baixo uc booster
-lall nivel baixo uc booster
-lahh nivel alto uc booster
-lsdl fc liq upstream pressure fault shutdown
-lsdl fc overfuel to ignition failure shutdown
+lall nivel baixo vuca booster
+lall nivel baixo vuca booster
+lahh nivel alto vuca booster
+tgalsdlfc liq upstream pressure fault shutdown
+tgalsdlfc overfuel to ignition failure shutdown
 parada normal
 parada normal
 parada normal
@@ -165,22 +165,22 @@ mudanca status
 mudanca status
 mudanca status
 mudanca status
-lss fcsdn ecs common shutdown
-mca xsl esd
-mca us vsd common trip
-mca xsl esd
-mca xsl esd
-mca xsl esd
-mca us vsd common trip
-mcc xsl esd
-mcc xsl esd
-mcc xsl esd
-mcc xsl esd
-mcc us vsd common trip
+tgalssfcsdnecs common shutdown
+mcaxsl esd
+mcaus vsd common trip
+mcaxsl esd
+mcaxsl esd
+mcaxsl esd
+mcaus vsd common trip
+mccxsl esd
+mccxsl esd
+mccxsl esd
+mccxsl esd
+mccus vsd common trip
 esd emergency shutdown
 pahh pressao alta succao boosters
-lahh nivel alto uc booster
-mca us vsd common trip
+lahh nivel alto vuca booster
+mcaus vsd common trip
 pahh pressao alta succao boosters
 mudanca status
 mudanca status
@@ -190,9 +190,9 @@ pahh separador atmosferico
 pal pressao baixa saida agua desaeradora
 pal pressao baixa saida agua desaeradora
 pal pressao baixa saida agua desaeradora
-mca us vsd common trip
+mcaus vsd common trip
 mudanca status
-mcc us vsd common trip
+mccus vsd common trip
 pahh pressao alta descarga urv
 pahh pressao alta descarga urv
 pahh pressao alta descarga urv
@@ -205,8 +205,8 @@ parada normal
 mudanca status
 mudanca status
 parada normal
-lhh gg gg exhaust average temperature high shutdo
-lhh gg gg exhaust average temperature high shutdo
+tgdlhhgggg exhaust average temperature high shutdo
+tgdlhhgggg exhaust average temperature high shutdo
 parada normal
 parada normal
 pahh pressao alta descarga urv
@@ -215,10 +215,10 @@ esd emergency shutdown
 mudanca status
 mudanca status
 mudanca status
-lss fcsdn ecs common shutdown
+tgclssfcsdnecs common shutdown
 mudanca status
 parada normal
-lss fcsdn ecs common shutdown
+tgalssfcsdnecs common shutdown
 parada normal
 parada normal
 mudanca status
@@ -231,11 +231,11 @@ mudanca status
 mudanca status
 esd emergency shutdown
 pahh pressao alta descarga urv
-mca xsl esd
-mca tahh motor cold air
+mcaxsl esd
+mcatahh motor cold air
 mudanca status
 mudanca status
-mcc xsl esd
+mccxsl esd
 esd emergency shutdown
 mudanca status
 pdahh pressao dif alta filtro bomba
@@ -243,37 +243,37 @@ mudanca status
 mudanca status
 mudanca status
 pal pressao baixa saida agua desaeradora
-tahh temp alta mancal acionamento bomba
+tahha temp alta mancal acionamento bomba
 mudanca status
 pal pressao baixa saida agua desaeradora
 fahh vazao alta fv bomba
 parada normal
-lhh gnnex generator non drive end vibration high shut
+lhhgnnex generator non drive end vibration high shut
 parada normal
 parada normal
-lsdl fc gas upstream pressure fault shutdown
+tgblsdlfc gas upstream pressure fault shutdown
 parada normal
 parada normal
-mca tahh downstr cool uc
-mcb us vsd common trip
-mcb xsl esd
-mcc xsl esd
-mca tahh downstr cool uc
-mcb sip teg or bypass valve not ok
-mcb tahh downstr cool uc
-mcb tahh downstr cool uc
-mcc tahh downstr cool uc
+mcatahh downstr cool puc
+mcbus vsd common trip
+mcbxsl esd
+mccxsl esd
+mcatahh downstr cool puc
+mcbsip teg or bypass valve not ok
+mcbtahh downstr cool puc
+mcbtahh downstr cool puc
+mcctahh downstr cool puc
 esd emergency shutdown
-tahh temp alta mancal traseiro bomba
+tahha temp alta mancal traseiro bomba
 vahh qualquer vibracao alta bomba
 mudanca status
-lhh gblney gearbox lss non drive end vibr high shutdo
-lhh gnnex generator non drive end vibration high shut
+lhhgblney gearbox lss non drive end vibr high shutdo
+lhhgnnex generator non drive end vibration high shut
 mudanca status
 parada normal
 lsdl fc ignition failure shutdown
 lsdl fc gas upstream pressure fault shutdown
-lsdl fc ns crash re engagement shutdown
+lsdl fc ns crash reengagement shutdown
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
@@ -294,7 +294,7 @@ pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 lall nivel alto desaeradora
 fahh vazao alta fv bomba
-tahh temp alta mancal traseiro bomba
+tahha temp alta mancal traseiro bomba
 parada normal
 fahh vazao alta fv bomba
 lall nivel alto desaeradora
@@ -317,7 +317,7 @@ parada normal
 parada normal
 mudanca status
 parada normal
-lss mcb tripped mcb pmg
+lssmcb tripped mcb pmg
 parada normal
 xsl esd
 us vsd common trip
@@ -343,7 +343,7 @@ parada normal
 lsdl fc gas upstream pressure fault shutdown
 parada normal
 parada normal
-lall nivel baixo uc urv
+lall nivel baixo vuca urv
 parada normal
 parada normal
 parada normal
@@ -375,15 +375,15 @@ pal pressao baixa saida agua desaeradora
 mudanca status
 parada normal
 parada normal
-pall pressao baixa sist selagem urv
+pall pressao baixa sistselagem urv
 parada normal
 lsdl fc liq upstream pressure fault shutdown
-lsdl fc ns crash re engagement shutdown
+lsdl fc ns crash reengagement shutdown
 parada normal
 parada normal
-lss qrdt is sd main lo rundown tank fill timeout
+lssqrdt issd main lo rundown tank fill timeout
 lsdl fc ignition failure shutdown
-lhh gg gg exhaust average temperature high shutdown
+lhhgg gg exhaust average temperature high shutdown
 lsscisi emergency shutdown from cis
 parada normal
 parada normal
@@ -396,9 +396,9 @@ parada normal
 parada normal
 parada normal
 parada normal
-lss qrdt is sd main lo rundown tank fill timeout
+lssqrdt issd main lo rundown tank fill timeout
 parada normal
-lss qrdt is sd main lo rundown tank fill timeout
+lssqrdt issd main lo rundown tank fill timeout
 parada normal
 esd emergency shutdown
 pdall pressao dif baixa gasxoleo urv
@@ -407,15 +407,15 @@ parada normal
 vahh qualquer vibracao alta bomba
 pdall pressao dif baixa gasxoleo urv
 us vsd common trip
-tahh downstr cool uc
+tahh downstr cool puc
 us vsd common trip
-tahh downstr cool uc
+tahh downstr cool puc
 tahh lo header
 us vsd common trip
 lall lo tank
-tahh downstr cool uc
+tahh downstr cool puc
 lall lo tank
-lahh drum uc
+lahh drum vuc
 qahh analyzer
 lall lo tank
 pdall pressao dif baixa gasxoleo urv
@@ -424,7 +424,7 @@ pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 tahh discharge line rd stage
-tahh downstr cool uc
+tahh downstr cool puc
 tahh discharge line rd stage
 pahh discharge line st stage
 parada normal
@@ -436,9 +436,9 @@ us vsd common trip
 sip teg or bypass valve not ok
 us vsd common trip
 parada normal
-lss qrdt is sd main lo rundown tank fill timeout
-lss qrdt is sd main lo rundown tank fill timeout
-lss fcsdn ecs common shutdown
+lssqrdt issd main lo rundown tank fill timeout
+lssqrdt issd main lo rundown tank fill timeout
+lssfcsdn ecs common shutdown
 mudanca status
 lsdl fc gas downstream pressure fault shutdown
 parada normal
@@ -457,9 +457,9 @@ parada normal
 fahh vazao alta fv bomba
 parada normal
 parada normal
-lssff ggba module temperature sensor failure sdn
+lssffggba module temperature sensor failure sdn
 lsdl fc liq upstream pressure fault shutdown
-lss fcsdn ecs common shutdown
+lssfcsdn ecs common shutdown
 lsdl fc gas upstream pressure fault shutdown
 parada normal
 us vsd common trip
@@ -472,7 +472,7 @@ parada normal
 parada normal
 parada normal
 parada normal
-lss fcsdn ecs common shutdown
+lssfcsdn ecs common shutdown
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 mudanca status
@@ -490,12 +490,12 @@ mudanca status
 mudanca status
 mudanca status
 parada normal
-lss gt gt esd pushbutton shutdown
+lssgt gt esd pushbutton shutdown
 mudanca status
 parada normal
 parada normal
 lsdl fc gas upstream pressure fault shutdown
-lsdl fc ns crash re engagement shutdown
+lsdl fc ns crash reengagement shutdown
 mudanca status
 mudanca status
 esd emergency shutdown
@@ -511,8 +511,8 @@ pdall pressao dif baixa gasxoleo urv
 tall temp baixa descarga urv
 tall temp baixa descarga urv
 mudanca status
-lall nivel baixo uc urv
-lall nivel baixo uc urv
+lall nivel baixo vuca urv
+lall nivel baixo vuca urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
@@ -523,10 +523,10 @@ parada normal
 parada normal
 parada normal
 us vsd common trip
-tahh downstr cool uc
+tahh downstr cool puc
 parada normal
 parada normal
-tahh downstr cool uc
+tahh downstr cool puc
 parada normal
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
@@ -536,7 +536,7 @@ parada normal
 parada normal
 parada normal
 parada normal
-lall nivel baixo uc urv
+lall nivel baixo vuca urv
 parada normal
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
@@ -554,7 +554,7 @@ pahh pressao alta descarga urv
 esd emergency shutdown
 parada normal
 parada normal
-lss gt gt esd pushbutton shutdown
+lssgt gt esd pushbutton shutdown
 parada normal
 parada normal
 parada normal
@@ -590,7 +590,7 @@ parada normal
 parada normal
 us vsd common trip
 pdall pressao dif baixa gasxoleo urv
-lall nivel baixo uc urv
+lall nivel baixo vuca urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
@@ -631,12 +631,12 @@ pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 esd emergency shutdown
-lss hscp hydraulic start control panel shutdown
+lsshscp hydraulic start control panel shutdown
 parada normal
 esd emergency shutdown
 lsdl fc ignition failure shutdown
 lsdl fc ignition failure shutdown
-lhh gg gg exhaust average temperature high shutdown
+lhhgg gg exhaust average temperature high shutdown
 lsdl fc ignition failure shutdown
 lsdl fc ignition failure shutdown
 esd emergency shutdown
@@ -648,7 +648,7 @@ pdall pressao dif baixa gasxoleo urv
 pal pressao baixa saida agua desaeradora
 pal pressao baixa saida agua desaeradora
 pal pressao baixa saida agua desaeradora
-lss fcsdn ecs common shutdown
+lssfcsdn ecs common shutdown
 parada normal
 mudanca status
 parada normal
@@ -656,10 +656,10 @@ parada normal
 mudanca status
 parada normal
 mudanca status
-lsdl fc ns crash re engagement shutdown
+lsdl fc ns crash reengagement shutdown
 esd emergency shutdown
 parada normal
-tahh temp alta gas header succao urvs
+tahh temp alta gasheader succao urvs
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
@@ -671,7 +671,7 @@ pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 parada normal
-lll ggnl gg nl speed low shutdown
+lllggnl gg nl speed low shutdown
 parada normal
 parada normal
 lsdl fc gas downstream pressure fault shutdown
@@ -699,7 +699,7 @@ pahh discharge line st stage
 us vsd common trip
 us vsd common trip
 pahh suction line nd stage
-lahh drum uc
+lahh drum vuc
 sip teg or bypass valve not ok
 mudanca status
 sip teg or bypass valve not ok
@@ -764,13 +764,13 @@ fall vazao baixa fv bomba
 parada normal
 lsdl fc gas upstream pressure fault shutdown
 mudanca status
-tahh temp alta mancal traseiro bomba
+tahha temp alta mancal traseiro bomba
 parada normal
 us vsd common trip
 us vsd common trip
 parada normal
 parada normal
-tahh downstr cool uc
+tahh downstr cool puc
 sahh vsd psr actual speed
 pahh discharge line st stage
 pahh discharge line st stage
@@ -793,7 +793,7 @@ qahh analyzer
 pahh discharge line st stage
 qahh analyzer
 us vsd common trip
-tahh downstr cool uc
+tahh downstr cool puc
 us vsd common trip
 mudanca status
 pal pressao baixa saida agua desaeradora
@@ -813,7 +813,7 @@ pal pressao baixa saida agua desaeradora
 parada normal
 parada normal
 parada normal
-lahh drum uc
+lahh drum vuc
 qahh analyzer
 pahh discharge line st stage
 pdall pressao dif baixa gasxoleo urv
@@ -868,7 +868,7 @@ parada normal
 parada normal
 parada normal
 esd emergency shutdown
-lall nivel baixo uc urv
+lall nivel baixo vuca urv
 mudanca status
 pal pressao baixa saida agua desaeradora
 fahh vazao alta fv bomba
@@ -892,10 +892,10 @@ tahh qualquer temperatura alta bomba
 tahh temperatura alta fase bomba
 tahh qualquer temperatura alta bomba
 tahh temperatura alta fase bomba
-pall pressao baixa sist selagem urv
+pall pressao baixa sistselagem urv
 parada normal
-pall pressao baixa sist selagem urv
-tahh temp alta gas header succao urvs
+pall pressao baixa sistselagem urv
+tahh temp alta gasheader succao urvs
 pal pressao baixa saida agua desaeradora
 pal pressao baixa saida agua desaeradora
 pal pressao baixa manifold injecao
@@ -913,7 +913,7 @@ parada normal
 parada normal
 parada normal
 parada normal
-tahh temp alta gas header succao urvs
+tahh temp alta gasheader succao urvs
 pdall pressao dif baixa gasxoleo urv
 pal pressao baixa saida agua desaeradora
 pal pressao baixa saida agua desaeradora
@@ -927,11 +927,11 @@ pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 esd emergency shutdown
 parada normal
-lss gt gt esd pushbutton shutdown
-lsdl fc ns crash re engagement shutdown
+lssgt gt esd pushbutton shutdown
+lsdl fc ns crash reengagement shutdown
 parada normal
 parada normal
-lhh pttb pt axial displacement high shutdown
+lhhpttb pt axial displacement high shutdown
 us vsd common trip
 qahh analyzer
 pdall pressao dif baixa gasxoleo urv
@@ -956,8 +956,8 @@ parada normal
 parada normal
 lsdl fc liq upstream pressure fault shutdown
 parada normal
-lsdl fc ns crash re engagement shutdown
-lsspb emergency shutdown pushbutton on mgcp
+lsdl fc ns crash reengagement shutdown
+lsspbe emergency shutdown pushbutton on mgcp
 parada normal
 parada normal
 vahh resumo trips circuito vibracao urv
@@ -987,13 +987,13 @@ parada normal
 pdall pressao dif baixa gasxoleo urv
 parada normal
 parada normal
-lall nivel baixo uc urv
+lall nivel baixo vuca urv
 pdahh pressao dif alta filtro bomba
 pal pressao baixa saida agua desaeradora
 pal pressao baixa saida agua desaeradora
 pal pressao baixa saida agua desaeradora
 pdall pressao dif baixa gasxoleo urv
-lahh nivel alto uc urv
+lahh nivel alto vuca urv
 pdall pressao dif baixa gasxoleo urv
 parada normal
 pdall pressao dif baixa gasxoleo urv
@@ -1017,8 +1017,8 @@ parada normal
 parada normal
 parada normal
 parada normal
-lahh nivel alto uc urv
-pall inlet drum uc
+lahh nivel alto vuca urv
+pall inlet drum vuc
 parada normal
 parada normal
 esd emergency shutdown
@@ -1034,7 +1034,7 @@ parada normal
 xsl esd
 xsl esd
 xsl esd
-lahh drum uc
+lahh drum vuc
 parada normal
 parada normal
 mudanca status
@@ -1093,7 +1093,7 @@ parada normal
 lsdl fc overfuel to ignition failure shutdown
 parada normal
 parada normal
-lhh ggsd gg starter differential crash speed shutdown
+lhhggsd gg starter differential crash speed shutdown
 mudanca status
 mudanca status
 vahh resumo trips circuito vibracao urv
@@ -1128,7 +1128,7 @@ us vsd common trip
 parada normal
 us vsd common trip
 esd emergency shutdown
-lall nivel baixo uc urv
+lall nivel baixo vuca urv
 esd emergency shutdown
 esd emergency shutdown
 vahh qualquer vibracao alta bomba
@@ -1137,7 +1137,7 @@ fahh vazao alta fv bomba
 fahh vazao alta fv bomba
 fahh vazao alta fv bomba
 fahh vazao alta fv bomba
-lss hr whru inlet bypass damper linkage failure
+lsshr whru inletbypass damper linkage failure
 parada normal
 lsdl fc lvdt vigv position error shutdown
 lsdl fc lvdt vigv position error shutdown
@@ -1153,9 +1153,9 @@ pahh pressao alta descarga urv
 fahh vazao alta fv bomba
 fahh vazao alta fv bomba
 us vsd common trip
-tahh downstr cool uc
-lss sd common vibration shutdown
-lhh gbldey gearbox lss drive end vibration high shutd
+tahh downstr cool puc
+lsssd common vibration shutdown
+lhhgbldey gearbox lss drive end vibration high shutd
 mudanca status
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
@@ -1182,7 +1182,7 @@ parada normal
 us vsd common trip
 tahh qualquer temperatura alta bomba
 esd emergency shutdown
-lss hr whru inlet bypass damper linkage failure
+lsshr whru inletbypass damper linkage failure
 pahh pressao alta descarga urv
 parada normal
 parada normal
@@ -1200,7 +1200,7 @@ us vsd common trip
 us vsd common trip
 us vsd common trip
 qahh analyzer
-tahh downstr cool uc
+tahh downstr cool puc
 parada normal
 mudanca status
 parada normal
@@ -1209,14 +1209,14 @@ parada normal
 pal pressao baixa manifold injecao
 mudanca status
 esd emergency shutdown
-lss fcsdn ecs common shutdown
+lssfcsdn ecs common shutdown
 mudanca status
 parada normal
 mudanca status
 parada normal
-lss fcsdn ecs common shutdown
+lssfcsdn ecs common shutdown
 qahh analyzer
-tahh downstr cool uc
+tahh downstr cool puc
 tahh motor winding
 us vsd common trip
 us vsd common trip
@@ -1231,7 +1231,7 @@ pdall pressao dif baixa gasxoleo urv
 pahh pressao alta descarga urv
 pahh pressao alta descarga urv
 pahh pressao alta descarga urv
-tahh temp alta gas header succao urvs
+tahh temp alta gasheader succao urvs
 pdall pressao dif baixa gasxoleo urv
 parada normal
 parada normal
@@ -1241,7 +1241,7 @@ parada normal
 parada normal
 parada normal
 tahh qualquer temperatura alta bomba
-lahh drum uc
+lahh drum vuc
 psll vsd cu pressure fault
 tahh qualquer temperatura alta bomba
 tahh qualquer temperatura alta bomba
@@ -1267,16 +1267,16 @@ parada normal
 parada normal
 parada normal
 mudanca status
-lss gt gt esd pushbutton shutdown
+lssgt gt esd pushbutton shutdown
 parada normal
 mudanca status
 parada normal
-lahh nivel alto uc urv
-lahh nivel alto uc urv
+lahh nivel alto vuca urv
+lahh nivel alto vuca urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 parada normal
-lall nivel baixo uc urv
+lall nivel baixo vuca urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 parada normal
@@ -1324,15 +1324,15 @@ parada normal
 parada normal
 sip teg or bypass valve not ok
 sip teg or bypass valve not ok
-tahh downstr cool uc
+tahh downstr cool puc
 sip teg or bypass valve not ok
 tahh qualquer temperatura alta bomba
 tahh temp alta descarga urv
 parada normal
 fall vazao baixa fv bomba
 parada normal
-tahh downstr cool uc
-tahh downstr cool uc
+tahh downstr cool puc
+tahh downstr cool puc
 pahh discharge line nd stage
 pahh discharge line nd stage
 pahh discharge line nd stage
@@ -1357,31 +1357,31 @@ tahh qualquer temperatura alta bomba
 parada normal
 parada normal
 parada normal
-tahh downstr cool uc
+tahh downstr cool puc
 parada normal
 parada normal
-tahh downstr cool uc
+tahh downstr cool puc
 parada normal
 parada normal
 pahh pressao alta descarga urv
 pahh pressao alta descarga urv
 parada normal
 parada normal
-pall inlet drum uc
+pall inlet drum vuc
 sip teg or bypass valve not ok
 parada normal
 pall pressao baixa topo desareadora
 tahh lo header
 qahh analyzer
 parada normal
-lss gp generator protection shutdown
+lssgp generator protection shutdown
 parada normal
 parada normal
 parada normal
-lhh gbhney gearbox hss non drive end vibr high shutdo
-lss gp generator protection shutdown
+lhhgbhney gearbox hss non drive end vibr high shutdo
+lssgp generator protection shutdown
 parada normal
-lss gp generator protection shutdown
+lssgp generator protection shutdown
 parada normal
 mudanca status
 mudanca status
@@ -1412,39 +1412,39 @@ pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 pahh pressao alta descarga urv
-lall nivel baixo uc urv
+lall nivel baixo vuca urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
-tahh temp alta gas header succao urvs
+tahh temp alta gasheader succao urvs
 parada normal
 pahh pressao alta descarga urv
 esd emergency shutdown
 esd emergency shutdown
-tahh downstr cool uc
+tahh downstr cool puc
 parada normal
-tahh downstr cool uc
+tahh downstr cool puc
 parada normal
-tahh downstr cool uc
+tahh downstr cool puc
 parada normal
 esd emergency shutdown
 parada normal
 pahh discharge line st stage
 parada normal
 parada normal
-tahh downstr cool uc
+tahh downstr cool puc
 parada normal
 parada normal
-tahh downstr cool uc
+tahh downstr cool puc
 xsl esd
-tahh downstr cool uc
-tahh downstr cool uc
+tahh downstr cool puc
+tahh downstr cool puc
 esd emergency shutdown
 xsl esd
 parada normal
 parada normal
-tahh downstr cool uc
+tahh downstr cool puc
 parada normal
 hs esd panel
 parada normal
@@ -1452,7 +1452,7 @@ parada normal
 parada normal
 parada normal
 parada normal
-tahh downstr cool uc
+tahh downstr cool puc
 lahh separador atmosferico
 pahh pressao alta descarga urv
 pahh pressao alta descarga urv
@@ -1471,7 +1471,7 @@ us vsd common trip
 pdall pressao dif baixa gasxoleo urv
 parada normal
 parada normal
-lss gtevf gt encl vent failure shutdown
+lssgtevf gt encl vent failure shutdown
 mudanca status
 parada normal
 parada normal
@@ -1486,14 +1486,14 @@ fall vazao baixa fv bomba
 fall vazao baixa fv bomba
 pal pressao baixa saida agua desaeradora
 tahh temperatura alta fase bomba
-tahh temp alta mancal acionamento bomba
+tahha temp alta mancal acionamento bomba
 pal pressao baixa saida agua desaeradora
 fall vazao baixa fv bomba
 fall vazao baixa fv bomba
 fall vazao baixa fv bomba
 fall vazao baixa fv bomba
-tah temperatura alta mancal traseiro bomba
-tah temperatura alta mancal traseiro bomba
+taha temperatura alta mancal traseiro bomba
+taha temperatura alta mancal traseiro bomba
 fall vazao baixa fv bomba
 vahh qualquer vibracao alta bomba
 fall vazao baixa fv bomba
@@ -1504,15 +1504,15 @@ fall vazao baixa fv bomba
 fall vazao baixa fv bomba
 fall vazao baixa fv bomba
 vahh qualquer vibracao alta bomba
-tah temperatura alta mancal traseiro bomba
-tah temperatura alta mancal traseiro bomba
-tah temperatura alta mancal traseiro bomba
-tah temperatura alta mancal traseiro bomba
-tah temperatura alta mancal traseiro bomba
+taha temperatura alta mancal traseiro bomba
+taha temperatura alta mancal traseiro bomba
+taha temperatura alta mancal traseiro bomba
+taha temperatura alta mancal traseiro bomba
+taha temperatura alta mancal traseiro bomba
 fall vazao baixa fv bomba
 fall vazao baixa fv bomba
 fall vazao baixa fv bomba
-tah temperatura alta mancal traseiro bomba
+taha temperatura alta mancal traseiro bomba
 mudanca status
 mudanca status
 mudanca status
@@ -1552,16 +1552,16 @@ mudanca status
 parada normal
 us vsd common trip
 esd emergency shutdown
-lall nivel baixo uc urv
+lall nivel baixo vuca urv
 pahh pressao alta descarga urv
 mudanca status
 lsdl fc nl software overspeed shutdown
-lss cm off control mode off or maintenance sdn
-lsdl fc ns crash re engagement shutdown
+lsscmoff control mode off or maintenance sdn
+lsdl fc ns crash reengagement shutdown
 parada normal
 parada normal
 parada normal
-lhh gg gg exhaust average temperature high shutdown
+lhhgg gg exhaust average temperature high shutdown
 parada normal
 parada normal
 parada normal
@@ -1587,14 +1587,14 @@ parada normal
 parada normal
 parada normal
 pdall pressao dif baixa gasxoleo urv
-tahh temp alta gas header succao urvs
+tahh temp alta gasheader succao urvs
 parada normal
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
-tahh temp alta gas header succao urvs
+tahh temp alta gasheader succao urvs
 psll vsd cu pressure fault
 psll vsd cu pressure fault
 parada normal
@@ -1603,7 +1603,7 @@ parada normal
 mudanca status
 us vsd common trip
 us vsd common trip
-lahh drum uc
+lahh drum vuc
 parada normal
 mudanca status
 mudanca status
@@ -1612,20 +1612,20 @@ mudanca status
 mudanca status
 mudanca status
 parada normal
-tahh temp alta gas header succao urvs
+tahh temp alta gasheader succao urvs
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 tahh discharge line st stage
 parada normal
 parada normal
-lahh drum uc
+lahh drum vuc
 esd emergency shutdown
-lahh drum uc
+lahh drum vuc
 esd emergency shutdown
 esd emergency shutdown
 pdall pressao dif baixa gasxoleo urv
-tahh temp alta gas header succao urvs
+tahh temp alta gasheader succao urvs
 parada normal
 parada normal
 parada normal
@@ -1636,7 +1636,7 @@ parada normal
 lsdl fc liq upstream pressure fault shutdown
 parada normal
 lsdl fc lvdt vigv position error shutdown
-tahh temp alta gas header succao urvs
+tahh temp alta gasheader succao urvs
 parada normal
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
@@ -1665,7 +1665,7 @@ tahh lp compressor journal bear nde
 fall vazao baixa fv bomba
 parada normal
 parada normal
-lahh nivel alto uc urv
+lahh nivel alto vuca urv
 parada normal
 fall vazao baixa fv bomba
 mudanca status
@@ -1673,21 +1673,21 @@ fall vazao baixa fv bomba
 fahh vazao alta fv bomba
 parada normal
 parada normal
-lahh nivel alto uc urv
+lahh nivel alto vuca urv
 us vsd common trip
-pall inlet drum uc
+pall inlet drum vuc
 mudanca status
 parada normal
 parada normal
 parada normal
 parada normal
-lss hscp hydraulic start control panel shutdown
+lsshscp hydraulic start control panel shutdown
 tahh lp compressor journal bear nde
 lall nivel alto desaeradora
 lall nivel alto desaeradora
 lall nivel alto desaeradora
-lahh nivel alto uc urv
-lall nivel baixo uc urv
+lahh nivel alto vuca urv
+lall nivel baixo vuca urv
 parada normal
 mudanca status
 parada normal
@@ -1708,7 +1708,7 @@ parada normal
 pdall pressao dif baixa gasxoleo urv
 parada normal
 mudanca status
-lss hr whru inlet bypass damper linkage failure
+lsshr whru inletbypass damper linkage failure
 parada normal
 parada normal
 parada normal
@@ -1772,9 +1772,9 @@ pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 parada normal
 pdall pressao dif baixa gasxoleo urv
-lahh nivel alto uc urv
-lahh nivel alto uc urv
-lall nivel baixo uc urv
+lahh nivel alto vuca urv
+lahh nivel alto vuca urv
+lall nivel baixo vuca urv
 parada normal
 parada normal
 parada normal
@@ -1782,12 +1782,12 @@ parada normal
 parada normal
 parada normal
 parada normal
-lsdl fc ns crash re engagement shutdown
+lsdl fc ns crash reengagement shutdown
 parada normal
 parada normal
 parada normal
-lll fls liquid fuel supply pressure low shutdown
-lsdl fc ns crash re engagement shutdown
+lllfls liquid fuel supply pressure low shutdown
+lsdl fc ns crash reengagement shutdown
 parada normal
 parada normal
 parada normal
@@ -1815,13 +1815,13 @@ parada normal
 esd emergency shutdown
 esd emergency shutdown
 pdall pressao dif baixa gasxoleo urv
-lahh nivel alto uc urv
-lahh nivel alto uc urv
+lahh nivel alto vuca urv
+lahh nivel alto vuca urv
 pdall pressao dif baixa gasxoleo urv
-lss hr whru inlet bypass damper linkage failure
+lsshr whru inletbypass damper linkage failure
 mudanca status
-lahh nivel alto uc urv
-lall nivel baixo uc urv
+lahh nivel alto vuca urv
+lall nivel baixo vuca urv
 lsdl fc liq upstream pressure fault shutdown
 pahh pressao alta descarga urv
 mudanca status
@@ -1837,7 +1837,7 @@ parada normal
 parada normal
 parada normal
 mudanca status
-lahh drum uc
+lahh drum vuc
 esd emergency shutdown
 esd emergency shutdown
 pahh pressao alta descarga urv
@@ -1860,7 +1860,7 @@ parada normal
 parada normal
 pahh pressao alta descarga urv
 pdall pressao dif baixa gasxoleo urv
-lahh nivel alto uc urv
+lahh nivel alto vuca urv
 pah pressao alta poco injecao br
 pah pressao alta poco injecao br
 pah pressao alta poco injecao br
@@ -1871,10 +1871,10 @@ parada normal
 parada normal
 parada normal
 parada normal
-lhh gg gg exhaust average temperature high shutdown
+lhhgg gg exhaust average temperature high shutdown
 parada normal
-lsdl fc ns crash re engagement shutdown
-lhh gg gg exhaust average temperature high shutdown
+lsdl fc ns crash reengagement shutdown
+lhhgg gg exhaust average temperature high shutdown
 pah pressao alta poco injecao br
 pah pressao alta poco injecao br
 pah pressao alta poco injecao br
@@ -1882,47 +1882,47 @@ pdall pressao dif baixa gasxoleo urv
 pahh pressao alta descarga urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
-tahh temp alta gas header succao urvs
-tahh temp alta gas header succao urvs
-tahh temp alta gas header succao urvs
-tahh temp alta gas header succao urvs
-tahh temp alta gas header succao urvs
-lss hr whru inlet bypass damper linkage failure
+tahh temp alta gasheader succao urvs
+tahh temp alta gasheader succao urvs
+tahh temp alta gasheader succao urvs
+tahh temp alta gasheader succao urvs
+tahh temp alta gasheader succao urvs
+lsshr whru inletbypass damper linkage failure
 parada normal
 parada normal
 parada normal
 parada normal
 parada normal
-pall inlet drum uc
-pall inlet drum uc
-pall inlet drum uc
-lahh drum uc
-pall inlet drum uc
+pall inlet drum vuc
+pall inlet drum vuc
+pall inlet drum vuc
+lahh drum vuc
+pall inlet drum vuc
 yall sequence failure step
 xa falha monitoracao vibracao bomba
 pdahh pressao dif alta filtro bomba
-tahh temp alta gas header succao urvs
+tahh temp alta gasheader succao urvs
 xa falha monitoracao vibracao bomba
 xa falha monitoracao vibracao bomba
 xa falha monitoracao vibracao bomba
 xa falha monitoracao vibracao bomba
-pall inlet drum uc
+pall inlet drum vuc
 parada normal
 parada normal
 pdahh pressao dif alta filtro bomba
 fahh vazao alta fv bomba
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
-lahh drum uc
+lahh drum vuc
 mudanca status
-lahh drum uc
+lahh drum vuc
 pdahh pressao dif alta filtro bomba
 parada normal
 parada normal
 parada normal
 parada normal
-tahh temp alta gas header succao urvs
-tahh temp alta gas header succao urvs
+tahh temp alta gasheader succao urvs
+tahh temp alta gasheader succao urvs
 pdall pressao dif baixa gasxoleo urv
 parada normal
 tall hp compressor journal bear nde
@@ -1953,22 +1953,22 @@ esd emergency shutdown
 parada normal
 parada normal
 lsdl fc nl software overspeed shutdown
-lhh ggsd gg starter differential crash speed shutdown
-lss hscp hydraulic start control panel shutdown
-lss hscp hydraulic start control panel shutdown
-lss hscp hydraulic start control panel shutdown
-lssff ggba module temperature sensor failure sdn
+lhhggsd gg starter differential crash speed shutdown
+lsshscp hydraulic start control panel shutdown
+lsshscp hydraulic start control panel shutdown
+lsshscp hydraulic start control panel shutdown
+lssffggba module temperature sensor failure sdn
 lsdl fc ignition failure shutdown
-lssff ggba module temperature sensor failure sdn
+lssffggba module temperature sensor failure sdn
 parada normal
 parada normal
 parada normal
-lssff ggba module temperature sensor failure sdn
+lssffggba module temperature sensor failure sdn
 parada normal
 pah pressao alta poco injecao br
 pah pressao alta poco injecao br
 pah pressao alta poco injecao br
-lahh drum uc
+lahh drum vuc
 esd emergency shutdown
 esd emergency shutdown
 lall nivel baixo succao urvs
@@ -1978,7 +1978,7 @@ parada normal
 pah pressao alta poco injecao br
 pah pressao alta poco injecao br
 pah pressao alta poco injecao br
-tahh temp alta mancal acionamento bomba
+tahha temp alta mancal acionamento bomba
 pdall pressao dif baixa gasxoleo urv
 parada normal
 parada normal
@@ -1986,11 +1986,11 @@ mudanca status
 pah pressao alta poco injecao br
 pah pressao alta poco injecao br
 pah pressao alta poco injecao br
-tahh temp alta gas header succao urvs
-tahh temp alta gas header succao urvs
+tahh temp alta gasheader succao urvs
+tahh temp alta gasheader succao urvs
 pahh pressao alta descarga urv
 parada normal
-lall nivel baixo uc urv
+lall nivel baixo vuca urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
@@ -2018,7 +2018,7 @@ pahh pressao alta descarga urv
 pdall pressao dif baixa gasxoleo urv
 pall pressao baixa succao urvs
 parada normal
-lss at is sd gg acceleration timeout
+lssat issd gg acceleration timeout
 parada normal
 parada normal
 lsdl fc lvdt vigv position error shutdown
@@ -2035,9 +2035,9 @@ pdall pressao dif baixa gasxoleo urv
 parada normal
 parada normal
 parada normal
-lll ggnh gg nh speed low shutdown
-lss hscp hydraulic start control panel shutdown
-lss hscp hydraulic start control panel shutdown
+lllggnh gg nh speed low shutdown
+lsshscp hydraulic start control panel shutdown
+lsshscp hydraulic start control panel shutdown
 pah pressao alta poco injecao br
 fall vazao baixa fv bomba
 pah pressao alta poco injecao br
@@ -2088,9 +2088,9 @@ pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 us vsd common trip
-lahh drum uc
+lahh drum vuc
 us vsd common trip
-lahh drum uc
+lahh drum vuc
 us vsd common trip
 parada normal
 parada normal
@@ -2145,22 +2145,22 @@ lsdl fc ignition failure shutdown
 lsdl fc ignition failure shutdown
 parada normal
 lsdl fc ignition failure shutdown
-lss at is sd gg light up verification timeout
-lsspb emergency shutdown pushbutton on mgcp
+lssat issd gg lightup verification timeout
+lsspbe emergency shutdown pushbutton on mgcp
 parada normal
 parada normal
 parada normal
 lsdl fc ignition failure shutdown
 lsdl fc ignition failure shutdown
-lsspb emergency shutdown pushbutton on mgcp
-lss sr is sd starter engagement timeout
+lsspbe emergency shutdown pushbutton on mgcp
+lsssr issd starter engagement timeout
 lsdl fc ignition failure shutdown
-lss at is sd gg light up verification timeout
+lssat issd gg lightup verification timeout
 parada normal
 lsdl fc ignition failure shutdown
 parada normal
 pdall pressao dif baixa gasxoleo urv
-lall nivel baixo tq uc selagem urvs
+lall nivel baixo tquc selagem urvs
 pah pressao alta poco injecao br
 pah pressao alta poco injecao br
 pah pressao alta poco injecao br
@@ -2172,20 +2172,20 @@ lsdl fc ignition failure shutdown
 mudanca status
 pal pressao baixa manifold injecao
 pal pressao baixa manifold injecao
-tah temperatura alta mancal traseiro bomba
-tah temperatura alta mancal traseiro bomba
+taha temperatura alta mancal traseiro bomba
+taha temperatura alta mancal traseiro bomba
 tahh qualquer temperatura alta bomba
 parada normal
 tall temp baixa descarga urv
 tahh qualquer temperatura alta bomba
-lahh drum uc
+lahh drum vuc
 parada normal
 parada normal
 tahh qualquer temperatura alta bomba
-lahh drum uc
-lahh drum uc
+lahh drum vuc
+lahh drum vuc
 lall lo tank
-lahh drum uc
+lahh drum vuc
 sip teg or bypass valve not ok
 xsl esd
 xsl esd
@@ -2202,11 +2202,11 @@ pah pressao alta poco injecao br
 xa intertravamento motor bomba
 mudanca status
 pdall pressao dif baixa gasxoleo urv
-lall nivel baixo tq uc selagem urvs
+lall nivel baixo tquc selagem urvs
 pdall pressao dif baixa gasxoleo urv
-lall nivel baixo tq uc selagem urvs
+lall nivel baixo tquc selagem urvs
 esd emergency shutdown
-pall pressao baixa sist selagem urv
+pall pressao baixa sistselagem urv
 lsdl fc gas downstream pressure fault shutdown
 parada normal
 parada normal
@@ -2214,11 +2214,11 @@ parada normal
 parada normal
 parada normal
 parada normal
-lall nivel baixo tq uc selagem urvs
+lall nivel baixo tquc selagem urvs
 parada normal
 lsdl fc gas downstream pressure fault shutdown
 fall vazao baixa fv bomba
-lall nivel baixo tq uc selagem urvs
+lall nivel baixo tquc selagem urvs
 mudanca status
 pah pressao alta poco injecao br
 xa intertravamento motor bomba
@@ -2227,7 +2227,7 @@ pah pressao alta poco injecao br
 xa intertravamento motor bomba
 pah pressao alta poco injecao br
 xa intertravamento motor bomba
-lss fcsdn ecs common shutdown
+lssfcsdn ecs common shutdown
 parada normal
 fall vazao baixa fv bomba
 xsl esd
@@ -2243,12 +2243,12 @@ sip teg or bypass valve not ok
 sip teg or bypass valve not ok
 parada normal
 mudanca status
-lall nivel baixo tq uc selagem urvs
-pall pressao baixa sist selagem urv
+lall nivel baixo tquc selagem urvs
+pall pressao baixa sistselagem urv
 parada normal
 pdall diff press xv bypass valve
 pahh discharge line nd stage
-pall pressao baixa sist selagem urv
+pall pressao baixa sistselagem urv
 esd emergency shutdown
 xa intertravamento motor bomba
 xa intertravamento motor bomba
@@ -2257,7 +2257,7 @@ xa intertravamento motor bomba
 parada normal
 mudanca status
 parada normal
-lss fcsdn ecs common shutdown
+lssfcsdn ecs common shutdown
 parada normal
 parada normal
 pah pressao alta poco injecao br
@@ -2268,12 +2268,12 @@ pah pressao alta poco injecao br
 pah pressao alta poco injecao br
 pah pressao alta poco injecao br
 esd emergency shutdown
-lall nivel baixo uc urv
+lall nivel baixo vuca urv
 mudanca status
 mudanca status
 tahh temperatura alta fase bomba
 parada normal
-lss gtevw is sd gt encl ventilation watchdog timeout
+lssgtevw issd gt encl ventilation watchdog timeout
 parada normal
 parada normal
 lsdl fc ignition failure shutdown
@@ -2294,17 +2294,17 @@ pahh pressao alta descarga urv
 pahh pressao alta descarga urv
 pahh pressao alta descarga urv
 parada normal
-lhh gg gg exhaust average temperature high shutdown
+lhhgg gg exhaust average temperature high shutdown
 parada normal
 parada normal
 lsdl fc ignition failure shutdown
-lss at is sd gg light up verification timeout
+lssat issd gg lightup verification timeout
 parada normal
 lsdl fc ignition failure shutdown
 lsdl fc ignition failure shutdown
 lsdl fc ignition failure shutdown
-lhh gg gg exhaust average temperature high shutdown
-lhh gg gg exhaust average temperature high shutdown
+lhhgg gg exhaust average temperature high shutdown
+lhhgg gg exhaust average temperature high shutdown
 pahh pressao alta descarga urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
@@ -2340,32 +2340,32 @@ pah pressao alta poco injecao br
 pah pressao alta poco injecao br
 parada normal
 parada normal
-lss sr is sd starter acceleration timeout
+lsssr issd starter acceleration timeout
 lsdl fc liq upstream pressure fault shutdown
 parada normal
 parada normal
-lsdl fc ssloc dp signal failure
-lsdl fc ssloc low dp shutdown
+lsdl fc ssloc ll dp signal failure
+lsdl fc ssloc ll low dp shutdown
 lsdl fc gas downstream pressure fault shutdown
 lsdl fc gas downstream pressure fault shutdown
 parada normal
 parada normal
 mudanca status
-lahh nivel alto uc urv
+lahh nivel alto vuca urv
 tahh temperatura alta fase bomba
 parada normal
-lss sd common vibration shutdown
+lsssd common vibration shutdown
 parada normal
 parada normal
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
-lahh nivel alto uc urv
-lahh nivel alto uc urv
-lahh nivel alto uc urv
+lahh nivel alto vuca urv
+lahh nivel alto vuca urv
+lahh nivel alto vuca urv
 parada normal
 parada normal
-lahh nivel alto uc urv
+lahh nivel alto vuca urv
 parada normal
 pdall pressao dif baixa gasxoleo urv
 pah pressao alta poco injecao br
@@ -2376,7 +2376,7 @@ pah pressao alta poco injecao br
 pah pressao alta poco injecao br
 pah pressao alta poco injecao br
 pdahh pressao dif alta filtro bomba
-lahh nivel alto uc urv
+lahh nivel alto vuca urv
 mudanca status
 parada normal
 parada normal
@@ -2391,8 +2391,8 @@ lall nivel alto desaeradora
 lall nivel alto desaeradora
 parada normal
 parada normal
-tahh temp alta gas header succao urvs
-tahh temp alta gas header succao urvs
+tahh temp alta gasheader succao urvs
+tahh temp alta gasheader succao urvs
 lall nivel alto desaeradora
 fall vazao baixa fv bomba
 lall nivel alto desaeradora
@@ -2402,15 +2402,15 @@ lall nivel alto desaeradora
 lall nivel alto desaeradora
 parada normal
 us vsd common trip
-tahh downstr cool uc
+tahh downstr cool puc
 xsl esd
 tahh discharge line rd stage
 lall nivel alto desaeradora
 lall nivel alto desaeradora
 lall nivel alto desaeradora
-lahh nivel alto uc urv
-lahh nivel alto uc urv
-lahh nivel alto uc urv
+lahh nivel alto vuca urv
+lahh nivel alto vuca urv
+lahh nivel alto vuca urv
 lall nivel alto desaeradora
 lall nivel alto desaeradora
 lall nivel alto desaeradora
@@ -2429,33 +2429,33 @@ parada normal
 parada normal
 us vsd common trip
 pahh suction line nd stage
-lahh drum uc
+lahh drum vuc
 parada normal
 pah pressao alta poco injecao br
 pah pressao alta poco injecao br
 pah pressao alta poco injecao br
-lall nivel baixo tq uc selagem urvs
-tahh temp alta mancal acionamento bomba
+lall nivel baixo tquc selagem urvs
+tahha temp alta mancal acionamento bomba
 pahh pressao alta succao urvs
 us vsd common trip
-tahh downstr cool uc
+tahh downstr cool puc
 mudanca status
-tahh downstr cool uc
-lahh drum uc
-tahh downstr cool uc
-tahh downstr cool uc
+tahh downstr cool puc
+lahh drum vuc
+tahh downstr cool puc
+tahh downstr cool puc
 parada normal
 parada normal
 lsdl fc liq metering valve failure shutdown
-lhh ggsd gg starter differential crash speed shutdown
-lhh gg gg exhaust average temperature high shutdown
+lhhggsd gg starter differential crash speed shutdown
+lhhgg gg exhaust average temperature high shutdown
 parada normal
 parada normal
 tahh temp alta descarga urv
-lall nivel baixo tq uc selagem urvs
+lall nivel baixo tquc selagem urvs
 tahh qualquer temperatura alta bomba
 tahh qualquer temperatura alta bomba
-lhh gg gg module temperature high shutdown
+lhhgg gg module temperature high shutdown
 parada normal
 mudanca status
 parada normal
@@ -2463,51 +2463,51 @@ parada normal
 parada normal
 parada normal
 parada normal
-lall nivel baixo tq uc selagem urvs
-lahh nivel alto uc urv
+lall nivel baixo tquc selagem urvs
+lahh nivel alto vuca urv
 fahh vazao alta fv bomba
 us vsd common trip
 vahh qualquer vibracao alta bomba
 vahh qualquer vibracao alta bomba
-tahh downstr cool uc
+tahh downstr cool puc
 xsl esd
-tahh downstr cool uc
+tahh downstr cool puc
 tahh motor winding
-tahh downstr cool uc
+tahh downstr cool puc
 parada normal
 xsl esd
-lahh drum uc
+lahh drum vuc
 fall vazao baixa fv bomba
-lahh drum uc
-lahh drum uc
-lahh drum uc
-lahh drum uc
+lahh drum vuc
+lahh drum vuc
+lahh drum vuc
+lahh drum vuc
 parada normal
-lahh drum uc
-pall pressao baixa sist selagem urv
+lahh drum vuc
+pall pressao baixa sistselagem urv
 pahh discharge line st stage
 us vsd common trip
-lahh drum uc
+lahh drum vuc
 tahh discharge line rd stage
 tahh discharge line rd stage
-lahh drum uc
-lahh drum uc
+lahh drum vuc
+lahh drum vuc
 pahh discharge line st stage
 pahh discharge line st stage
 xsl esd
-lahh drum uc
-lahh drum uc
-lahh drum uc
-tahh downstr cool uc
+lahh drum vuc
+lahh drum vuc
+lahh drum vuc
+tahh downstr cool puc
 parada normal
-lahh drum uc
+lahh drum vuc
 parada normal
 parada normal
 parada normal
 parada normal
 parada normal
 mudanca status
-lall nivel baixo uc urv
+lall nivel baixo vuca urv
 mudanca status
 parada normal
 parada normal
@@ -2516,16 +2516,16 @@ parada normal
 parada normal
 parada normal
 pdall pressao dif baixa gasxoleo urv
-lahh nivel alto uc urv
+lahh nivel alto vuca urv
 pah pressao alta poco injecao br
 tahh discharge line rd stage
-tahh downstr cool uc
+tahh downstr cool puc
 parada normal
 mudanca status
 tahh temperatura alta fase bomba
 pah pressao alta poco injecao br
 pah pressao alta poco injecao br
-tahh temp alta mancal traseiro bomba
+tahha temp alta mancal traseiro bomba
 pah pressao alta poco injecao br
 pah pressao alta poco injecao br
 pah pressao alta poco injecao br
@@ -2536,19 +2536,19 @@ parada normal
 parada normal
 mudanca status
 lsdl fc liq upstream pressure fault shutdown
-lahh nivel alto uc urv
-lahh nivel alto uc urv
-lahh nivel alto uc urv
-lahh nivel alto uc urv
+lahh nivel alto vuca urv
+lahh nivel alto vuca urv
+lahh nivel alto vuca urv
+lahh nivel alto vuca urv
 parada normal
 parada normal
 pdall pressao dif baixa gasxoleo urv
 mudanca status
-tahh downstr cool uc
-tahh downstr cool uc
+tahh downstr cool puc
+tahh downstr cool puc
 us vsd common trip
 us vsd common trip
-tahh downstr cool uc
+tahh downstr cool puc
 us vsd common trip
 us vsd common trip
 parada normal
@@ -2557,11 +2557,11 @@ parada normal
 parada normal
 parada normal
 pahh separador atmosferico
-tahh temp alta gas header succao urvs
+tahh temp alta gasheader succao urvs
 pdall pressao dif baixa gasxoleo urv
-lahh nivel alto uc urv
-lahh nivel alto uc urv
-lahh nivel alto uc urv
+lahh nivel alto vuca urv
+lahh nivel alto vuca urv
+lahh nivel alto vuca urv
 xsl esd
 mudanca status
 mudanca status
@@ -2587,8 +2587,8 @@ mudanca status
 mudanca status
 parada normal
 parada normal
-lahh drum uc
-lahh drum uc
+lahh drum vuc
+lahh drum vuc
 tahh discharge line rd stage
 tahh discharge line rd stage
 parada normal
@@ -2610,10 +2610,10 @@ pal pressao baixa saida agua desaeradora
 parada normal
 pal pressao baixa saida agua desaeradora
 lall nivel baixo succao urvs
-tahh temp alta gas header succao urvs
-lahh nivel alto uc urv
-tahh temp alta gas header succao urvs
-lahh nivel alto uc urv
+tahh temp alta gasheader succao urvs
+lahh nivel alto vuca urv
+tahh temp alta gasheader succao urvs
+lahh nivel alto vuca urv
 fall vazao baixa fv bomba
 fall vazao baixa fv bomba
 fall vazao baixa fv bomba
@@ -2623,10 +2623,10 @@ fall vazao baixa fv bomba
 pal pressao baixa saida agua desaeradora
 lall nivel alto desaeradora
 fahh vazao alta fv bomba
-tahh temp alta mancal acionamento bomba
-tahh temp alta mancal acionamento bomba
-tahh temp alta mancal acionamento bomba
-tahh temp alta mancal acionamento bomba
+tahha temp alta mancal acionamento bomba
+tahha temp alta mancal acionamento bomba
+tahha temp alta mancal acionamento bomba
+tahha temp alta mancal acionamento bomba
 parada normal
 parada normal
 parada normal
@@ -2635,7 +2635,7 @@ parada normal
 parada normal
 parada normal
 parada normal
-tahh temp alta mancal acionamento bomba
+tahha temp alta mancal acionamento bomba
 fall vazao baixa fv bomba
 fall vazao baixa fv bomba
 fall vazao baixa fv bomba
@@ -2644,15 +2644,15 @@ parada normal
 fahh vazao alta fv bomba
 fahh vazao alta fv bomba
 parada normal
-tahh temp alta mancal acionamento bomba
+tahha temp alta mancal acionamento bomba
 parada normal
-tahh temp alta mancal acionamento bomba
+tahha temp alta mancal acionamento bomba
 tahh qualquer temperatura alta bomba
-tahh temp alta mancal acionamento bomba
-tahh temp alta mancal acionamento bomba
+tahha temp alta mancal acionamento bomba
+tahha temp alta mancal acionamento bomba
 parada normal
 parada normal
-lahh nivel alto uc urv
+lahh nivel alto vuca urv
 tall temp baixa descarga urv
 mudanca status
 parada normal
@@ -2669,16 +2669,16 @@ parada normal
 esd emergency shutdown
 pall pressao baixa descarga urv
 pdall pressao dif baixa gasxoleo urv
-lall nivel baixo uc urv
+lall nivel baixo vuca urv
 pall pressao baixa descarga urv
-lahh nivel alto uc urv
-tahh temp alta gas header succao urvs
-tahh temp alta gas header succao urvs
-tahh temp alta gas header succao urvs
-tahh temp alta gas header succao urvs
-lall nivel baixo uc urv
-lall nivel baixo uc urv
-lall nivel baixo tq uc selagem urvs
+lahh nivel alto vuca urv
+tahh temp alta gasheader succao urvs
+tahh temp alta gasheader succao urvs
+tahh temp alta gasheader succao urvs
+tahh temp alta gasheader succao urvs
+lall nivel baixo vuca urv
+lall nivel baixo vuca urv
+lall nivel baixo tquc selagem urvs
 parada normal
 mudanca status
 parada normal
@@ -2687,14 +2687,14 @@ mudanca status
 mudanca status
 parada normal
 pahh pressao alta succao urvs
-pall pressao baixa sist selagem urv
+pall pressao baixa sistselagem urv
 mudanca status
 parada normal
 parada normal
 parada normal
 parada normal
 parada normal
-lss hr whru inlet bypass damper linkage failure
+lsshr whru inletbypass damper linkage failure
 mudanca status
 parada normal
 mudanca status
@@ -2704,26 +2704,26 @@ fall vazao baixa fv bomba
 fall vazao baixa fv bomba
 fall vazao baixa fv bomba
 parada normal
-tahh temp alta mancal acionamento bomba
+tahha temp alta mancal acionamento bomba
 mudanca status
 esd emergency shutdown
 parada normal
-tahh temp alta mancal acionamento bomba
-tahh temp alta mancal acionamento bomba
-tahh temp alta mancal acionamento bomba
-tahh temp alta mancal acionamento bomba
-tahh temp alta mancal acionamento bomba
-pall pressao baixa sist selagem urv
+tahha temp alta mancal acionamento bomba
+tahha temp alta mancal acionamento bomba
+tahha temp alta mancal acionamento bomba
+tahha temp alta mancal acionamento bomba
+tahha temp alta mancal acionamento bomba
+pall pressao baixa sistselagem urv
 mudanca status
 mudanca status
 fall vazao baixa fv bomba
 fall vazao baixa fv bomba
 lahh separador atmosferico
 parada normal
-lahh nivel alto uc urv
+lahh nivel alto vuca urv
 parada normal
 parada normal
-lsspb emergency shutdown pushbutton on mgcp
+lsspbe emergency shutdown pushbutton on mgcp
 parada normal
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
@@ -2743,7 +2743,7 @@ vahh hp compressor nde shaft
 pall prim leak lp compr nde
 pall prim leak lp compr nde
 esd emergency shutdown
-pall inlet drum uc
+pall inlet drum vuc
 pahh discharge line st stage
 tahh lo header
 pahh discharge line st stage
@@ -2756,17 +2756,17 @@ pahh discharge line st stage
 vahh hp compressor nde shaft
 tahh gearbox hsp journal bear
 pahh discharge line st stage
-tahh downstr cool uc
+tahh downstr cool puc
 sip teg or bypass valve not ok
 tahh gearbox hsp journal bear
-lahh drum uc
-lahh drum uc
+lahh drum vuc
+lahh drum vuc
 tahh gearbox hsp journal bear
 tahh gearbox hsp journal bear
 tahh gearbox hsp journal bear
-lahh drum uc
-lahh drum uc
-lahh drum uc
+lahh drum vuc
+lahh drum vuc
+lahh drum vuc
 us vsd common trip
 parada normal
 parada normal
@@ -2780,7 +2780,7 @@ mudanca status
 sip teg or bypass valve not ok
 pahh discharge line rd stage
 mudanca status
-pall pressao baixa lub mancais bomba
+palla pressao baixa lub mancais bomba
 parada normal
 parada normal
 parada normal
@@ -2788,38 +2788,38 @@ parada normal
 parada normal
 parada normal
 parada normal
-tahh temp alta gas header succao urvs
-tahh temp alta gas header succao urvs
+tahh temp alta gasheader succao urvs
+tahh temp alta gasheader succao urvs
 tahh discharge line rd stage
 pahh prim leak hp compr
 parada normal
 lsdl fc gas downstream pressure fault shutdown
-lss sd common vibration shutdown
+lsssd common vibration shutdown
 parada normal
 parada normal
 mudanca status
 mudanca status
 mudanca status
 esd emergency shutdown
-tahh temp alta gas header succao urvs
-lall nivel baixo uc urv
-lall nivel baixo uc urv
+tahh temp alta gasheader succao urvs
+lall nivel baixo vuca urv
+lall nivel baixo vuca urv
 esd emergency shutdown
 esd emergency shutdown
-tahh downstr cool uc
+tahh downstr cool puc
 pahh discharge line nd stage
-tahh downstr cool uc
+tahh downstr cool puc
 sip teg or bypass valve not ok
-tahh downstr cool uc
+tahh downstr cool puc
 mudanca status
 mudanca status
 parada normal
-tahh downstr cool uc
+tahh downstr cool puc
 us vsd common trip
 us vsd common trip
 parada normal
-lss gsp generator set suply breaker tripped by protect
-lss gsp generator set suply breaker tripped by protect
+lssgsp generator set suply breaker tripped by protect
+lssgsp generator set suply breaker tripped by protect
 mudanca status
 parada normal
 parada normal
@@ -2828,12 +2828,12 @@ parada normal
 lsdl fc liq upstream pressure fault shutdown
 parada normal
 parada normal
-lall nivel baixo uc urv
+lall nivel baixo vuca urv
 esd emergency shutdown
 pdall pressao dif baixa gasxoleo urv
 esd emergency shutdown
 pahh pressao alta descarga urv
-pall pressao baixa sist selagem urv
+pall pressao baixa sistselagem urv
 mudanca status
 mudanca status
 mudanca status
@@ -2847,22 +2847,22 @@ parada normal
 parada normal
 parada normal
 parada normal
-lss sd common vibration shutdown
+lsssd common vibration shutdown
 parada normal
 parada normal
 lsdl fc ssloc low hydraulic pressure shutdown
-tahh temp alta enrolamento motor urv
+tahha temp alta enrolamento motor urv
 pall pressao baixa descarga urv
 parada normal
-tahh temp alta enrolamento motor urv
-tahh temp alta gas header succao urvs
-tahh temp alta gas header succao urvs
-tahh temp alta enrolamento motor urv
+tahha temp alta enrolamento motor urv
+tahh temp alta gasheader succao urvs
+tahh temp alta gasheader succao urvs
+tahha temp alta enrolamento motor urv
 lall nivel alto desaeradora
 fall vazao baixa fv bomba
 lall nivel alto desaeradora
 lall nivel alto desaeradora
-lahh nivel alto uc urv
+lahh nivel alto vuca urv
 psll vsd cu pressure fault
 parada normal
 parada normal
@@ -2886,7 +2886,7 @@ parada normal
 parada normal
 parada normal
 psll vsd cu pressure fault
-lahh drum uc
+lahh drum vuc
 pahh suction line rd stage
 pahh discharge line st stage
 parada normal
@@ -2894,13 +2894,13 @@ mudanca status
 tahh temp alta descarga urv
 mudanca status
 tahh discharge line rd stage
-lss exc excitation trip
+lssexc excitation trip
 parada normal
 xsl esd
-pall inlet drum uc
+pall inlet drum vuc
 tahh temp alta descarga urv
 pdall pressao dif baixa gasxoleo urv
-tahh temp alta gas header succao urvs
+tahh temp alta gasheader succao urvs
 esd emergency shutdown
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
@@ -2910,8 +2910,8 @@ tahh temperatura alta fase bomba
 mudanca status
 yall sequence status interface to
 us vsd common trip
-tahh downstr cool uc
-tahh downstr cool uc
+tahh downstr cool puc
+tahh downstr cool puc
 pahh discharge line st stage
 pdall pressao dif baixa gasxoleo urv
 tahh temp alta descarga urv
@@ -2925,13 +2925,13 @@ pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 parada normal
 fit falha sinal
-lss exc excitation trip
+lssexc excitation trip
 mudanca status
 parada normal
 pdall pressao dif baixa gasxoleo urv
 lall nivel baixo succao urvs
 parada normal
-lss exc excitation trip
+lssexc excitation trip
 parada normal
 parada normal
 parada normal
@@ -2954,32 +2954,32 @@ tahh temp alta descarga urv
 tahh temp alta descarga urv
 tahh temp alta descarga urv
 tahh temp alta descarga urv
-lahh nivel alto uc urv
-lall nivel baixo tq uc selagem urvs
+lahh nivel alto vuca urv
+lall nivel baixo tquc selagem urvs
 parada normal
 parada normal
 us vsd common trip
 us vsd common trip
 fahh asv rd stage
 sip teg or bypass valve not ok
-lss exc excitation trip
+lssexc excitation trip
 mudanca status
 mudanca status
 parada normal
 parada normal
-lss exc excitation trip
-lss exc excitation trip
-lss exc excitation trip
-lss exc excitation trip
-lss exc excitation trip
+lssexc excitation trip
+lssexc excitation trip
+lssexc excitation trip
+lssexc excitation trip
+lssexc excitation trip
 parada normal
 tahh temp alta descarga urv
 pahh prim leak hp compr
-tahh downstr cool uc
+tahh downstr cool puc
 parada normal
 mudanca status
-lss hr whru inlet bypass damper linkage failure
-lhh gg gg exhaust average temperature high shutdown
+lsshr whru inletbypass damper linkage failure
+lhhgg gg exhaust average temperature high shutdown
 parada normal
 parada normal
 parada normal
@@ -2987,16 +2987,16 @@ parada normal
 parada normal
 parada normal
 parada normal
-parada normal
-parada normal
-parada normal
-mudanca status
 parada normal
 parada normal
 parada normal
 mudanca status
 parada normal
-lall nivel baixo tq uc selagem urvs
+parada normal
+parada normal
+mudanca status
+parada normal
+lall nivel baixo tquc selagem urvs
 tahh temp alta descarga urv
 pahh pressao alta descarga urv
 pdall pressao dif baixa gasxoleo urv
@@ -3007,7 +3007,7 @@ tahh temp alta descarga urv
 esd emergency shutdown
 tahh temp alta descarga urv
 tahh temp alta descarga urv
-lall nivel baixo uc urv
+lall nivel baixo vuca urv
 pall pressao baixa descarga urv
 pahh pressao alta descarga urv
 tahh temp alta descarga urv
@@ -3025,10 +3025,10 @@ parada normal
 parada normal
 parada normal
 parada normal
-tahh temp alta mancal acionamento bomba
-tahh temp alta mancal acionamento bomba
-tahh temp alta mancal acionamento bomba
-tahh temp alta mancal acionamento bomba
+tahha temp alta mancal acionamento bomba
+tahha temp alta mancal acionamento bomba
+tahha temp alta mancal acionamento bomba
+tahha temp alta mancal acionamento bomba
 tahh temp alta descarga urv
 pahh pressao alta succao urvs
 pahh pressao alta succao urvs
@@ -3042,9 +3042,9 @@ pahh discharge line st stage
 us vsd common trip
 tahh motor winding
 us vsd common trip
-tahh downstr cool uc
+tahh downstr cool puc
 us vsd common trip
-tahh downstr cool uc
+tahh downstr cool puc
 us vsd common trip
 us vsd common trip
 us vsd common trip
@@ -3081,8 +3081,8 @@ us vsd common trip
 pahh pressao alta descarga urv
 tahh temp alta descarga urv
 lsdl fc lvdt vigv position error shutdown
-lsdl fc ns crash re engagement shutdown
-lss hscp hydraulic start control panel shutdown
+lsdl fc ns crash reengagement shutdown
+lsshscp hydraulic start control panel shutdown
 pahh pressao alta descarga urv
 pahh pressao alta descarga urv
 pahh pressao alta descarga urv
@@ -3128,9 +3128,9 @@ psll vsd cu pressure fault
 psll vsd cu pressure fault
 pahh discharge line st stage
 esd emergency shutdown
-tahh downstr cool uc
+tahh downstr cool puc
 pahh discharge line st stage
-pall inlet drum uc
+pall inlet drum vuc
 us vsd common trip
 us vsd common trip
 us vsd common trip
@@ -3141,7 +3141,7 @@ xs vibration monitoring trip
 xs vibration monitoring trip
 xs vibration monitoring trip
 parada normal
-tahh downstr cool uc
+tahh downstr cool puc
 mudanca status
 tahh temp alta descarga urv
 lall nivel baixo succao urvs
@@ -3165,17 +3165,17 @@ pahh pressao alta descarga urv
 pahh pressao alta descarga urv
 pahh pressao alta descarga urv
 pahh pressao alta descarga urv
-lall nivel baixo uc urv
+lall nivel baixo vuca urv
 parada normal
 parada normal
-lhh gbldey gearbox lss drive end vibration high shutd
+lhhgbldey gearbox lss drive end vibration high shutd
 lsdl fc gas upstream pressure fault shutdown
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 esd emergency shutdown
 us vsd common trip
-tahh downstr cool uc
+tahh downstr cool puc
 parada normal
 parada normal
 us vsd common trip
@@ -3191,7 +3191,7 @@ parada normal
 mudanca status
 mudanca status
 mudanca status
-lll fls liquid fuel supply pressure low shutdown
+lllfls liquid fuel supply pressure low shutdown
 mudanca status
 lsdl fc ignition failure shutdown
 lsdl fc ignition failure shutdown
@@ -3207,18 +3207,18 @@ us vsd common trip
 us vsd common trip
 us vsd common trip
 us vsd common trip
-lahh drum uc
-lahh drum uc
+lahh drum vuc
+lahh drum vuc
 lsdl fc lvdt vigv position error shutdown
-lsdl fc ns crash re engagement shutdown
+lsdl fc ns crash reengagement shutdown
 mudanca status
 parada normal
 mudanca status
 mudanca status
 pdall pressao dif baixa gasxoleo urv
-lall nivel baixo tq uc selagem urvs
+lall nivel baixo tquc selagem urvs
 vahh hp compressor nde shaft
-tahh downstr cool uc
+tahh downstr cool puc
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
@@ -3229,11 +3229,11 @@ pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
-lall nivel baixo uc urv
-tahh temp alta gas header succao urvs
+lall nivel baixo vuca urv
+tahh temp alta gasheader succao urvs
 esd emergency shutdown
 pall pressao baixa descarga urv
-lall nivel baixo tq uc selagem urvs
+lall nivel baixo tquc selagem urvs
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
@@ -3241,16 +3241,16 @@ pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
-pall pressao baixa lub mancais bomba
+palla pressao baixa lub mancais bomba
 parada normal
 pah pressao alta poco injecao br
 parada normal
 parada normal
 parada normal
 pah pressao alta poco injecao br
-lahh drum uc
-lahh drum uc
-tahh downstr cool uc
+lahh drum vuc
+lahh drum vuc
+tahh downstr cool puc
 psll vsd cu pressure fault
 psll vsd cu pressure fault
 xsl esd
@@ -3263,22 +3263,22 @@ xsl esd
 us vsd common trip
 esd emergency shutdown
 esd emergency shutdown
-lss fcsdn ecs common shutdown
+lssfcsdn ecs common shutdown
 lsdl fc ignition failure shutdown
 tahh gearbox hsp journal bear
 parada normal
-lss fcsdn ecs common shutdown
+lssfcsdn ecs common shutdown
 parada normal
 parada normal
 lsdl fc lvdt vigv position error shutdown
 lsdl fc lvdt vigv position error shutdown
 lsdl fc lvdt vigv position error shutdown
 lsdl fc lvdt vigv position error shutdown
-lss fcsdn ecs common shutdown
-lll ggnl gg nl speed low shutdown
-lll ggnh gg nh speed low shutdown
-lss fcsdn ecs common shutdown
-lss sd common vibration shutdown
+lssfcsdn ecs common shutdown
+lllggnl gg nl speed low shutdown
+lllggnh gg nh speed low shutdown
+lssfcsdn ecs common shutdown
+lsssd common vibration shutdown
 lsdl fc gas upstream pressure fault shutdown
 parada normal
 lsdl fc gas upstream pressure fault shutdown
@@ -3289,20 +3289,20 @@ parada normal
 mudanca status
 tahh gearbox hsp journal bear
 tahh motor winding
-lhh ggi gg front brg vibration high shutdown
+lhhggi gg front brg vibration high shutdown
 psll vsd cu pressure fault
 psll vsd cu pressure fault
 parada normal
 tahh temp alta descarga urv
 tahh temp alta descarga urv
 tahh gearbox lsp journal bear nde
-pahh inlet drum uc
+pahh inlet drum vuc
 sip teg or bypass valve not ok
 tahh motor winding
 mudanca status
 tahh temp alta descarga urv
-lall nivel baixo tq uc selagem urvs
-tahh downstr cool uc
+lall nivel baixo tquc selagem urvs
+tahh downstr cool puc
 lall lo tank
 psll vsd cu pressure fault
 tahh gearbox hsp journal bear nde
@@ -3312,8 +3312,8 @@ tahh temp alta descarga urv
 tahh temp alta descarga urv
 tahh temp alta descarga urv
 tahh temp alta descarga urv
-lall nivel baixo tq uc selagem urvs
-lall nivel baixo tq uc selagem urvs
+lall nivel baixo tquc selagem urvs
+lall nivel baixo tquc selagem urvs
 tahh temp alta descarga urv
 tahh temp alta descarga urv
 parada normal
@@ -3324,8 +3324,8 @@ parada normal
 parada normal
 parada normal
 parada normal
-lhh gblney gearbox lss non drive end vibr high shutdo
-lhh gblney gearbox lss non drive end vibr high shutdo
+lhhgblney gearbox lss non drive end vibr high shutdo
+lhhgblney gearbox lss non drive end vibr high shutdo
 parada normal
 parada normal
 parada normal
@@ -3342,7 +3342,7 @@ tall temp baixa descarga urv
 parada normal
 parada normal
 parada normal
-lssff ggba module temperature sensor failure sdn
+lssffggba module temperature sensor failure sdn
 parada normal
 pdall pressao dif baixa gasxoleo urv
 parada normal
@@ -3352,12 +3352,12 @@ parada normal
 parada normal
 parada normal
 tahh temp alta descarga urv
-lall nivel baixo uc urv
+lall nivel baixo vuca urv
 pah pressao alta poco injecao br
 parada normal
 pah pressao alta poco injecao br
 parada normal
-tahh downstr cool uc
+tahh downstr cool puc
 sip teg or bypass valve not ok
 psll vsd cu pressure fault
 parada normal
@@ -3367,10 +3367,10 @@ sip teg or bypass valve not ok
 sip teg or bypass valve not ok
 sip teg or bypass valve not ok
 sip teg or bypass valve not ok
-lahh drum uc
-lahh drum uc
-tahh downstr cool uc
-lahh drum uc
+lahh drum vuc
+lahh drum vuc
+tahh downstr cool puc
+lahh drum vuc
 parada normal
 parada normal
 parada normal
@@ -3405,7 +3405,7 @@ tahh temp alta descarga urv
 tahh temp alta descarga urv
 tahh temp alta descarga urv
 tahh temp alta descarga urv
-tahh temp alta gas header succao urvs
+tahh temp alta gasheader succao urvs
 parada normal
 pah pressao alta poco injecao br
 parada normal
@@ -3526,14 +3526,14 @@ tahh temp alta descarga urv
 tahh temp alta descarga urv
 tahh temp alta descarga urv
 tahh temp alta descarga urv
-lall nivel baixo uc urv
+lall nivel baixo vuca urv
 tahh temp alta descarga urv
 parada normal
 parada normal
 tahh temp alta descarga urv
 tahh temp alta descarga urv
 tahh temp alta descarga urv
-lll ggnl gg nl speed low shutdown
+lllggnl gg nl speed low shutdown
 parada normal
 parada normal
 tahh temp alta descarga urv
@@ -3547,12 +3547,12 @@ tahh temp alta descarga urv
 tahh temp alta descarga urv
 parada normal
 lsdl fc overfuel to ignition failure shutdown
-lsdl fc ns crash re engagement shutdown
+lsdl fc ns crash reengagement shutdown
 lall nivel alto desaeradora
 lall nivel alto desaeradora
 parada normal
-lsdl fc ns crash re engagement shutdown
-lsdl fc ns crash re engagement shutdown
+lsdl fc ns crash reengagement shutdown
+lsdl fc ns crash reengagement shutdown
 tahh temp alta descarga urv
 tahh temp alta descarga urv
 parada normal
@@ -3734,7 +3734,7 @@ tahh temp alta descarga urv
 tahh temp alta descarga urv
 tahh temp alta descarga urv
 tahh temp alta descarga urv
-lall nivel baixo uc urv
+lall nivel baixo vuca urv
 esd emergency shutdown
 esd emergency shutdown
 us vsd common trip
@@ -3794,7 +3794,7 @@ tahh temp alta descarga urv
 tahh temp alta descarga urv
 tahh temp alta descarga urv
 tahh temp alta descarga urv
-pall pressao baixa lub mancais bomba
+palla pressao baixa lub mancais bomba
 tahh temp alta descarga urv
 tahh temp alta descarga urv
 tahh temp alta descarga urv
@@ -3838,12 +3838,12 @@ pdall pressao dif baixa gasxoleo urv
 parada normal
 parada normal
 lsdl fc overfuel to ignition failure shutdown
-lsdl fc ns crash re engagement shutdown
+lsdl fc ns crash reengagement shutdown
 parada normal
 parada normal
 lsdl fc gas downstream pressure fault shutdown
 parada normal
-lss sd common vibration shutdown
+lsssd common vibration shutdown
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
@@ -3881,7 +3881,7 @@ pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 pall pressao baixa descarga urv
 tahh temp alta descarga urv
-tahh temp alta gas header succao urvs
+tahh temp alta gasheader succao urvs
 pdall pressao dif baixa gasxoleo urv
 esd emergency shutdown
 pdall pressao dif baixa gasxoleo urv
@@ -3896,9 +3896,9 @@ tahh discharge line rd stage
 parada normal
 parada normal
 parada normal
-lhh gg gg exhaust average temperature high shutdown
-lhh gg gg exhaust average temperature high shutdown
-lhh gblney gearbox lss non drive end vibr high shutdo
+lhhgg gg exhaust average temperature high shutdown
+lhhgg gg exhaust average temperature high shutdown
+lhhgblney gearbox lss non drive end vibr high shutdo
 parada normal
 parada normal
 parada normal
@@ -3915,13 +3915,13 @@ tahh motor winding
 pahh discharge line st stage
 parada normal
 parada normal
-pdall cooler uc
+pdall cooler puc
 parada normal
 parada normal
 parada normal
-tahh downstr cool uc
+tahh downstr cool puc
 us vsd common trip
-tahh downstr cool uc
+tahh downstr cool puc
 us vsd common trip
 us vsd common trip
 tahh gearbox hsp journal bear
@@ -3955,11 +3955,11 @@ pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 pahh discharge line st stage
 parada normal
-pahh cool water downstr uc
+pahh cool water downstr puc
 parada normal
-tahh downstr cool uc
+tahh downstr cool puc
 parada normal
-lhh gg gg exhaust average temperature high shutdown
+lhhgg gg exhaust average temperature high shutdown
 parada normal
 parada normal
 parada normal
@@ -3969,7 +3969,7 @@ parada normal
 parada normal
 lall nivel alto desaeradora
 lall nivel alto desaeradora
-pall inlet drum uc
+pall inlet drum vuc
 sip teg or bypass valve not ok
 parada normal
 parada normal
@@ -3977,7 +3977,7 @@ parada normal
 tahh gearbox hsp journal bear
 tahh motor winding
 vahh resumo trips circuito vibracao urv
-tahh temp alta gas header succao urvs
+tahh temp alta gasheader succao urvs
 pdall pressao dif baixa gasxoleo urv
 pall pressao baixa descarga urv
 parada normal
@@ -3997,28 +3997,28 @@ parada normal
 parada normal
 parada normal
 parada normal
-pall inlet drum uc
-tahh temp alta gas header succao urvs
-lss fcsdn ecs common shutdown
-lss fcsdn ecs common shutdown
+pall inlet drum vuc
+tahh temp alta gasheader succao urvs
+lssfcsdn ecs common shutdown
+lssfcsdn ecs common shutdown
 parada normal
-lss fcsdn ecs common shutdown
-lhh gbhdex gearbox hss drive end vibration high shutd
+lssfcsdn ecs common shutdown
+lhhgbhdex gearbox hss drive end vibration high shutd
 parada normal
-lss fcsdn ecs common shutdown
-lss fcsdn ecs common shutdown
-lhh gbhdex gearbox hss drive end vibration high shutd
+lssfcsdn ecs common shutdown
+lssfcsdn ecs common shutdown
+lhhgbhdex gearbox hss drive end vibration high shutd
 parada normal
 parada normal
 parada normal
 parada normal
 parada normal
 esd emergency shutdown
-lall nivel baixo uc urv
-tahh temp alta gas header succao urvs
-tahh temp alta gas header succao urvs
-lahh nivel alto uc urv
-lahh nivel alto uc urv
+lall nivel baixo vuca urv
+tahh temp alta gasheader succao urvs
+tahh temp alta gasheader succao urvs
+lahh nivel alto vuca urv
+lahh nivel alto vuca urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
@@ -4040,19 +4040,19 @@ vahh qualquer vibracao alta bomba
 lall nivel alto desaeradora
 pahh pressao alta succao urvs
 pahh pressao alta succao urvs
-tahh temp alta gas header succao urvs
-tahh temp alta gas header succao urvs
-tahh temp alta gas header succao urvs
+tahh temp alta gasheader succao urvs
+tahh temp alta gasheader succao urvs
+tahh temp alta gasheader succao urvs
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
-tahh temp alta gas header succao urvs
-tahh temp alta gas header succao urvs
-tahh temp alta gas header succao urvs
-tahh temp alta gas header succao urvs
-tahh temp alta gas header succao urvs
-tahh temp alta gas header succao urvs
-tahh temp alta gas header succao urvs
-tahh temp alta gas header succao urvs
+tahh temp alta gasheader succao urvs
+tahh temp alta gasheader succao urvs
+tahh temp alta gasheader succao urvs
+tahh temp alta gasheader succao urvs
+tahh temp alta gasheader succao urvs
+tahh temp alta gasheader succao urvs
+tahh temp alta gasheader succao urvs
+tahh temp alta gasheader succao urvs
 pahh pressao alta succao urvs
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
@@ -4094,27 +4094,27 @@ pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 xsl esd
-tahh downstr cool uc
+tahh downstr cool puc
 tahh gearbox lsp outside thrust bear
 tahh gearbox hsp journal bear
 us vsd common trip
 pdall pressao dif baixa gasxoleo urv
 parada normal
-lss exc excitation trip
+lssexc excitation trip
 parada normal
 parada normal
-lss exc excitation trip
+lssexc excitation trip
 parada normal
-lss fcsdn ecs common shutdown
+lssfcsdn ecs common shutdown
 parada normal
-lss exc excitation trip
+lssexc excitation trip
 lsdl fc overfuel to ignition failure shutdown
-lss exc excitation trip
+lssexc excitation trip
 parada normal
-lss exc excitation trip
+lssexc excitation trip
 parada normal
 parada normal
-lss exc excitation trip
+lssexc excitation trip
 parada normal
 parada normal
 parada normal
@@ -4128,8 +4128,8 @@ parada normal
 psll vsd cu pressure fault
 parada normal
 tahh gearbox lsp outside thrust bear
-lall drum uc
-lall drum uc
+lall drum vuc
+lall drum vuc
 parada normal
 pal pressao baixa saida agua desaeradora
 parada normal
@@ -4145,36 +4145,36 @@ parada normal
 parada normal
 psll vsd cu pressure fault
 mudanca status
-lhh gbhdey gearbox hss drive end vibration high shutd
-lsdl fc ns crash re engagement shutdown
+lhhgbhdey gearbox hss drive end vibration high shutd
+lsdl fc ns crash reengagement shutdown
 lsdl fc failsafe shutdown
 parada normal
-lhh gbhdey gearbox hss drive end vibration high shutd
+lhhgbhdey gearbox hss drive end vibration high shutd
 parada normal
 xa falha monitoracao vibracao bomba
 pah pressao alta poco injecao br
-lall drum uc
+lall drum vuc
 tahh lp compressor journal bear
-lahh drum uc
+lahh drum vuc
 psll vsd cu pressure fault
 parada normal
-lahh drum uc
-tahh downstr cool uc
+lahh drum vuc
+tahh downstr cool puc
 psll vsd cu pressure fault
 parada normal
 psll vsd cu pressure fault
-lahh drum uc
+lahh drum vuc
 hs esd panel
 hs esd panel
 hs esd panel
-lahh drum uc
+lahh drum vuc
 psll vsd cu pressure fault
 psll vsd cu pressure fault
 pahh discharge line st stage
 parada normal
-tahh downstr cool uc
+tahh downstr cool puc
 esd emergency shutdown
-lahh drum uc
+lahh drum vuc
 pahh prim leak hp compr
 pahh prim leak hp compr
 pahh prim leak hp compr
@@ -4183,7 +4183,7 @@ pahh prim leak hp compr
 pahh prim leak hp compr
 pahh prim leak hp compr
 pahh prim leak hp compr
-lahh drum uc
+lahh drum vuc
 pahh discharge line st stage
 parada normal
 parada normal
@@ -4207,12 +4207,12 @@ pall pressao baixa descarga urv
 pdall pressao dif baixa gasxoleo urv
 pahh pressao alta descarga urv
 esd emergency shutdown
-lall nivel baixo uc urv
-pall pressao baixa sist selagem urv
+lall nivel baixo vuca urv
+pall pressao baixa sistselagem urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
-lall nivel baixo uc urv
+lall nivel baixo vuca urv
 parada normal
 fahh vazao alta fv bomba
 pah pressao alta poco injecao br
@@ -4248,11 +4248,11 @@ parada normal
 lsdl fc gas upstream pressure fault shutdown
 parada normal
 parada normal
-lss gt gt esd pushbutton shutdown
-lss hr whru inlet bypass damper linkage failure
+lssgt gt esd pushbutton shutdown
+lsshr whru inletbypass damper linkage failure
 parada normal
-tahh downstr cool uc
-tahh downstr cool uc
+tahh downstr cool puc
+tahh downstr cool puc
 psll vsd cu pressure fault
 psll vsd cu pressure fault
 tahh motor cold air
@@ -4275,15 +4275,15 @@ ys popup teg unit fault
 mudanca status
 parada normal
 mudanca status
-lhh gg gg exhaust average temperature high shutdown
-lhh gg gg exhaust average temperature high shutdown
-lhh gg gg exhaust average temperature high shutdown
-lhh gbldey gearbox lss drive end vibration high shutd
+lhhgg gg exhaust average temperature high shutdown
+lhhgg gg exhaust average temperature high shutdown
+lhhgg gg exhaust average temperature high shutdown
+lhhgbldey gearbox lss drive end vibration high shutd
 parada normal
 mudanca status
 parada normal
 parada normal
-lss fcsdn ecs common shutdown
+lssfcsdn ecs common shutdown
 parada normal
 parada normal
 lsdl fc liq emv bus under voltage shutdown
@@ -4317,13 +4317,13 @@ lahh nivel alto succao urvs
 parada normal
 vahh qualquer vibracao alta bomba
 vahh qualquer vibracao alta bomba
-lall nivel baixo uc urv
-tahh temp alta gas header succao urvs
-tahh temp alta gas header succao urvs
-tahh temp alta gas header succao urvs
+lall nivel baixo vuca urv
+tahh temp alta gasheader succao urvs
+tahh temp alta gasheader succao urvs
+tahh temp alta gasheader succao urvs
 pall pressao baixa descarga urv
 lall nivel baixo succao urvs
-tahh temp alta gas header succao urvs
+tahh temp alta gasheader succao urvs
 xa falha monitoracao vibracao bomba
 vahh qualquer vibracao alta bomba
 vahh qualquer vibracao alta bomba
@@ -4336,24 +4336,24 @@ parada normal
 parada normal
 parada normal
 vahh qualquer vibracao alta bomba
-tahh temp alta mancal acionamento bomba
+tahha temp alta mancal acionamento bomba
 pal pressao baixa manifold injecao
 pah pressao alta poco injecao br
 pah pressao alta poco injecao br
 fall vazao baixa fv bomba
-tahh downstr cool uc
-tahh downstr cool uc
-tahh downstr cool uc
-tahh downstr cool uc
-tahh downstr cool uc
+tahh downstr cool puc
+tahh downstr cool puc
+tahh downstr cool puc
+tahh downstr cool puc
+tahh downstr cool puc
 us vsd common trip
 tahh motor winding
 parada normal
 lsdl fc gas upstream pressure fault shutdown
 parada normal
 parada normal
-lss sd common vibration shutdown
-lsdl fc ns crash re engagement shutdown
+lsssd common vibration shutdown
+lsdl fc ns crash reengagement shutdown
 parada normal
 lsdl fc overfuel to ignition failure shutdown
 parada normal
@@ -4372,9 +4372,9 @@ mudanca status
 mudanca status
 pdall pressao dif baixa gasxoleo urv
 pall pressao baixa descarga urv
-tahh temp alta gas header succao urvs
+tahh temp alta gasheader succao urvs
 parada normal
-lll ggnh gg nh speed low shutdown
+lllggnh gg nh speed low shutdown
 parada normal
 lsdl fc gas upstream pressure fault shutdown
 parada normal
@@ -4388,9 +4388,9 @@ parada normal
 parada normal
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
-tahh temp alta gas header succao urvs
+tahh temp alta gasheader succao urvs
 pdall pressao dif baixa gasxoleo urv
-tahh temp alta gas header succao urvs
+tahh temp alta gasheader succao urvs
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
@@ -4400,20 +4400,20 @@ parada normal
 lsdl fc gas metering valve failure shutdown
 lsdl fc gas metering valve failure shutdown
 parada normal
-lss at is sd gg light up verification timeout
+lssat issd gg lightup verification timeout
 parada normal
 parada normal
 parada normal
 parada normal
 mudanca status
 mudanca status
-lsdl fc ns crash re engagement shutdown
-lsdl fc ns crash re engagement shutdown
+lsdl fc ns crash reengagement shutdown
+lsdl fc ns crash reengagement shutdown
 parada normal
 parada normal
 fall vazao baixa fv bomba
 parada normal
-pall inlet drum uc
+pall inlet drum vuc
 sip teg or bypass valve not ok
 xsl esd
 pahh prim leak lp compr nde
@@ -4434,11 +4434,11 @@ parada normal
 parada normal
 parada normal
 fall vazao baixa fv bomba
-lall nivel baixo uc urv
+lall nivel baixo vuca urv
 parada normal
 qahh analyzer
-lss sd common vibration shutdown
-lss sd common vibration shutdown
+lsssd common vibration shutdown
+lsssd common vibration shutdown
 parada normal
 parada normal
 parada normal
@@ -4455,7 +4455,7 @@ sip teg or bypass valve not ok
 pdall pressao dif baixa gasxoleo urv
 sip teg or bypass valve not ok
 pdall pressao dif baixa gasxoleo urv
-pall inlet drum uc
+pall inlet drum vuc
 mudanca status
 mudanca status
 pdall pressao dif baixa gasxoleo urv
@@ -4479,7 +4479,7 @@ pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 lsdl fc gas downstream pressure fault shutdown
 parada normal
-lhh gbldex gearbox lss drive end vibration high shutd
+lhhgbldex gearbox lss drive end vibration high shutd
 parada normal
 parada normal
 pdall pressao dif baixa gasxoleo urv
@@ -4496,7 +4496,7 @@ sip teg or bypass valve not ok
 us vsd common trip
 sip teg or bypass valve not ok
 esd emergency shutdown
-pahh cool water downstr uc
+pahh cool water downstr puc
 pahh prim leak lp compr nde
 pahh prim leak lp compr nde
 pahh prim leak lp compr nde
@@ -4514,11 +4514,11 @@ sip teg or bypass valve not ok
 parada normal
 parada normal
 parada normal
-lhh gg gg exhaust average temperature high shutdown
+lhhgg gg exhaust average temperature high shutdown
 lsdl fc gas upstream pressure fault shutdown
 lsdl fc gas upstream pressure fault shutdown
 parada normal
-tahh temp alta mancal acionamento bomba
+tahha temp alta mancal acionamento bomba
 parada normal
 lsdl fc gas upstream pressure fault shutdown
 lsdl fc gas upstream pressure fault shutdown
@@ -4534,11 +4534,11 @@ parada normal
 parada normal
 parada normal
 parada normal
-lss qrdt is sd main lo rundown tank fill timeout
-lss qrdt is sd main lo rundown tank fill timeout
-lss qrdt is sd main lo rundown tank fill timeout
+lssqrdt issd main lo rundown tank fill timeout
+lssqrdt issd main lo rundown tank fill timeout
+lssqrdt issd main lo rundown tank fill timeout
 parada normal
-lall nivel baixo uc urv
+lall nivel baixo vuca urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 parada normal
@@ -4559,12 +4559,12 @@ pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 tahh temp alta descarga urv
 pall pressao baixa descarga urv
-tahh temp alta gas header succao urvs
+tahh temp alta gasheader succao urvs
 parada normal
 pal pressao baixa saida agua desaeradora
 pal pressao baixa saida agua desaeradora
 pdall pressao dif baixa gasxoleo urv
-lall nivel baixo uc urv
+lall nivel baixo vuca urv
 lall nivel baixo succao urvs
 parada normal
 parada normal
@@ -4587,18 +4587,18 @@ pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 parada normal
 pall pressao baixa descarga urv
-tahh temp alta gas header succao urvs
+tahh temp alta gasheader succao urvs
 parada normal
 parada normal
 parada normal
 parada normal
 parada normal
-lhh ggba gg bearing cooling air pressure high shutdown
-lss hr whru logic failure
+lhhggba gg bearing cooling air pressure high shutdown
+lsshr whru logic failure
 parada normal
 parada normal
 parada normal
-lss hr whru logic failure
+lsshr whru logic failure
 parada normal
 parada normal
 parada normal
@@ -4638,24 +4638,24 @@ parada normal
 us vsd common trip
 lall lo tank
 lall lo tank
-tahh downstr cool uc
-lall drum uc
-lahh drum uc
+tahh downstr cool puc
+lall drum vuc
+lahh drum vuc
 tahh lp compressor inside thrust bear
 pahh discharge line st stage
 parada normal
-lahh drum uc
+lahh drum vuc
 tahh motor winding
-lahh drum uc
-pahh inlet drum uc
+lahh drum vuc
+pahh inlet drum vuc
 pahh discharge line st stage
 parada normal
 pahh discharge line st stage
 esd emergency shutdown
 us vsd common trip
 sip teg or bypass valve not ok
-tahh downstr cool uc
-lahh drum uc
+tahh downstr cool puc
+lahh drum vuc
 parada normal
 us vsd common trip
 us vsd common trip
@@ -4663,9 +4663,9 @@ psll vsd cu pressure fault
 pahh discharge line st stage
 parada normal
 esd emergency shutdown
-lahh drum uc
-lahh drum uc
-lahh drum uc
+lahh drum vuc
+lahh drum vuc
+lahh drum vuc
 tahh gearbox hsp journal bear nde
 us vsd common trip
 parada normal
@@ -4678,7 +4678,7 @@ parada normal
 parada normal
 pahh prim leak lp compr nde
 parada normal
-tahh downstr cool uc
+tahh downstr cool puc
 tahh motor winding
 pahh prim leak hp compr
 tahh motor winding
@@ -4689,10 +4689,10 @@ pahh prim leak hp compr
 pahh prim leak hp compr
 pahh prim leak hp compr
 tahh motor winding
-pdall cooler uc
+pdall cooler puc
 xsl esd
 tahh gearbox hsp journal bear nde
-lahh drum uc
+lahh drum vuc
 pahh prim leak hp compr
 parada normal
 psll vsd cu pressure fault
@@ -4700,16 +4700,16 @@ psll vsd cu pressure fault
 esd emergency shutdown
 sip teg or bypass valve not ok
 xsl esd
-pall inlet drum uc
+pall inlet drum vuc
 pahh discharge line st stage
-pall inlet drum uc
+pall inlet drum vuc
 us vsd common trip
 us vsd common trip
 us vsd common trip
 parada normal
 parada normal
 parada normal
-tahh downstr cool uc
+tahh downstr cool puc
 pahh prim leak hp compr
 pahh pressao alta descarga urv
 parada normal
@@ -4717,7 +4717,7 @@ parada normal
 parada normal
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
-tahh temp alta gas header succao urvs
+tahh temp alta gasheader succao urvs
 vahh resumo trips circuito vibracao urv
 parada normal
 parada normal
@@ -4731,31 +4731,31 @@ parada normal
 parada normal
 parada normal
 parada normal
-lsdl fc ns crash re engagement shutdown
-lsdl fc ns crash re engagement shutdown
-lsdl fc ns crash re engagement shutdown
+lsdl fc ns crash reengagement shutdown
+lsdl fc ns crash reengagement shutdown
+lsdl fc ns crash reengagement shutdown
 parada normal
 parada normal
 parada normal
 parada normal
 parada normal
 parada normal
-lssff ggba module temperature sensor failure sdn
-lsdl fc ns crash re engagement shutdown
+lssffggba module temperature sensor failure sdn
+lsdl fc ns crash reengagement shutdown
 parada normal
 lsdl fc gas downstream pressure fault shutdown
-lss fgi emergency general alarm
+lssfgi fg emergency general alarm
 esd emergency shutdown
 lsdl fc liq upstream pressure fault shutdown
 parada normal
 parada normal
 lsdl fc liq upstream pressure fault shutdown
-lsdl fc ns crash re engagement shutdown
+lsdl fc ns crash reengagement shutdown
 lsdl fc liq upstream pressure fault shutdown
 lsdl fc liq upstream pressure fault shutdown
-lsdl fc ns crash re engagement shutdown
-lsdl fc ns crash re engagement shutdown
-lsdl fc ns crash re engagement shutdown
+lsdl fc ns crash reengagement shutdown
+lsdl fc ns crash reengagement shutdown
+lsdl fc ns crash reengagement shutdown
 parada normal
 mudanca status
 lsdl fc overfuel to ignition failure shutdown
@@ -4787,16 +4787,16 @@ tall hp compressor outside thrust bear
 esd emergency shutdown
 esd emergency shutdown
 esd emergency shutdown
-lall drum uc
-lahh drum uc
-lall drum uc
-lahh drum uc
+lall drum vuc
+lahh drum vuc
+lall drum vuc
+lahh drum vuc
 mudanca status
-lall nivel baixo tq uc selagem urvs
+lall nivel baixo tquc selagem urvs
 lsdl fc gas downstream pressure fault shutdown
 mudanca status
 us vsd common trip
-lahh drum uc
+lahh drum vuc
 parada normal
 parada normal
 parada normal
@@ -4807,14 +4807,14 @@ pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 tahh temp alta descarga urv
 tahh temp alta descarga urv
-tahh temp alta enrolamento motor urv
+tahhc temp alta enrolamento motor urv
 pdall pressao dif baixa gasxoleo urv
 parada normal
 parada normal
 parada normal
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
-lall nivel baixo uc urv
+lall nivel baixo vuca urv
 vahh resumo trips circuito vibracao urv
 pdall pressao dif baixa gasxoleo urv
 vahh resumo trips circuito vibracao urv
@@ -4825,29 +4825,29 @@ pal pressao baixa saida agua desaeradora
 pdall pressao dif baixa gasxoleo urv
 psll vsd cu pressure fault
 parada normal
-lll ggnl gg nl speed low shutdown
-lll ggnl gg nl speed low shutdown
+lllggnl gg nl speed low shutdown
+lllggnl gg nl speed low shutdown
 parada normal
 parada normal
 parada normal
-lll ggnl gg nl speed low shutdown
-lhh ggsd gg starter differential crash speed shutdown
-lhh ggsd gg starter differential crash speed shutdown
-lhh ggsd gg starter differential crash speed shutdown
+lllggnl gg nl speed low shutdown
+lhhggsd gg starter differential crash speed shutdown
+lhhggsd gg starter differential crash speed shutdown
+lhhggsd gg starter differential crash speed shutdown
 parada normal
 parada normal
-lhh ggsd gg starter differential crash speed shutdown
+lhhggsd gg starter differential crash speed shutdown
 parada normal
-lahh nivel alto uc urv
-lahh nivel alto uc urv
-lahh nivel alto uc urv
-parada normal
-parada normal
+lahh nivel alto vuca urv
+lahh nivel alto vuca urv
+lahh nivel alto vuca urv
 parada normal
 parada normal
-lss exc excitation trip
-lsdl fc ns crash re engagement shutdown
-lsdl fc ns crash re engagement shutdown
+parada normal
+parada normal
+lssexc excitation trip
+lsdl fc ns crash reengagement shutdown
+lsdl fc ns crash reengagement shutdown
 parada normal
 parada normal
 pal pressao baixa saida agua desaeradora
@@ -4864,12 +4864,12 @@ pal pressao baixa saida agua desaeradora
 pal pressao baixa saida agua desaeradora
 parada normal
 pdall pressao dif baixa gasxoleo urv
-tahh temp alta gas header succao urvs
-tahh temp alta gas header succao urvs
+tahh temp alta gasheader succao urvs
+tahh temp alta gasheader succao urvs
 parada normal
 pall pressao baixa descarga urv
-lahh nivel alto uc urv
-tahh temp alta gas header succao urvs
+lahh nivel alto vuca urv
+tahh temp alta gasheader succao urvs
 lahh nivel alto succao urvs
 pal pressao baixa saida agua desaeradora
 pah pressao alta poco injecao br
@@ -4928,7 +4928,7 @@ parada normal
 parada normal
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
-tahh temp alta gas header succao urvs
+tahh temp alta gasheader succao urvs
 pal pressao baixa manifold injecao
 lall nivel alto desaeradora
 parada normal
@@ -4963,36 +4963,36 @@ pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
-lss fcsdn ecs common shutdown
-lsspb emergency shutdown pushbutton on mgcp
+lssfcsdn ecs common shutdown
+lsspbe emergency shutdown pushbutton on mgcp
 mudanca status
 parada normal
 lsdl fc gas upstream pressure fault shutdown
-lsdl fc ns crash re engagement shutdown
+lsdl fc ns crash reengagement shutdown
 parada normal
-lss fcsdn ecs common shutdown
-lhh gbldey gearbox lss drive end vibration high shutd
+lssfcsdn ecs common shutdown
+lhhgbldey gearbox lss drive end vibration high shutd
 parada normal
-lll qms main lube oil supply pressure low shutdown
-lss hr whru inlet bypass damper linkage failure
-lss fcsdn ecs common shutdown
-lsdl fc ns crash re engagement shutdown
+lllqms main lube oil supply pressure low shutdown
+lsshr whru inletbypass damper linkage failure
+lssfcsdn ecs common shutdown
+lsdl fc ns crash reengagement shutdown
 lsdl fc liq upstream pressure fault shutdown
 parada normal
 sip teg or bypass valve not ok
-tahh downstr cool uc
-tahh downstr cool uc
-lahh drum uc
-lahh drum uc
-tahh downstr cool uc
-tahh downstr cool uc
-lahh drum uc
+tahh downstr cool puc
+tahh downstr cool puc
+lahh drum vuc
+lahh drum vuc
+tahh downstr cool puc
+tahh downstr cool puc
+lahh drum vuc
 pall suction line nd stage
 xsl esd
-tahh downstr cool uc
+tahh downstr cool puc
 us vsd common trip
 xsl esd
-lahh drum uc
+lahh drum vuc
 xsl esd
 parada normal
 esd emergency shutdown
@@ -5000,28 +5000,28 @@ parada normal
 parada normal
 pahh prim leak hp compr
 qahh analyzer
-lahh drum uc
-lahh drum uc
+lahh drum vuc
+lahh drum vuc
 tahh motor winding
 tahh motor winding
 pahh prim leak hp compr
 pahh prim leak hp compr
 parada normal
-lahh drum uc
-lahh drum uc
+lahh drum vuc
+lahh drum vuc
 xs vibration monitoring trip
-lahh drum uc
+lahh drum vuc
 parada normal
 pahh discharge line st stage
 parada normal
 parada normal
 parada normal
 parada normal
-tall downstr cool uc
+tall downstr cool puc
 xsl esd
 pahh discharge line nd stage
 pahh discharge line st stage
-lahh drum uc
+lahh drum vuc
 parada normal
 sip teg or bypass valve not ok
 us vsd common trip
@@ -5030,7 +5030,7 @@ xsl esd
 sip teg or bypass valve not ok
 parada normal
 parada normal
-tahh downstr cool uc
+tahh downstr cool puc
 us vsd common trip
 us vsd common trip
 parada normal
@@ -5046,10 +5046,10 @@ sip teg or bypass valve not ok
 sip teg or bypass valve not ok
 xsl esd
 xsl esd
-lahh drum uc
-tahh downstr cool uc
+lahh drum vuc
+tahh downstr cool puc
 xsl esd
-pall inlet drum uc
+pall inlet drum vuc
 parada normal
 parada normal
 pal pressao baixa saida agua desaeradora
@@ -5065,10 +5065,10 @@ parada normal
 parada normal
 parada normal
 parada normal
-lsdl fc ns crash re engagement shutdown
+lsdl fc ns crash reengagement shutdown
 parada normal
 parada normal
-tahh downstr cool uc
+tahh downstr cool puc
 pahh discharge line nd stage
 parada normal
 parada normal
@@ -5094,17 +5094,17 @@ parada normal
 lsdl fc overfuel to ignition failure shutdown
 parada normal
 parada normal
-lsdl fc ns crash re engagement shutdown
+lsdl fc ns crash reengagement shutdown
 parada normal
 lsdl fc overfuel to ignition failure shutdown
 lsdl fc nl failsafe shutdown
 pahh pressao alta succao urvs
 esd emergency shutdown
-lahh nivel alto uc urv
-lahh nivel alto uc urv
-lahh nivel alto uc urv
+lahh nivel alto vuca urv
+lahh nivel alto vuca urv
+lahh nivel alto vuca urv
 esd emergency shutdown
-tahh temp alta gas header succao urvs
+tahh temp alta gasheader succao urvs
 pal pressao baixa manifold injecao
 pal pressao baixa manifold injecao
 pal pressao baixa manifold injecao
@@ -5131,27 +5131,27 @@ lsdl fc gas downstream pressure fault shutdown
 lsdl fc gas downstream pressure fault shutdown
 lsdl fc gas downstream pressure fault shutdown
 lsdl fc gas downstream pressure fault shutdown
-lsdl fc ns crash re engagement shutdown
+lsdl fc ns crash reengagement shutdown
 parada normal
 lsdl fc gas downstream pressure fault shutdown
 parada normal
-lhh gbldey gearbox lss drive end vibration high shutd
-lhh gbhdex gearbox hss drive end vibration high shutd
+lhhgbldey gearbox lss drive end vibration high shutd
+lhhgbhdex gearbox hss drive end vibration high shutd
 lsdl fc gas downstream pressure fault shutdown
-lll ggnh gg nh speed low shutdown
-lss hscp hydraulic start control panel shutdown
+lllggnh gg nh speed low shutdown
+lsshscp hydraulic start control panel shutdown
 lsscisi emergency shutdown from cis
-lsdl fc ns crash re engagement shutdown
-lhh gbhdex gearbox hss drive end vibration high shutd
-lsdl fc ns crash re engagement shutdown
+lsdl fc ns crash reengagement shutdown
+lhhgbhdex gearbox hss drive end vibration high shutd
+lsdl fc ns crash reengagement shutdown
 parada normal
 lsdl fc gas downstream pressure fault shutdown
-lss fcsdn ecs common shutdown
+lssfcsdn ecs common shutdown
 lsscisi emergency shutdown from cis
-lss sr is sd starter acceleration timeout
-lss sr is sd starter acceleration timeout
-lss fcsdn ecs common shutdown
-lll ggnh gg nh speed low shutdown
+lsssr issd starter acceleration timeout
+lsssr issd starter acceleration timeout
+lssfcsdn ecs common shutdown
+lllggnh gg nh speed low shutdown
 parada normal
 esd emergency shutdown
 pall pressao baixa descarga urv
@@ -5159,9 +5159,9 @@ parada normal
 lall nivel baixo succao urvs
 parada normal
 parada normal
-tahh downstr cool uc
-tahh downstr cool uc
-tahh downstr cool uc
+tahh downstr cool puc
+tahh downstr cool puc
+tahh downstr cool puc
 sip teg or bypass valve not ok
 us vsd common trip
 hs esd panel
@@ -5169,34 +5169,34 @@ us vsd common trip
 parada normal
 xsl esd
 parada normal
-tahh downstr cool uc
-tahh downstr cool uc
+tahh downstr cool puc
+tahh downstr cool puc
 pahh discharge line st stage
-tahh downstr cool uc
+tahh downstr cool puc
 esd emergency shutdown
 esd emergency shutdown
-lall nivel baixo uc urv
+lall nivel baixo vuca urv
 parada normal
 parada normal
 parada normal
 lsdl fc overfuel to ignition failure shutdown
 parada normal
 parada normal
-lhh ggsd gg starter differential crash speed shutdown
+lhhggsd gg starter differential crash speed shutdown
 parada normal
 parada normal
 xsl esd
-pall inlet drum uc
+pall inlet drum vuc
 esd emergency shutdown
 esd emergency shutdown
 esd emergency shutdown
 esd emergency shutdown
-tahh downstr cool uc
+tahh downstr cool puc
 tahh motor winding
 parada normal
 parada normal
 sip teg or bypass valve not ok
-lall nivel baixo uc urv
+lall nivel baixo vuca urv
 esd emergency shutdown
 sip teg or bypass valve not ok
 pahh discharge line st stage
@@ -5204,17 +5204,17 @@ parada normal
 parada normal
 esd emergency shutdown
 parada normal
-lahh drum uc
+lahh drum vuc
 tahh motor journal bear
 mudanca status
-tahh downstr cool uc
+tahh downstr cool puc
 pdall pressao dif baixa gasxoleo urv
 mudanca status
 lsdl fc liq upstream pressure fault shutdown
-lhh gbhdey gearbox hss drive end vibration high shutd
+lhhgbhdey gearbox hss drive end vibration high shutd
 lsscisi emergency shutdown from cis
 lsscisi emergency shutdown from cis
-lss fcsdn ecs common shutdown
+lssfcsdn ecs common shutdown
 parada normal
 parada normal
 parada normal
@@ -5235,19 +5235,19 @@ parada normal
 parada normal
 parada normal
 qahh analyzer
-lahh drum uc
-lahh drum uc
+lahh drum vuc
+lahh drum vuc
 pahh discharge line st stage
 pall discharge line st stage
 pall discharge line st stage
 pall discharge line st stage
 tahh lo header
-tahh downstr cool uc
+tahh downstr cool puc
 parada normal
 mudanca status
 mudanca status
 esd emergency shutdown
-tahh temp alta enrolamento motor urv
+tahha temp alta enrolamento motor urv
 mudanca status
 parada normal
 parada normal
@@ -5257,12 +5257,12 @@ parada normal
 parada normal
 parada normal
 parada normal
-lsdl fc ns crash re engagement shutdown
+lsdl fc ns crash reengagement shutdown
 parada normal
 parada normal
 parada normal
-lll fgs fuel gas supply temperature low shutdown
-lsdl fc ns crash re engagement shutdown
+lllfgs fuel gas supply temperature low shutdown
+lsdl fc ns crash reengagement shutdown
 parada normal
 parada normal
 fall vazao baixa fv bomba
@@ -5307,10 +5307,10 @@ esd emergency shutdown
 esd emergency shutdown
 esd emergency shutdown
 esd emergency shutdown
-tahh downstr cool uc
-tahh downstr cool uc
+tahh downstr cool puc
+tahh downstr cool puc
 esd emergency shutdown
-lahh drum uc
+lahh drum vuc
 qahh analyzer
 qahh analyzer
 tall motor winding
@@ -5322,21 +5322,21 @@ tahh lo header
 tahh discharge line st stage
 esd emergency shutdown
 esd emergency shutdown
-pahh pressao alta sist selagem urv
+pahh pressao alta sistselagem urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 mudanca status
-lhh gbldey gearbox lss drive end vibration high shutd
+lhhgbldey gearbox lss drive end vibration high shutd
 parada normal
 parada normal
 parada normal
-lss gsp generator set suply breaker tripped by protect
+lssgsp generator set suply breaker tripped by protect
 parada normal
 parada normal
 parada normal
-lll fls liquid fuel supply pressure low shutdown
+lllfls liquid fuel supply pressure low shutdown
 parada normal
-lss exc excitation trip
+lssexc excitation trip
 parada normal
 mudanca status
 lsdl fc ignition failure shutdown
@@ -5368,7 +5368,7 @@ pdall pressao dif baixa gasxoleo urv
 parada normal
 lall nivel baixo succao urvs
 esd emergency shutdown
-lall nivel baixo uc urv
+lall nivel baixo vuca urv
 pdall pressao dif baixa gasxoleo urv
 parada normal
 tahh qualquer temperatura alta bomba
@@ -5409,9 +5409,9 @@ us vsd common trip
 us vsd common trip
 xsl esd
 xsl esd
-pah inlet drum uc
+pah inlet drum vuc
 us vsd common trip
-tahh downstr cool uc
+tahh downstr cool puc
 us vsd common trip
 esd emergency shutdown
 us vsd common trip
@@ -5423,9 +5423,9 @@ sip teg or bypass valve not ok
 us vsd common trip
 us vsd common trip
 us vsd common trip
-lahh drum uc
+lahh drum vuc
 parada normal
-lss fgi equipment shutdown
+lssfgi fg equipment shutdown
 lss phase differential current shutdown
 lsdl fc gas emv position control shutdown
 lsdl fc failsafe shutdown
@@ -5443,14 +5443,14 @@ parada normal
 parada normal
 parada normal
 esd emergency shutdown
-lss voltage restrained overcurrent shutdown
+lssv voltage restrained overcurrent shutdown
 parada normal
 lsdl fc gas upstream pressure fault shutdown
-lss fcsdn ecs common shutdown
+lssfcsdn ecs common shutdown
 parada normal
 parada normal
 lahh separador atmosferico
-lall nivel baixo uc urv
+lall nivel baixo vuca urv
 parada normal
 mudanca status
 pah pressao alta poco injecao br
@@ -5502,25 +5502,25 @@ pdahh seal gas filter
 pdahh seal gas filter
 mudanca status
 mudanca status
-tahh downstr cool uc
+tahh downstr cool puc
 pahh discharge line st stage
 parada normal
 mudanca status
 pahh suction line rd stage
-lahh drum uc
-lahh drum uc
+lahh drum vuc
+lahh drum vuc
 parada normal
 mudanca status
 mudanca status
 tall lo return motor
 esd emergency shutdown
-lahh drum uc
+lahh drum vuc
 tahh lo return lp compr
 tahh lo return lp compr
-lahh drum uc
+lahh drum vuc
 vahh gearbox lsp nde shaft
 sip teg or bypass valve not ok
-lahh drum uc
+lahh drum vuc
 xsl esd
 xsl esd
 xsl esd
@@ -5542,7 +5542,7 @@ xsl esd
 xsl esd
 parada normal
 parada normal
-lll fls liquid fuel supply pressure low shutdown
+lllfls liquid fuel supply pressure low shutdown
 parada normal
 esd emergency shutdown
 esd emergency shutdown
@@ -5556,7 +5556,7 @@ parada normal
 parada normal
 esd emergency shutdown
 esd emergency shutdown
-lss gsp generator set suply breaker tripped by protect
+lssgsp generator set suply breaker tripped by protect
 esd emergency shutdown
 parada normal
 lall nivel baixo succao urvs
@@ -5566,7 +5566,7 @@ parada normal
 parada normal
 parada normal
 esd emergency shutdown
-lahh nivel alto uc urv
+lahh nivel alto vuca urv
 esd emergency shutdown
 mudanca status
 mudanca status
@@ -5580,9 +5580,9 @@ parada normal
 parada normal
 esd emergency shutdown
 pdall pressao dif baixa gasxoleo urv
-lahh nivel alto uc urv
-lahh nivel alto uc urv
-lahh nivel alto uc urv
+lahh nivel alto vuca urv
+lahh nivel alto vuca urv
+lahh nivel alto vuca urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
@@ -5608,7 +5608,7 @@ parada normal
 mudanca status
 mudanca status
 pahh prim leak hp compr
-lahh drum uc
+lahh drum vuc
 tahh gearbox hsp journal bear nde
 parada normal
 parada normal
@@ -5617,7 +5617,7 @@ us vsd common trip
 us vsd common trip
 tahh lo return motor
 us vsd common trip
-pall cool water downstr uc
+pall cool water downstr puc
 xsl esd
 xsl esd
 parada normal
@@ -5645,7 +5645,7 @@ mudanca status
 parada normal
 tahh temp alta descarga urv
 tahh temp alta descarga urv
-tahh temp alta enrolamento motor urv
+tahhf temp alta enrolamento motor urv
 pdall pressao dif baixa gasxoleo urv
 esd emergency shutdown
 mudanca status
@@ -5659,9 +5659,9 @@ pah pressao alta poco injecao br
 pah pressao alta poco injecao br
 pah pressao alta poco injecao br
 parada normal
-pahh inlet drum uc
+pahh inlet drum vuc
 parada normal
-pall inlet drum uc
+pall inlet drum vuc
 tahh lp compressor journal bear
 xsl esd
 xsl esd
@@ -5673,12 +5673,12 @@ parada normal
 xsl esd
 parada normal
 parada normal
-tahh downstr cool uc
-tahh downstr cool uc
-tahh downstr cool uc
-tahh downstr cool uc
-tall downstr cool uc
-tahh downstr cool uc
+tahh downstr cool puc
+tahh downstr cool puc
+tahh downstr cool puc
+tahh downstr cool puc
+tall downstr cool puc
+tahh downstr cool puc
 parada normal
 parada normal
 lall nivel alto desaeradora
@@ -5710,15 +5710,15 @@ hs esd panel
 hs esd panel
 parada normal
 parada normal
-lsspb emergency shutdown pushbutton on mgcp
-lll fls liquid fuel supply pressure low shutdown
-lll fls liquid fuel supply pressure low shutdown
+lsspbe emergency shutdown pushbutton on mgcp
+lllfls liquid fuel supply pressure low shutdown
+lllfls liquid fuel supply pressure low shutdown
 parada normal
 parada normal
 parada normal
 parada normal
 parada normal
-lss loss of excitation shutdown
+lssx loss of excitation shutdown
 parada normal
 parada normal
 parada normal
@@ -5726,14 +5726,14 @@ pahh pressao alta succao urvs
 pahh pressao alta succao urvs
 pdall pressao dif baixa gasxoleo urv
 pall pressao baixa descarga urv
-lahh nivel alto uc urv
+lahh nivel alto vuca urv
 pall pressao baixa descarga urv
 parada normal
 mudanca status
 pahh pressao alta succao urvs
 lall nivel baixo succao urvs
 lall nivel baixo succao urvs
-pahh pressao alta sist selagem urv
+pahh pressao alta sistselagem urv
 pall pressao baixa succao urvs
 esd emergency shutdown
 pdall pressao dif baixa gasxoleo urv
@@ -5754,7 +5754,7 @@ pit falha sinal
 us vsd common trip
 us vsd common trip
 pahh pressao alta succao urvs
-lall nivel baixo uc urv
+lall nivel baixo vuca urv
 mudanca status
 pal pressao baixa saida agua desaeradora
 parada normal
@@ -5777,20 +5777,20 @@ mudanca status
 mudanca status
 pah pressao alta poco injecao br
 mudanca status
-pahh inlet drum uc
+pahh inlet drum vuc
 xsl esd
 xsl esd
-tahh downstr cool uc
-tall downstr cool uc
+tahh downstr cool puc
+tall downstr cool puc
 parada normal
 pahh discharge line rd stage
 xsl esd
 xsl esd
-tall downstr cool uc
+tall downstr cool puc
 hs esd panel
 hs esd panel
 tahh gearbox lsp journal bear nde
-tahh downstr cool uc
+tahh downstr cool puc
 parada normal
 parada normal
 tahh gearbox lsp journal bear nde
@@ -5812,7 +5812,7 @@ mudanca status
 parada normal
 parada normal
 parada normal
-tahh temp alta gas header succao urvs
+tahh temp alta gasheader succao urvs
 esd emergency shutdown
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
@@ -5824,14 +5824,14 @@ pdall pressao dif baixa gasxoleo urv
 lall nivel baixo succao urvs
 lall nivel baixo succao urvs
 lall nivel baixo succao urvs
-lall nivel baixo uc urv
+lall nivel baixo vuca urv
 pdall pressao dif baixa gasxoleo urv
-lahh nivel alto uc urv
+lahh nivel alto vuca urv
 pdall pressao dif baixa gasxoleo urv
-lahh nivel alto uc urv
-lall nivel baixo uc urv
-lahh nivel alto uc urv
-lahh nivel alto uc urv
+lahh nivel alto vuca urv
+lall nivel baixo vuca urv
+lahh nivel alto vuca urv
+lahh nivel alto vuca urv
 lahh nivel alto succao urvs
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
@@ -5870,7 +5870,7 @@ fall vazao baixa fv bomba
 fall vazao baixa fv bomba
 xsl esd
 esd emergency shutdown
-tahh downstr cool uc
+tahh downstr cool puc
 esd emergency shutdown
 esd emergency shutdown
 tahh lo header
@@ -5913,9 +5913,9 @@ pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 pahh pressao alta descarga urv
-lall nivel baixo uc urv
+lall nivel baixo vuca urv
 pahh pressao alta descarga urv
-tahh temp alta gas header succao urvs
+tahh temp alta gasheader succao urvs
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 fall vazao baixa fv bomba
@@ -5985,11 +5985,11 @@ esd emergency shutdown
 parada normal
 lsdl fc liq metering valve failure shutdown
 parada normal
-tahh downstr cool uc
+tahh downstr cool puc
 parada normal
 xsl esd
 parada normal
-pdall cooler uc
+pdall cooler puc
 parada normal
 pahh discharge line st stage
 parada normal
@@ -6006,17 +6006,17 @@ tall gearbox hsp journal bear
 tall gearbox lsp journal bear nde
 parada normal
 parada normal
-lahh drum uc
+lahh drum vuc
 parada normal
 parada normal
 vahh gearbox housing
 parada normal
-tahh downstr cool uc
+tahh downstr cool puc
 esd emergency shutdown
-tahh downstr cool uc
-tahh downstr cool uc
-lahh drum uc
-lhh gbhdex gearbox hss drive end vibration high shutd
+tahh downstr cool puc
+tahh downstr cool puc
+lahh drum vuc
+lhhgbhdex gearbox hss drive end vibration high shutd
 parada normal
 lsdl fc gas downstream pressure fault shutdown
 pall pressao baixa unidade purga painel urvs
@@ -6034,24 +6034,24 @@ pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
-tahh temp alta gas header succao urvs
+tahh temp alta gasheader succao urvs
 esd emergency shutdown
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
-pahh pressao alta sist selagem urv
+pahh pressao alta sistselagem urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
-lahh nivel alto uc urv
-lahh nivel alto uc urv
-lahh nivel alto uc urv
-lahh nivel alto uc urv
+lahh nivel alto vuca urv
+lahh nivel alto vuca urv
+lahh nivel alto vuca urv
+lahh nivel alto vuca urv
 parada normal
 parada normal
 parada normal
@@ -6066,20 +6066,20 @@ tahh qualquer temperatura alta bomba
 xa falha monitoracao vibracao bomba
 xa falha monitoracao vibracao bomba
 parada normal
-pahh cool water downstr uc
-tahh downstr cool uc
+pahh cool water downstr puc
+tahh downstr cool puc
 ys popup teg unit fault
 esd emergency shutdown
 esd emergency shutdown
-tahh downstr cool uc
+tahh downstr cool puc
 pahh discharge line st stage
 pdahh seal gas filter
 pdahh seal gas filter
 parada normal
 esd emergency shutdown
-tahh downstr cool uc
+tahh downstr cool puc
 esd emergency shutdown
-tahh downstr cool uc
+tahh downstr cool puc
 tahh motor winding
 parada normal
 mudanca status
@@ -6088,20 +6088,20 @@ fahh asv nd stage
 esd emergency shutdown
 parada normal
 lsdl fc gas metering valve failure shutdown
-lssff ggba module temperature sensor failure sdn
-lhh gndex generator drive end vibration high shutdown
+lssffggba module temperature sensor failure sdn
+lhhgndex generator drive end vibration high shutdown
 parada normal
 parada normal
 parada normal
 parada normal
 parada normal
 parada normal
-lss hr whru logic failure
+lsshr whru logic failure
 parada normal
 parada normal
 mudanca status
 pahh pressao alta succao urvs
-lall nivel baixo uc urv
+lall nivel baixo vuca urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 esd emergency shutdown
@@ -6129,7 +6129,7 @@ parada normal
 pal pressao baixa manifold injecao
 pah pressao alta poco injecao br
 pdahh pressao dif alta filtro bomba
-lhh gbla gearbox lss axial displacement high shutdown
+lhhgbla gearbox lss axial displacement high shutdown
 parada normal
 parada normal
 parada normal
@@ -6149,7 +6149,7 @@ parada normal
 pahh pressao alta succao urvs
 esd emergency shutdown
 pdall pressao dif baixa gasxoleo urv
-lall nivel baixo uc urv
+lall nivel baixo vuca urv
 esd emergency shutdown
 parada normal
 mudanca status
@@ -6179,8 +6179,8 @@ mudanca status
 pah pressao alta poco injecao br
 pah pressao alta poco injecao br
 parada normal
-tahh temp alta mancal acionamento bomba
-tahh temp alta mancal acionamento bomba
+tahha temp alta mancal acionamento bomba
+tahha temp alta mancal acionamento bomba
 pah pressao alta poco injecao br
 pah pressao alta poco injecao br
 parada normal
@@ -6198,7 +6198,7 @@ parada normal
 xsl esd
 mudanca status
 mudanca status
-lahh drum uc
+lahh drum vuc
 mudanca status
 us vsd common trip
 mudanca status
@@ -6220,14 +6220,14 @@ parada normal
 parada normal
 parada normal
 us vsd common trip
-tall downstr cool uc
+tall downstr cool puc
 xsl esd
 xsl esd
 parada normal
 parada normal
 parada normal
 parada normal
-lhh ptdex pt drive end vibration high shutdown
+lhhptdex pt drive end vibration high shutdown
 parada normal
 lsdl fc nl failsafe shutdown
 parada normal
@@ -6236,7 +6236,7 @@ parada normal
 esd emergency shutdown
 pdall pressao dif baixa gasxoleo urv
 pahh pressao alta succao urvs
-lahh nivel alto uc urv
+lahh nivel alto vuca urv
 parada normal
 pahh pressao alta succao urvs
 pahh pressao alta succao urvs
@@ -6288,26 +6288,26 @@ parada normal
 esd emergency shutdown
 pdall pressao dif baixa gasxoleo urv
 esd emergency shutdown
-pall pressao baixa sist selagem urv
+pall pressao baixa sistselagem urv
 esd emergency shutdown
-lall nivel baixo uc urv
-lall nivel baixo uc urv
+lall nivel baixo vuca urv
+lall nivel baixo vuca urv
 pdall pressao dif baixa gasxoleo urv
 esd emergency shutdown
 parada normal
-tahh downstr cool uc
-tahh downstr cool uc
+tahh downstr cool puc
+tahh downstr cool puc
 sip teg or bypass valve not ok
 xsl esd
 esd emergency shutdown
-tahh downstr cool uc
+tahh downstr cool puc
 mudanca status
 tahh lp compressor journal bear
 tahh discharge line rd stage
 tahh discharge line rd stage
 tahh discharge line rd stage
 mudanca status
-tahh downstr cool uc
+tahh downstr cool puc
 parada normal
 parada normal
 esd emergency shutdown
@@ -6349,7 +6349,7 @@ parada normal
 parada normal
 parada normal
 parada normal
-lss fgi equipment shutdown
+lssfgi fg equipment shutdown
 parada normal
 pahh pressao alta succao urvs
 pall pressao baixa descarga urv
@@ -6361,21 +6361,21 @@ pahh pressao alta descarga urv
 esd emergency shutdown
 tahh temp alta descarga urv
 esd emergency shutdown
-lall nivel baixo uc urv
-lahh nivel alto uc urv
+lall nivel baixo vuca urv
+lahh nivel alto vuca urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
-lall nivel baixo uc urv
+lall nivel baixo vuca urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
-lahh nivel alto uc urv
-lahh nivel alto uc urv
-lahh nivel alto uc urv
+lahh nivel alto vuca urv
+lahh nivel alto vuca urv
+lahh nivel alto vuca urv
 pdall pressao dif baixa gasxoleo urv
-lahh nivel alto uc urv
-lahh nivel alto uc urv
-lahh nivel alto uc urv
+lahh nivel alto vuca urv
+lahh nivel alto vuca urv
+lahh nivel alto vuca urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 pahh prim leak lp compr
@@ -6389,7 +6389,7 @@ pahh prim leak hp compr
 tahh motor winding
 tahh motor winding
 pahh discharge line st stage
-pall inlet drum uc
+pall inlet drum vuc
 esd emergency shutdown
 pahh discharge line st stage
 xsl esd
@@ -6408,12 +6408,12 @@ tahh discharge line rd stage
 tall motor winding
 pahh discharge line st stage
 pahh discharge line st stage
-tahh downstr cool uc
-pall inlet drum uc
+tahh downstr cool puc
+pall inlet drum vuc
 xsl esd
-tahh downstr cool uc
+tahh downstr cool puc
 parada normal
-tahh downstr cool uc
+tahh downstr cool puc
 tahh discharge line rd stage
 parada normal
 parada normal
@@ -6475,15 +6475,15 @@ tahh qualquer temperatura alta bomba
 tahh qualquer temperatura alta bomba
 pah pressao alta manifold injecao
 pal pressao baixa saida agua desaeradora
-pall pressao baixa lub mancais bomba
+palla pressao baixa lub mancais bomba
 parada normal
 tahh qualquer temperatura alta bomba
 parada normal
 parada normal
-lall nivel baixo uc urv
-lall nivel baixo uc urv
+lall nivel baixo vuca urv
+lall nivel baixo vuca urv
 pahh pressao alta descarga urv
-tahh temp alta gas header succao urvs
+tahh temp alta gasheader succao urvs
 pahh pressao alta succao urvs
 parada normal
 lall nivel alto desaeradora
@@ -6661,22 +6661,22 @@ pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 parada normal
-pall pressao baixa sist selagem urv
+pall pressao baixa sistselagem urv
 tahh temperatura alta montante
 tahh temperatura alta montante
 tahh temperatura alta gas header su
-tahh temp alta gas header succao urvs
+tahh temp alta gasheader succao urvs
 pdall pressao diferencial baixa gasxoleo boo
-pahh pressao alta sist selagem urv
-tahh temp alta gas header succao urvs
-tahh temp alta gas header succao urvs
+pahh pressao alta sistselagem urv
+tahh temp alta gasheader succao urvs
+tahh temp alta gasheader succao urvs
 mudanca status
 mudanca status
-mca tahh hp compressor outside thrust bear
-mca pdall diff press xv bypass valve
-mca tahh hp compressor outside thrust bear
-mca pahh discharge line st stage
-mca pahh discharge line st stage
+mcatahh hp compressor outside thrust bear
+mcapdall diff press xv bypass valve
+mcatahh hp compressor outside thrust bear
+mcapahh discharge line st stage
+mcapahh discharge line st stage
 pahh pressao alta sistema selagem boos
 parada normal
 parada normal
@@ -6691,22 +6691,22 @@ tahh temperatura alta gas header su
 tahh temperatura alta gas header su
 pdall pressao diferencial baixa gasxoleo boo
 parada normal
-tahh downstr cool uc
+tahh downstr cool puc
 lahh separador atmosferico
 lahh separador atmosferico
 tahh temperatura alta gas header su
 parada normal
 tahh temperatura alta gas header su
-mca xsl esd
-mcb xsl esd
+mcaxsl esd
+mcbxsl esd
 esd emergency shutdown
 parada normal
 parada normal
-lss fcsdn ecs common shutdown
+lssfcsdn ecs common shutdown
 us vsd common trip
 parada normal
 parada normal
-lss fcsdn ecs common shutdown
+tgalssfcsdnecs common shutdown
 parada normal
 parada normal
 parada normal
@@ -6719,18 +6719,18 @@ mudanca status
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
-pall pressao baixa sist selagem urv
+pall pressao baixa sistselagem urv
 parada normal
-mca qall analyzer
-mca pall inlet drum uc
+mcaqall analyzer
+mcapall inlet drum vuc
 tahh temp alta montante
 lahh separador atmosferico
 lahh separador atmosferico
 lahh separador atmosferico
 parada normal
-pall pressao baixa sist selagem urv
-mca tahh downstr cool uc
-mcb tahh downstr cool uc
+pall pressao baixa sistselagem urv
+mcatahh downstr cool puc
+mcbtahh downstr cool puc
 vahh resumo trips circuito vibracao urv
 parada normal
 parada normal
@@ -6758,8 +6758,8 @@ parada normal
 parada normal
 parada normal
 parada normal
-lss gtevw is sd gt encl ventilation watchdog timeout
-mca us vsd common trip
+lssgtevw issd gt encl ventilation watchdog timeout
+mcaus vsd common trip
 esd emergency shutdown
 parada normal
 parada normal
@@ -6782,11 +6782,11 @@ parada normal
 parada normal
 mudanca status
 lahh separador atmosferico
-pahh cool water downstr uc
-pahh cool water downstr uc
+pahh cool water downstr puc
+pahh cool water downstr puc
 mudanca status
 pdall pressao dif baixa gasxoleo urv
-lll fgs fuel gas supply temperature low shutdown
+lllfgs fuel gas supply temperature low shutdown
 us vsd common trip
 esd emergency shutdown
 pdall pressao dif baixa gasxoleo urv
@@ -6797,11 +6797,11 @@ parada normal
 us vsd common trip
 parada normal
 parada normal
-lss fcsdn ecs common shutdown
+lssfcsdn ecs common shutdown
 parada normal
 parada normal
 lsdl fc ssloc low hydraulic pressure shutdown
-lahh drum uc
+lahh drum vuc
 pdall pressao dif baixa gasxoleo urv
 parada normal
 parada normal
@@ -6810,7 +6810,7 @@ mudanca status
 mudanca status
 parada normal
 parada normal
-pall inlet drum uc
+pall inlet drum vuc
 pahh discharge line st stage
 hs esd panel
 pahh discharge line nd stage
@@ -6839,14 +6839,14 @@ esd emergency shutdown
 pahh discharge line nd stage
 esd emergency shutdown
 esd emergency shutdown
-lall nivel baixo uc urv
-lall nivel baixo uc urv
-tahh temp alta gas header succao urvs
+lall nivel baixo vuca urv
+lall nivel baixo vuca urv
+tahh temp alta gasheader succao urvs
 esd emergency shutdown
 parada normal
 parada normal
 parada normal
-lall nivel baixo uc urv
+lall nivel baixo vuca urv
 mudanca status
 mudanca status
 pahh discharge line st stage
@@ -6857,9 +6857,9 @@ parada normal
 psll vsd cu pressure fault
 sip teg or bypass valve not ok
 mudanca status
-tahh downstr cool uc
-tahh downstr cool uc
-tahh downstr cool uc
+tahh downstr cool puc
+tahh downstr cool puc
+tahh downstr cool puc
 pall pressao baixa topo desareadora
 parada normal
 parada normal
@@ -6875,9 +6875,9 @@ pahh discharge line st stage
 psll vsd cu pressure fault
 pahh discharge line st stage
 psll vsd cu pressure fault
-tahh temp alta gas header succao urvs
+tahh temp alta gasheader succao urvs
 parada normal
-lss exc excitation trip
+lssexc excitation trip
 parada normal
 parada normal
 parada normal
@@ -6968,7 +6968,7 @@ us vsd common trip
 parada normal
 esd emergency shutdown
 us vsd common trip
-lhh gg gg module temperature high shutdown
+lhhgg gg module temperature high shutdown
 mudanca status
 parada normal
 parada normal
@@ -6988,16 +6988,16 @@ parada normal
 us vsd common trip
 parada normal
 parada normal
-lss fcsdn ecs common shutdown
+lssfcsdn ecs common shutdown
 parada normal
-lss fcsdn ecs common shutdown
-lhh gbhdey gearbox hss drive end vibration high shutd
-lss fcsdn ecs common shutdown
-lss gp generator protection shutdown
+lssfcsdn ecs common shutdown
+lhhgbhdey gearbox hss drive end vibration high shutd
+lssfcsdn ecs common shutdown
+lssgp generator protection shutdown
 mudanca status
 parada normal
 parada normal
-lhh gbhdey gearbox hss drive end vibration high shutd
+lhhgbhdey gearbox hss drive end vibration high shutd
 esd emergency shutdown
 us vsd common trip
 parada normal
@@ -7019,8 +7019,8 @@ pall lo header
 parada normal
 lsdl fc ssloc control valve driver shutdown
 mudanca status
-lll qms main lube oil supply pressure low shutdown
-tahh downstr cool uc
+lllqms main lube oil supply pressure low shutdown
+tahh downstr cool puc
 esd emergency shutdown
 esd emergency shutdown
 mudanca status
@@ -7047,7 +7047,7 @@ parada normal
 parada normal
 sip teg or bypass valve not ok
 parada normal
-pahh cool water downstr uc
+pahh cool water downstr puc
 sip teg or bypass valve not ok
 sip teg or bypass valve not ok
 sip teg or bypass valve not ok
@@ -7062,11 +7062,11 @@ sip teg or bypass valve not ok
 parada normal
 parada normal
 parada normal
-lhh gbhdey gearbox hss drive end vibration high shutd
+lhhgbhdey gearbox hss drive end vibration high shutd
 parada normal
 parada normal
 esd emergency shutdown
-tahh temp alta gas header succao urvs
+tahh temp alta gasheader succao urvs
 pahh separador atmosferico
 xsl esd
 us vsd common trip
@@ -7075,19 +7075,19 @@ parada normal
 parada normal
 parada normal
 parada normal
-lahh drum uc
+lahh drum vuc
 parada normal
 pahh discharge line st stage
 pahh discharge line st stage
 parada normal
-lss exc excitation trip
+lssexc excitation trip
 lsdl fc lvdt vigv position error shutdown
-pahh cool water downstr uc
+pahh cool water downstr puc
 xsl esd
 mudanca status
-pahh cool water downstr uc
+pahh cool water downstr puc
 xsl esd
-tahh temp alta gas header succao urvs
+tahh temp alta gasheader succao urvs
 esd emergency shutdown
 parada normal
 sip teg or bypass valve not ok
@@ -7108,10 +7108,10 @@ lahh nivel alto succao urvs
 us vsd common trip
 xsl esd
 pdall pressao dif baixa gasxoleo urv
-tahh temp alta gas header succao urvs
-tahh temp alta gas header succao urvs
-tahh temp alta gas header succao urvs
-tahh temp alta gas header succao urvs
+tahh temp alta gasheader succao urvs
+tahh temp alta gasheader succao urvs
+tahh temp alta gasheader succao urvs
+tahh temp alta gasheader succao urvs
 mudanca status
 lahh nivel alto succao urvs
 parada normal
@@ -7121,7 +7121,7 @@ parada normal
 lahh separador atmosferico
 mudanca status
 mudanca status
-lss fcsdn ecs common shutdown
+lssfcsdn ecs common shutdown
 parada normal
 mudanca status
 mudanca status
@@ -7139,9 +7139,9 @@ parada normal
 parada normal
 tahh gearbox hsp journal bear
 esd emergency shutdown
-lahh drum uc
+lahh drum vuc
 parada normal
-lss fcsdn ecs common shutdown
+lssfcsdn ecs common shutdown
 parada normal
 us vsd common trip
 parada normal
@@ -7178,13 +7178,13 @@ parada normal
 mudanca status
 parada normal
 esd emergency shutdown
-lhh gbhdex gearbox hss drive end vibration high shutd
+lhhgbhdex gearbox hss drive end vibration high shutd
 parada normal
 parada normal
 lsdl fc liq upstream pressure fault shutdown
 lsdl fc liq upstream pressure fault shutdown
-lhh gbldex gearbox lss drive end vibration high shutd
-lss exc excitation trip
+lhhgbldex gearbox lss drive end vibration high shutd
+lssexc excitation trip
 parada normal
 parada normal
 parada normal
@@ -7195,7 +7195,7 @@ esd emergency shutdown
 esd emergency shutdown
 parada normal
 parada normal
-lss cm off control mode off or maintenance sdn
+lsscmoff control mode off or maintenance sdn
 parada normal
 parada normal
 mudanca status
@@ -7225,7 +7225,7 @@ mudanca status
 lsdl fc gas downstream pressure fault shutdown
 parada normal
 parada normal
-lss gp generator protection shutdown
+lssgp generator protection shutdown
 esd emergency shutdown
 esd emergency shutdown
 us vsd common trip
@@ -7236,9 +7236,9 @@ parada normal
 mudanca status
 parada normal
 parada normal
-lss exc excitation trip
+lssexc excitation trip
 parada normal
-tahh downstr cool uc
+tahh downstr cool puc
 mudanca status
 parada normal
 parada normal
@@ -7248,8 +7248,8 @@ parada normal
 parada normal
 parada normal
 parada normal
-pall inlet drum uc
-pdall cooler uc
+pall inlet drum vuc
+pdall cooler puc
 parada normal
 parada normal
 parada normal
@@ -7263,11 +7263,11 @@ parada normal
 parada normal
 parada normal
 parada normal
-lss gtevf gt encl vent failure shutdown
+lssgtevf gt encl vent failure shutdown
 mudanca status
-lss fcsdn ecs common shutdown
-pall inlet drum uc
-lss fcsdn ecs common shutdown
+lssfcsdn ecs common shutdown
+pall inlet drum vuc
+lssfcsdn ecs common shutdown
 parada normal
 us vsd common trip
 pall suction line rd stage
@@ -7279,14 +7279,14 @@ parada normal
 parada normal
 parada normal
 parada normal
-lss exc excitation trip
+lssexc excitation trip
 parada normal
 parada normal
 parada normal
 pdall pressao dif baixa gasxoleo urv
 us vsd common trip
 esd emergency shutdown
-lssff ggba module temperature sensor failure sdn
+lssffggba module temperature sensor failure sdn
 parada normal
 parada normal
 mudanca status
@@ -7304,7 +7304,7 @@ mudanca status
 parada normal
 parada normal
 parada normal
-pall inlet drum uc
+pall inlet drum vuc
 parada normal
 parada normal
 parada normal
@@ -7326,7 +7326,7 @@ mudanca status
 mudanca status
 mudanca status
 us vsd common trip
-tahh downstr cool uc
+tahh downstr cool puc
 esd emergency shutdown
 esd emergency shutdown
 mudanca status
@@ -7348,7 +7348,7 @@ parada normal
 parada normal
 parada normal
 parada normal
-lss cm off control mode off or maintenance sdn
+lsscmoff control mode off or maintenance sdn
 parada normal
 parada normal
 mudanca status
@@ -7364,13 +7364,13 @@ hs esd panel
 hs esd panel
 lsdl fc gas upstream pressure fault shutdown
 mudanca status
-lss gp generator protection shutdown
+lssgp generator protection shutdown
 lsdl fc gas upstream pressure fault shutdown
 mudanca status
 lsdl fc ignition failure shutdown
 mudanca status
 parada normal
-lss gp generator protection shutdown
+lssgp generator protection shutdown
 parada normal
 lsdl fc ignition failure shutdown
 lsdl fc ignition failure shutdown
@@ -7378,9 +7378,9 @@ lsdl fc ignition failure shutdown
 parada normal
 esd emergency shutdown
 esd emergency shutdown
-lhh gg gg exhaust average temperature high shutdown
+lhhgg gg exhaust average temperature high shutdown
 parada normal
-lhh gg gg exhaust average temperature high shutdown
+lhhgg gg exhaust average temperature high shutdown
 parada normal
 parada normal
 parada normal
@@ -7401,10 +7401,10 @@ pdall pressao dif baixa gasxoleo urv
 parada normal
 us vsd common trip
 mudanca status
-pahh cool water downstr uc
+pahh cool water downstr puc
 parada normal
 us vsd common trip
-pall inlet drum uc
+pall inlet drum vuc
 us vsd common trip
 parada normal
 parada normal
@@ -7421,7 +7421,7 @@ parada normal
 parada normal
 us vsd common trip
 parada normal
-lahh drum uc
+lahh drum vuc
 parada normal
 lsdl fc ssloc scavenge blockage shutdown
 esd emergency shutdown
@@ -7429,7 +7429,7 @@ vahh resumo trips circuito vibracao urv
 parada normal
 parada normal
 parada normal
-lsspb emergency shutdown pushbutton on mgcp
+lsspbe emergency shutdown pushbutton on mgcp
 mudanca status
 parada normal
 parada normal
@@ -7437,10 +7437,10 @@ parada normal
 mudanca status
 parada normal
 parada normal
-lss exc excitation trip
+lssexc excitation trip
 parada normal
-lss exc excitation trip
-lss exc excitation trip
+lssexc excitation trip
+lssexc excitation trip
 mudanca status
 parada normal
 mudanca status
@@ -7451,7 +7451,7 @@ mudanca status
 parada normal
 parada normal
 esd emergency shutdown
-lhh gbhney gearbox hss non drive end vibr high shutdo
+lhhgbhney gearbox hss non drive end vibr high shutdo
 parada normal
 parada normal
 parada normal
@@ -7465,8 +7465,8 @@ esd emergency shutdown
 mudanca status
 xsl esd
 pahh prim leak hp compr nde
-pahh cool water downstr uc
-tahh downstr cool uc
+pahh cool water downstr puc
+tahh downstr cool puc
 parada normal
 parada normal
 tahh temp alta montante
@@ -7474,7 +7474,7 @@ pahh prim leak hp compr nde
 pahh prim leak hp compr nde
 mudanca status
 parada normal
-tahh downstr cool uc
+tahh downstr cool puc
 sip teg or bypass valve not ok
 parada normal
 parada normal
@@ -7502,7 +7502,7 @@ xsl esd
 pahh prim leak lp compr
 parada normal
 parada normal
-pahh inlet drum uc
+pahh inlet drum vuc
 parada normal
 parada normal
 mudanca status
@@ -7546,9 +7546,9 @@ parada normal
 us vsd common trip
 parada normal
 parada normal
-pahh inlet drum uc
+pahh inlet drum vuc
 mudanca status
-tahh downstr cool uc
+tahh downstr cool puc
 qall analyzer
 tahh discharge line rd stage
 parada normal
@@ -7556,13 +7556,13 @@ parada normal
 parada normal
 parada normal
 us vsd common trip
-lhh gbhdey gearbox hss drive end vibration high shutd
+lhhgbhdey gearbox hss drive end vibration high shutd
 mudanca status
 parada normal
 parada normal
 parada normal
 parada normal
-tahh downstr cool uc
+tahh downstr cool puc
 tahh lp compressor inside thrust bear
 parada normal
 parada normal
@@ -7579,8 +7579,8 @@ mudanca status
 parada normal
 mudanca status
 mudanca status
-tahh downstr cool uc
-tahh downstr cool uc
+tahh downstr cool puc
+tahh downstr cool puc
 parada normal
 parada normal
 parada normal
@@ -7593,7 +7593,7 @@ mudanca status
 mudanca status
 parada normal
 parada normal
-lsspb emergency shutdown pushbutton on mgcp
+lsspbe emergency shutdown pushbutton on mgcp
 mudanca status
 parada normal
 parada normal
@@ -7603,26 +7603,26 @@ tahh gearbox hsp journal bear
 parada normal
 parada normal
 parada normal
-lall nivel baixo uc urv
+lall nivel baixo vuca urv
 pdall pressao dif baixa gasxoleo urv
 esd emergency shutdown
-tahh temp alta gas header succao urvs
+tahh temp alta gasheader succao urvs
 pdall pressao dif baixa gasxoleo urv
 parada normal
-lsspb emergency shutdown pushbutton on mgcp
+lsspbe emergency shutdown pushbutton on mgcp
 parada normal
 esd emergency shutdown
 esd emergency shutdown
 esd emergency shutdown
-lss fcsdn ecs common shutdown
+lssfcsdn ecs common shutdown
 parada normal
-lss fcsdn ecs common shutdown
+lssfcsdn ecs common shutdown
 parada normal
 parada normal
-lss gp generator protection shutdown
+lssgp generator protection shutdown
 mudanca status
-lsspb emergency shutdown pushbutton on mgcp
-lhh ggba gg bearing cooling air pressure high shutdown
+lsspbe emergency shutdown pushbutton on mgcp
+lhhggba gg bearing cooling air pressure high shutdown
 parada normal
 xsl esd
 us vsd common trip
@@ -7638,12 +7638,12 @@ xsl esd
 tahh lo header
 xsl esd
 xsl esd
-lsspb emergency shutdown pushbutton on mgcp
+lsspbe emergency shutdown pushbutton on mgcp
 mudanca status
 mudanca status
 pdall pressao dif baixa gasxoleo urv
 esd emergency shutdown
-tahh temp alta gas header succao urvs
+tahh temp alta gasheader succao urvs
 tahh temp alta descarga urv
 parada normal
 us vsd common trip
@@ -7666,8 +7666,8 @@ parada normal
 qahh analyzer
 parada normal
 mudanca status
-lsspb emergency shutdown pushbutton on mgcp
-lssff ggba module temperature sensor failure sdn
+lsspbe emergency shutdown pushbutton on mgcp
+lssffggba module temperature sensor failure sdn
 parada normal
 us vsd common trip
 sip teg or bypass valve not ok
@@ -7676,12 +7676,12 @@ parada normal
 tahh temp alta descarga urv
 tahh temp alta descarga urv
 tahh temp alta descarga urv
-lss sd common vibration shutdown
-lss gtevf gt encl vent failure shutdown
+lsssd common vibration shutdown
+lssgtevf gt encl vent failure shutdown
 esd emergency shutdown
-lll fls liquid fuel supply pressure low shutdown
+lllfls liquid fuel supply pressure low shutdown
 esd emergency shutdown
-lll fls liquid fuel supply pressure low shutdown
+lllfls liquid fuel supply pressure low shutdown
 esd emergency shutdown
 tahh motor cold air
 tahh gearbox hsp journal bear
@@ -7696,7 +7696,7 @@ mudanca status
 lsdl fc ns open circuit shutdown
 lsdl fc ns open circuit shutdown
 lsdl fc ns open circuit shutdown
-lss mcb tripped mcb pmg
+lssmcb tripped mcb pmg
 parada normal
 parada normal
 tahh temp alta descarga urv
@@ -7717,25 +7717,25 @@ parada normal
 parada normal
 mudanca status
 parada normal
-lss sd common vibration shutdown
+lsssd common vibration shutdown
 mudanca status
 parada normal
 parada normal
 parada normal
 xsl esd
-pall inlet drum uc
+pall inlet drum vuc
 pahh discharge line nd stage
 parada normal
 sip teg or bypass valve not ok
 xsl esd
-pall inlet drum uc
-pall inlet drum uc
-pall inlet drum uc
+pall inlet drum vuc
+pall inlet drum vuc
+pall inlet drum vuc
 tahh motor journal bear
 esd emergency shutdown
 pall pressao baixa succao urvs
 us vsd common trip
-lahh drum uc
+lahh drum vuc
 psll vsd cu pressure fault
 pahh discharge line st stage
 pahh discharge line st stage
@@ -7750,8 +7750,8 @@ parada normal
 parada normal
 mudanca status
 mudanca status
-lahh drum uc
-tahh downstr cool uc
+lahh drum vuc
+tahh downstr cool puc
 parada normal
 parada normal
 parada normal
@@ -7762,14 +7762,14 @@ pahh discharge line st stage
 pahh discharge line st stage
 pahh prim leak hp compr
 mudanca status
-lss fcsdn ecs common shutdown
+lssfcsdn ecs common shutdown
 mudanca status
 mudanca status
-gcz gas confirmado zona
+gcza gas confirmado zona
 pahh prim leak hp compr nde
 parada normal
-lahh drum uc
-tahh downstr cool uc
+lahh drum vuc
+tahh downstr cool puc
 parada normal
 esd emergency shutdown
 parada normal
@@ -7781,7 +7781,7 @@ parada normal
 lahh nivel alto succao urvs
 pdall pressao dif baixa gasxoleo urv
 esd emergency shutdown
-tahh downstr cool uc
+tahh downstr cool puc
 esd emergency shutdown
 pahh prim leak hp compr nde
 xsl esd
@@ -7791,17 +7791,17 @@ parada normal
 parada normal
 esd emergency shutdown
 parada normal
-lss exc excitation trip
-lhh ggba gg bearing cooling air pressure high shutdown
-lhh ggba gg bearing cooling air pressure high shutdown
+lssexc excitation trip
+lhhggba gg bearing cooling air pressure high shutdown
+lhhggba gg bearing cooling air pressure high shutdown
 parada normal
-lsspb emergency shutdown pushbutton on mgcp
-lll fgs fuel gas supply temperature low shutdown
+lsspbe emergency shutdown pushbutton on mgcp
+lllfgs fuel gas supply temperature low shutdown
 parada normal
 parada normal
 xsl esd
 parada normal
-lss fcsdn ecs common shutdown
+lssfcsdn ecs common shutdown
 mudanca status
 mudanca status
 pdall pressao dif baixa gasxoleo urv
@@ -7814,28 +7814,28 @@ xsl esd
 us vsd common trip
 mudanca status
 mudanca status
-lsspb emergency shutdown pushbutton on mgcp
+lsspbe emergency shutdown pushbutton on mgcp
 us vsd common trip
 us vsd common trip
-pahh cool water downstr uc
-tahh downstr cool uc
+pahh cool water downstr puc
+tahh downstr cool puc
 lsdl fc gas upstream pressure fault shutdown
 parada normal
-lss at is sd gg light up verification timeout
-lhh ggsd gg starter differential crash speed shutdown
+lssat issd gg lightup verification timeout
+lhhggsd gg starter differential crash speed shutdown
 parada normal
 mudanca status
 parada normal
 esd emergency shutdown
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
-lall nivel baixo uc urv
+lall nivel baixo vuca urv
 tahh motor winding
 sip teg or bypass valve not ok
 sip teg or bypass valve not ok
-pahh cool water downstr uc
-pahh cool water downstr uc
-pahh cool water downstr uc
+pahh cool water downstr puc
+pahh cool water downstr puc
+pahh cool water downstr puc
 sip teg or bypass valve not ok
 parada normal
 mudanca status
@@ -7843,8 +7843,8 @@ mudanca status
 mudanca status
 mudanca status
 parada normal
-lahh drum uc
-pahh cool water downstr uc
+lahh drum vuc
+pahh cool water downstr puc
 tall temp baixa descarga urv
 esd emergency shutdown
 pdall pressao dif baixa gasxoleo urv
@@ -7867,12 +7867,12 @@ parada normal
 parada normal
 parada normal
 parada normal
-tahh downstr cool uc
+tahh downstr cool puc
 us vsd common trip
 sip teg or bypass valve not ok
-pahh cool water downstr uc
-pahh cool water downstr uc
-pahh cool water downstr uc
+pahh cool water downstr puc
+pahh cool water downstr puc
+pahh cool water downstr puc
 parada normal
 parada normal
 mudanca status
@@ -7880,8 +7880,8 @@ pall discharge line st stage
 parada normal
 mudanca status
 mudanca status
-pahh cool water downstr uc
-pahh cool water downstr uc
+pahh cool water downstr puc
+pahh cool water downstr puc
 tahh gearbox hsp journal bear
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
@@ -7890,9 +7890,9 @@ pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
-tahh temp alta gas header succao urvs
-pall pressao baixa sist selagem urv
-pall pressao baixa sist selagem urv
+tahh temp alta gasheader succao urvs
+pall pressao baixa sistselagem urv
+pall pressao baixa sistselagem urv
 parada normal
 mudanca status
 mudanca status
@@ -7921,21 +7921,21 @@ mudanca status
 parada normal
 esd emergency shutdown
 lahh separador atmosferico
-pall pressao baixa sist selagem urv
+pall pressao baixa sistselagem urv
 pall pressao baixa succao urvs
-lss fcsdn ecs common shutdown
+lssfcsdn ecs common shutdown
 mudanca status
 parada normal
 parada normal
 parada normal
 pahh discharge line st stage
 us vsd common trip
-tahh downstr cool uc
+tahh downstr cool puc
 us vsd common trip
-tahh downstr cool uc
+tahh downstr cool puc
 mudanca status
 esd emergency shutdown
-tahh temp alta gas header succao urvs
+tahh temp alta gasheader succao urvs
 tahh temp alta descarga urv
 pahh pressao alta descarga urv
 pdall pressao dif baixa gasxoleo urv
@@ -7944,14 +7944,14 @@ mudanca status
 parada normal
 mudanca status
 mudanca status
-pall inlet drum uc
-tahh downstr cool uc
+pall inlet drum vuc
+tahh downstr cool puc
 parada normal
 mudanca status
 parada normal
 parada normal
 mudanca status
-lhh ggsd gg starter differential crash speed shutdown
+lhhggsd gg starter differential crash speed shutdown
 tahh temp alta montante
 parada normal
 parada normal
@@ -7961,21 +7961,21 @@ parada normal
 xs vibration monitoring trip
 parada normal
 parada normal
-lss gp generator protection shutdown
+lssgp generator protection shutdown
 parada normal
 parada normal
-pall pressao baixa sist selagem urv
-mudanca status
-mudanca status
-parada normal
-mudanca status
+pall pressao baixa sistselagem urv
 mudanca status
 mudanca status
 parada normal
-pall pressao baixa sist selagem urv
+mudanca status
+mudanca status
+mudanca status
+parada normal
+pall pressao baixa sistselagem urv
 tahh temp alta descarga urv
-tahh downstr cool uc
-tahh downstr cool uc
+tahh downstr cool puc
+tahh downstr cool puc
 pahh discharge line rd stage
 pahh discharge line st stage
 pahh discharge line st stage
@@ -7998,7 +7998,7 @@ parada normal
 mudanca status
 parada normal
 mudanca status
-tahh downstr cool uc
+tahh downstr cool puc
 parada normal
 mudanca status
 tahh discharge line rd stage
@@ -8026,7 +8026,7 @@ pdall pressao dif baixa gasxoleo urv
 esd emergency shutdown
 tahh motor winding
 parada normal
-lhh gnney generator non drive end vibration high shut
+lhhgnney generator non drive end vibration high shut
 parada normal
 tahh discharge line rd stage
 parada normal
@@ -8083,7 +8083,7 @@ us vsd common trip
 pall suction line rd stage
 mudanca status
 xs vibration monitoring trip
-lssff ggba module temperature sensor failure sdn
+lssffggba module temperature sensor failure sdn
 us vsd common trip
 mudanca status
 lsdl fc gas emv bus under voltage shutdown
@@ -8098,22 +8098,22 @@ parada normal
 parada normal
 parada normal
 mudanca status
-tahh downstr cool uc
+tahh downstr cool puc
 pahh discharge line st stage
 parada normal
 parada normal
-pahh cool water downstr uc
-tahh downstr cool uc
-tahh downstr cool uc
-tahh downstr cool uc
+pahh cool water downstr puc
+tahh downstr cool puc
+tahh downstr cool puc
+tahh downstr cool puc
 us vsd common trip
-tahh downstr cool uc
+tahh downstr cool puc
 parada normal
 parada normal
 parada normal
 lahh separador atmosferico
 parada normal
-tahh temp alta gas header succao urvs
+tahh temp alta gasheader succao urvs
 tahh discharge line nd stage
 parada normal
 tahh discharge line nd stage
@@ -8137,12 +8137,12 @@ parada normal
 parada normal
 esd emergency shutdown
 esd emergency shutdown
-pahh inlet drum uc
+pahh inlet drum vuc
 sip teg or bypass valve not ok
 us vsd common trip
 parada normal
 parada normal
-tahh downstr cool uc
+tahh downstr cool puc
 tahh discharge line rd stage
 parada normal
 parada normal
@@ -8155,21 +8155,21 @@ parada normal
 tahh discharge line rd stage
 pahh discharge line st stage
 parada normal
-tahh downstr cool uc
+tahh downstr cool puc
 parada normal
-tahh downstr cool uc
+tahh downstr cool puc
 parada normal
 mudanca status
 tall temp baixa descarga urv
 pdall pressao dif baixa gasxoleo urv
 pall pressao baixa topo desareadora
-tahh temp alta gas header succao urvs
+tahh temp alta gasheader succao urvs
 parada normal
-tahh downstr cool uc
+tahh downstr cool puc
 parada normal
-tahh temp alta gas header succao urvs
+tahh temp alta gasheader succao urvs
 pdall pressao dif baixa gasxoleo urv
-tahh temp alta gas header succao urvs
+tahh temp alta gasheader succao urvs
 pdall pressao dif baixa gasxoleo urv
 esd emergency shutdown
 pdall pressao dif baixa gasxoleo urv
@@ -8208,21 +8208,21 @@ mudanca status
 parada normal
 mudanca status
 parada normal
-lss sd common vibration shutdown
+lsssd common vibration shutdown
 parada normal
 parada normal
 parada normal
 parada normal
-tall downstr cool uc
+tall downstr cool puc
 us vsd common trip
 tahh discharge line rd stage
-tahh downstr cool uc
+tahh downstr cool puc
 tahh discharge line rd stage
 tahh discharge line rd stage
 tahh discharge line rd stage
 tahh discharge line rd stage
 tahh discharge line rd stage
-tahh downstr cool uc
+tahh downstr cool puc
 tahh motor cold air
 parada normal
 pahh prim leak hp compr nde
@@ -8242,13 +8242,13 @@ mudanca status
 mudanca status
 parada normal
 parada normal
-lsspb emergency shutdown pushbutton on mgcp
+lsspbe emergency shutdown pushbutton on mgcp
 parada normal
-lll fgs fuel gas supply temperature low shutdown
+lllfgs fuel gas supply temperature low shutdown
 mudanca status
 parada normal
-pall pressao baixa sist selagem urv
-pall pressao baixa sist selagem urv
+pall pressao baixa sistselagem urv
+pall pressao baixa sistselagem urv
 parada normal
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
@@ -8260,20 +8260,20 @@ pdall pressao dif baixa gasxoleo urv
 mudanca status
 mudanca status
 pdall pressao dif baixa gasxoleo urv
-pall pressao baixa sist selagem urv
-pahh pressao alta sist selagem urv
+pall pressao baixa sistselagem urv
+pahh pressao alta sistselagem urv
 pahh pressao alta descarga urv
-tahh temp alta gas header succao urvs
-tahh temp alta gas header succao urvs
-tahh temp alta gas header succao urvs
-tahh temp alta gas header succao urvs
-tahh temp alta gas header succao urvs
-pall pressao baixa sist selagem urv
-pall pressao baixa sist selagem urv
-pahh pressao alta sist selagem urv
+tahh temp alta gasheader succao urvs
+tahh temp alta gasheader succao urvs
+tahh temp alta gasheader succao urvs
+tahh temp alta gasheader succao urvs
+tahh temp alta gasheader succao urvs
+pall pressao baixa sistselagem urv
+pall pressao baixa sistselagem urv
+pahh pressao alta sistselagem urv
 esd emergency shutdown
-pall pressao baixa sist selagem urv
-pall pressao baixa sist selagem urv
+pall pressao baixa sistselagem urv
+pall pressao baixa sistselagem urv
 parada normal
 parada normal
 parada normal
@@ -8282,7 +8282,7 @@ parada normal
 mudanca status
 us vsd common trip
 mudanca status
-lall nivel baixo tq uc selagem urvs
+lall nivel baixo tquc selagem urvs
 tahh temp alta descarga urv
 parada normal
 mudanca status
@@ -8315,18 +8315,18 @@ parada normal
 parada normal
 parada normal
 parada normal
-tahh downstr cool uc
+tahh downstr cool puc
 parada normal
 parada normal
 pdall pressao dif baixa gasxoleo urv
-tahh temp alta gas header succao urvs
-tahh temp alta gas header succao urvs
+tahh temp alta gasheader succao urvs
+tahh temp alta gasheader succao urvs
 parada normal
 parada normal
-tahh temp alta gas header succao urvs
+tahh temp alta gasheader succao urvs
 xsl esd
 esd emergency shutdown
-tahh downstr cool uc
+tahh downstr cool puc
 esd emergency shutdown
 xsl esd
 tahh temp alta descarga urv
@@ -8343,18 +8343,18 @@ parada normal
 parada normal
 esd emergency shutdown
 tall temp baixa descarga urv
-tahh downstr cool uc
-tahh downstr cool uc
-tahh downstr cool uc
-tahh downstr cool uc
-tahh downstr cool uc
-tahh temp alta gas header succao urvs
+tahh downstr cool puc
+tahh downstr cool puc
+tahh downstr cool puc
+tahh downstr cool puc
+tahh downstr cool puc
+tahh temp alta gasheader succao urvs
 xsl esd
-tahh downstr cool uc
+tahh downstr cool puc
 xsl esd
-pall inlet drum uc
+pall inlet drum vuc
 xsl esd
-pall inlet drum uc
+pall inlet drum vuc
 pahh discharge line st stage
 pahh discharge line st stage
 us vsd common trip
@@ -8366,7 +8366,7 @@ parada normal
 parada normal
 parada normal
 parada normal
-pahh inlet drum uc
+pahh inlet drum vuc
 xsl esd
 pahh discharge line st stage
 tahh discharge line rd stage
@@ -8378,12 +8378,12 @@ xsl esd
 parada normal
 parada normal
 parada normal
-lsdl fc ssloc dp signal failure
+lsdl fc ssloc ll dp signal failure
 parada normal
 parada normal
 parada normal
 parada normal
-tahh downstr cool uc
+tahh downstr cool puc
 parada normal
 parada normal
 parada normal
@@ -8398,13 +8398,13 @@ mudanca status
 mudanca status
 tahh discharge line rd stage
 sip teg or bypass valve not ok
-tahh downstr cool uc
+tahh downstr cool puc
 parada normal
 parada normal
 tahh discharge line rd stage
 parada normal
 sip teg or bypass valve not ok
-lahh drum uc
+lahh drum vuc
 parada normal
 parada normal
 parada normal
@@ -8412,25 +8412,25 @@ parada normal
 parada normal
 pall suction line rd stage
 tahh discharge line nd stage
-lall drum uc
+lall drum vuc
 parada normal
 parada normal
 parada normal
 parada normal
 pall suction line rd stage
-tahh downstr cool uc
-tahh temp alta gas header succao urvs
+tahh downstr cool puc
+tahh temp alta gasheader succao urvs
 mudanca status
 esd emergency shutdown
 esd emergency shutdown
 parada normal
 parada normal
-pall inlet drum uc
-pall inlet drum uc
+pall inlet drum vuc
+pall inlet drum vuc
 parada normal
 pahh pressao alta descarga urv
 esd emergency shutdown
-tahh temp alta gas header succao urvs
+tahh temp alta gasheader succao urvs
 parada normal
 mudanca status
 parada normal
@@ -8450,11 +8450,11 @@ parada normal
 parada normal
 parada normal
 parada normal
-lsdl fc ns crash re engagement shutdown
-lss hscp hydraulic start control panel shutdown
-lss hr whru guilliotine damper out of position
+lsdl fc ns crash reengagement shutdown
+lsshscp hydraulic start control panel shutdown
+lsshr whru guilliotine damper out of position
 mudanca status
-lss hr whru guilliotine damper out of position
+lsshr whru guilliotine damper out of position
 parada normal
 parada normal
 parada normal
@@ -8465,7 +8465,7 @@ mudanca status
 mudanca status
 mudanca status
 esd emergency shutdown
-pall pressao baixa sist selagem urv
+pall pressao baixa sistselagem urv
 parada normal
 parada normal
 parada normal
@@ -8479,11 +8479,11 @@ parada normal
 parada normal
 parada normal
 mudanca status
-lss fcsdn ecs common shutdown
+lssfcsdn ecs common shutdown
 parada normal
 parada normal
 parada normal
-lall drum uc
+lall drum vuc
 parada normal
 parada normal
 parada normal
@@ -8496,19 +8496,19 @@ parada normal
 parada normal
 parada normal
 tahh discharge line rd stage
-tahh downstr cool uc
-pall inlet drum uc
-tahh downstr cool uc
+tahh downstr cool puc
+pall inlet drum vuc
+tahh downstr cool puc
 parada normal
 tall temp baixa descarga urv
-lall nivel baixo uc urv
+lall nivel baixo vuca urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 tahh temp alta descarga urv
 pdall pressao dif baixa gasxoleo urv
 parada normal
-tahh downstr cool uc
+tahh downstr cool puc
 pahh discharge line st stage
 pahh discharge line st stage
 pahh discharge line st stage
@@ -8519,7 +8519,7 @@ parada normal
 parada normal
 parada normal
 parada normal
-tahh downstr cool uc
+tahh downstr cool puc
 parada normal
 qahh analyzer
 parada normal
@@ -8538,14 +8538,14 @@ parada normal
 parada normal
 parada normal
 parada normal
-lsspb emergency shutdown pushbutton on mgcp
-lss fcsdn ecs common shutdown
-lsspb emergency shutdown pushbutton on mgcp
+lsspbe emergency shutdown pushbutton on mgcp
+lssfcsdn ecs common shutdown
+lsspbe emergency shutdown pushbutton on mgcp
 parada normal
 parada normal
 parada normal
 tahh discharge line rd stage
-tahh downstr cool uc
+tahh downstr cool puc
 parada normal
 parada normal
 mudanca status
@@ -8558,7 +8558,7 @@ mudanca status
 mudanca status
 parada normal
 parada normal
-tahh temp alta gas header succao urvs
+tahh temp alta gasheader succao urvs
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
@@ -8584,12 +8584,12 @@ tall discharge line rd stage
 parada normal
 parada normal
 tahh discharge line rd stage
-tahh downstr cool uc
+tahh downstr cool puc
 tahh motor winding
 esd emergency shutdown
 ys popup teg unit fault
-tahh downstr cool uc
-lsspb emergency shutdown pushbutton on mgcp
+tahh downstr cool puc
+lsspbe emergency shutdown pushbutton on mgcp
 parada normal
 parada normal
 mudanca status
@@ -8610,16 +8610,16 @@ pdall pressao dif baixa gasxoleo urv
 esd emergency shutdown
 pdall pressao dif baixa gasxoleo urv
 mudanca status
-lsspb emergency shutdown pushbutton on mgcp
-lss hscp hydraulic start control panel shutdown
-lsspb emergency shutdown pushbutton on mgcp
+lsspbe emergency shutdown pushbutton on mgcp
+lsshscp hydraulic start control panel shutdown
+lsspbe emergency shutdown pushbutton on mgcp
 lsdl fc ignition failure shutdown
-lsspb emergency shutdown pushbutton on mgcp
+lsspbe emergency shutdown pushbutton on mgcp
 lsdl fc ignition failure shutdown
-lss hscp hydraulic start control panel shutdown
+lsshscp hydraulic start control panel shutdown
 esd emergency shutdown
 esd emergency shutdown
-tahh downstr cool uc
+tahh downstr cool puc
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
@@ -8631,13 +8631,13 @@ tahh temp alta montante
 parada normal
 parada normal
 parada normal
-tahh downstr cool uc
+tahh downstr cool puc
 parada normal
 parada normal
 tahh discharge line st stage
 tall discharge line st stage
 tahh discharge line rd stage
-tahh downstr cool uc
+tahh downstr cool puc
 parada normal
 parada normal
 parada normal
@@ -8646,10 +8646,10 @@ tahh discharge line rd stage
 parada normal
 tahh discharge line rd stage
 us vsd common trip
-tahh downstr cool uc
+tahh downstr cool puc
 tahh discharge line rd stage
-tahh downstr cool uc
-pahh cool water downstr uc
+tahh downstr cool puc
+pahh cool water downstr puc
 parada normal
 lsdl fc ssloc low hydraulic pressure shutdown
 parada normal
@@ -8668,8 +8668,8 @@ tahh discharge line rd stage
 tahh discharge line rd stage
 us vsd common trip
 mudanca status
-lahh nivel alto uc urv
-lall nivel baixo uc urv
+lahh nivel alto vuca urv
+lall nivel baixo vuca urv
 parada normal
 mudanca status
 pdall pressao dif baixa gasxoleo urv
@@ -8677,15 +8677,15 @@ parada normal
 parada normal
 parada normal
 parada normal
-tahh temp alta gas header succao urvs
-pall pressao baixa sist selagem urv
+tahh temp alta gasheader succao urvs
+pall pressao baixa sistselagem urv
 pdall pressao dif baixa gasxoleo urv
 parada normal
 esd emergency shutdown
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
-lahh nivel alto uc urv
+lahh nivel alto vuca urv
 pdall pressao dif baixa gasxoleo urv
 tahh temp alta montante
 tahh discharge line rd stage
@@ -8698,8 +8698,8 @@ mudanca status
 parada normal
 parada normal
 parada normal
-tahh downstr cool uc
-tahh downstr cool uc
+tahh downstr cool puc
+tahh downstr cool puc
 pahh discharge line st stage
 sip teg or bypass valve not ok
 mudanca status
@@ -8711,7 +8711,7 @@ parada normal
 parada normal
 parada normal
 parada normal
-pahh cool water downstr uc
+pahh cool water downstr puc
 esd emergency shutdown
 tahh discharge line rd stage
 parada normal
@@ -8736,24 +8736,24 @@ parada normal
 parada normal
 parada normal
 pahh prim leak hp compr
-tahh downstr cool uc
+tahh downstr cool puc
 parada normal
 pahh discharge line st stage
 parada normal
 parada normal
 pahh discharge line st stage
 parada normal
-lall nivel baixo uc urv
+lall nivel baixo vuca urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 parada normal
-tahh downstr cool uc
-pall inlet drum uc
+tahh downstr cool puc
+pall inlet drum vuc
 xsl esd
-zit slide valve
+zita slide valve
 pahh pressao alta descarga urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
@@ -8768,14 +8768,14 @@ parada normal
 parada normal
 tahh discharge line st stage
 pahh discharge line st stage
-lall nivel baixo uc urv
+lall nivel baixo vuca urv
 pdall pressao dif baixa gasxoleo urv
-lall nivel baixo uc urv
+lall nivel baixo vuca urv
 parada normal
 parada normal
 pahh pressao alta descarga urv
 pdall pressao dif baixa gasxoleo urv
-lall nivel baixo uc urv
+lall nivel baixo vuca urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
@@ -8783,15 +8783,15 @@ pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 mudanca status
 xsl esd
-pall inlet drum uc
+pall inlet drum vuc
 sip teg or bypass valve not ok
 tahh discharge line rd stage
 parada normal
 parada normal
 parada normal
-lall nivel baixo uc urv
-lall nivel baixo uc urv
-lall nivel baixo uc urv
+lall nivel baixo vuca urv
+lall nivel baixo vuca urv
+lall nivel baixo vuca urv
 parada normal
 mudanca status
 parada normal
@@ -8812,12 +8812,12 @@ pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
-tahh temp alta gas header succao urvs
-lall nivel baixo uc urv
-lahh nivel alto uc urv
+tahh temp alta gasheader succao urvs
+lall nivel baixo vuca urv
+lahh nivel alto vuca urv
 parada normal
 parada normal
-tahh temp alta gas header succao urvs
+tahh temp alta gasheader succao urvs
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
@@ -8849,19 +8849,19 @@ parada normal
 parada normal
 parada normal
 parada normal
-tahh downstr cool uc
+tahh downstr cool puc
 parada normal
 parada normal
-lss gsp generator set suply breaker tripped by protect
+lssgsp generator set suply breaker tripped by protect
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 mudanca status
 mudanca status
-pall inlet drum uc
+pall inlet drum vuc
 us vsd common trip
-pall inlet drum uc
-tahh downstr cool uc
-tahh downstr cool uc
+pall inlet drum vuc
+tahh downstr cool puc
+tahh downstr cool puc
 parada normal
 mudanca status
 parada normal
@@ -8873,15 +8873,15 @@ mudanca status
 lsdl fc ssloc sel vlv schedule pos failure shutdo
 parada normal
 parada normal
-lss gsp generator set suply breaker tripped by protect
+lssgsp generator set suply breaker tripped by protect
 hs esd panel
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
-lall nivel baixo uc urv
-lall nivel baixo uc urv
+lall nivel baixo vuca urv
+lall nivel baixo vuca urv
 pdall pressao dif baixa gasxoleo urv
-lall nivel baixo uc urv
-lall nivel baixo uc urv
+lall nivel baixo vuca urv
+lall nivel baixo vuca urv
 pall pressao baixa succao urvs
 pall pressao baixa succao urvs
 pall pressao baixa succao urvs
@@ -8894,10 +8894,10 @@ pdall pressao dif baixa gasxoleo urv
 parada normal
 parada normal
 parada normal
-tahh downstr cool uc
+tahh downstr cool puc
 pahh discharge line st stage
 pahh discharge line st stage
-tahh downstr cool uc
+tahh downstr cool puc
 pahh discharge line st stage
 esd emergency shutdown
 pdall pressao dif baixa gasxoleo urv
@@ -8909,7 +8909,7 @@ pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
-lall nivel baixo uc urv
+lall nivel baixo vuca urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
@@ -8943,7 +8943,7 @@ pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
-lall nivel baixo uc urv
+lall nivel baixo vuca urv
 pdall pressao dif baixa gasxoleo urv
 mudanca status
 pdall pressao dif baixa gasxoleo urv
@@ -8987,9 +8987,9 @@ parada normal
 parada normal
 parada normal
 us vsd common trip
-tahh downstr cool uc
+tahh downstr cool puc
 parada normal
-tahh downstr cool uc
+tahh downstr cool puc
 tahh temp alta montante
 tahh temp alta montante
 tahh temp alta montante
@@ -8997,13 +8997,13 @@ tahh temp alta montante
 tahh temp alta montante
 pdall pressao dif baixa gasxoleo urv
 tahh discharge line rd stage
-tahh downstr cool uc
+tahh downstr cool puc
 parada normal
 parada normal
 parada normal
 parada normal
 pall pressao baixa succao urvs
-lall nivel baixo uc urv
+lall nivel baixo vuca urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 parada normal
@@ -9011,23 +9011,14 @@ tahh temp alta montante
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
-lahh nivel alto uc urv
-lahh nivel alto uc urv
-lahh nivel alto uc urv
-lahh nivel alto uc urv
-tahh downstr cool uc
+lahh nivel alto vuca urv
+lahh nivel alto vuca urv
+lahh nivel alto vuca urv
+lahh nivel alto vuca urv
+tahh downstr cool puc
 parada normal
 parada normal
-lss at is sd gg light up verification timeout
-parada normal
-parada normal
-parada normal
-parada normal
-parada normal
-parada normal
-parada normal
-parada normal
-pdahh cooler uc
+lssat issd gg lightup verification timeout
 parada normal
 parada normal
 parada normal
@@ -9036,18 +9027,27 @@ parada normal
 parada normal
 parada normal
 parada normal
-lall nivel baixo uc urv
-lall nivel baixo uc urv
+pdahh cooler puc
+parada normal
+parada normal
+parada normal
+parada normal
+parada normal
+parada normal
+parada normal
+parada normal
+lall nivel baixo vuca urv
+lall nivel baixo vuca urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
-tahh temp alta gas header succao urvs
-tahh temp alta gas header succao urvs
-tahh temp alta gas header succao urvs
-tahh temp alta gas header succao urvs
+tahh temp alta gasheader succao urvs
+tahh temp alta gasheader succao urvs
+tahh temp alta gasheader succao urvs
+tahh temp alta gasheader succao urvs
 pdall pressao dif baixa gasxoleo urv
-lahh nivel alto uc urv
-tahh temp alta gas header succao urvs
-lall nivel baixo uc urv
+lahh nivel alto vuca urv
+tahh temp alta gasheader succao urvs
+lall nivel baixo vuca urv
 parada normal
 parada normal
 parada normal
@@ -9058,17 +9058,17 @@ parada normal
 parada normal
 tahh discharge line rd stage
 parada normal
-pahh cool water downstr uc
+pahh cool water downstr puc
 parada normal
 mudanca status
-lahh nivel alto uc urv
+lahh nivel alto vuca urv
 pdall pressao dif baixa gasxoleo urv
-tahh temp alta gas header succao urvs
-tahh temp alta gas header succao urvs
+tahh temp alta gasheader succao urvs
+tahh temp alta gasheader succao urvs
 parada normal
-tahh downstr cool uc
-lall nivel baixo uc urv
-lall nivel baixo uc urv
+tahh downstr cool puc
+lall nivel baixo vuca urv
+lall nivel baixo vuca urv
 xsl esd
 lsdl fc gas upstream pressure fault shutdown
 parada normal
@@ -9076,9 +9076,9 @@ parada normal
 pdall pressao dif baixa gasxoleo urv
 esd emergency shutdown
 parada normal
-tahh downstr cool uc
+tahh downstr cool puc
 sip teg or bypass valve not ok
-pahh cool water downstr uc
+pahh cool water downstr puc
 tahh discharge line rd stage
 pahh discharge line st stage
 tahh discharge line rd stage
@@ -9087,7 +9087,7 @@ tahh discharge line rd stage
 tahh discharge line rd stage
 sip teg or bypass valve not ok
 tahh discharge line rd stage
-pahh inlet drum uc
+pahh inlet drum vuc
 tahh discharge line rd stage
 pahh discharge line st stage
 parada normal
@@ -9101,7 +9101,7 @@ sip teg or bypass valve not ok
 parada normal
 parada normal
 lsdl fc liq upstream pressure fault shutdown
-tahh downstr cool uc
+tahh downstr cool puc
 pdall pressao dif baixa gasxoleo urv
 tahh discharge line rd stage
 pdall pressao dif baixa gasxoleo urv
@@ -9111,17 +9111,17 @@ parada normal
 parada normal
 parada normal
 parada normal
-tahh downstr cool uc
-tahh downstr cool uc
+tahh downstr cool puc
+tahh downstr cool puc
 parada normal
-tahh downstr cool uc
+tahh downstr cool puc
 parada normal
 tahh discharge line rd stage
 sip teg or bypass valve not ok
 sip teg or bypass valve not ok
-lahh drum uc
+lahh drum vuc
 tahh discharge line rd stage
-pall inlet drum uc
+pall inlet drum vuc
 parada normal
 tahh temp alta montante
 tahh temp alta montante
@@ -9135,41 +9135,41 @@ parada normal
 mudanca status
 parada normal
 parada normal
-tahh downstr cool uc
+tahh downstr cool puc
 tahh temp alta montante
 parada normal
 parada normal
 parada normal
-pahh cool water downstr uc
-pahh cool water downstr uc
-pahh cool water downstr uc
-pahh cool water downstr uc
-pahh cool water downstr uc
-pahh cool water downstr uc
-pahh cool water downstr uc
-pahh cool water downstr uc
+pahh cool water downstr puc
+pahh cool water downstr puc
+pahh cool water downstr puc
+pahh cool water downstr puc
+pahh cool water downstr puc
+pahh cool water downstr puc
+pahh cool water downstr puc
+pahh cool water downstr puc
 sip teg or bypass valve not ok
 esd emergency shutdown
-pall pressao baixa sist selagem urv
-pall pressao baixa sist selagem urv
+pall pressao baixa sistselagem urv
+pall pressao baixa sistselagem urv
 tahh temp alta montante
 sip teg or bypass valve not ok
-pall inlet drum uc
+pall inlet drum vuc
 parada normal
 parada normal
 parada normal
 esd emergency shutdown
-tahh temp alta gas header succao urvs
-tahh temp alta gas header succao urvs
+tahh temp alta gasheader succao urvs
+tahh temp alta gasheader succao urvs
 parada normal
 parada normal
 tahh discharge line st stage
 tahh discharge line st stage
 parada normal
-lall nivel baixo uc urv
-pall pressao baixa sist selagem urv
-pall pressao baixa sist selagem urv
-pall pressao baixa sist selagem urv
+lall nivel baixo vuca urv
+pall pressao baixa sistselagem urv
+pall pressao baixa sistselagem urv
+pall pressao baixa sistselagem urv
 vahh resumo trips circuito vibracao urv
 pahh discharge line rd stage
 parada normal
@@ -9185,8 +9185,8 @@ vahh resumo trips circuito vibracao urv
 vahh resumo trips circuito vibracao urv
 mudanca status
 vahh resumo trips circuito vibracao urv
-lall nivel baixo uc urv
-lall nivel baixo uc urv
+lall nivel baixo vuca urv
+lall nivel baixo vuca urv
 parada normal
 parada normal
 esd emergency shutdown
@@ -9197,7 +9197,7 @@ mudanca status
 lsdl fc liq upstream pressure fault shutdown
 parada normal
 lsdl fc liq upstream pressure fault shutdown
-lall nivel baixo uc urv
+lall nivel baixo vuca urv
 parada normal
 parada normal
 parada normal
@@ -9206,14 +9206,14 @@ parada normal
 parada normal
 parada normal
 tahh temp alta descarga urv
-tahh temp alta gas header succao urvs
+tahh temp alta gasheader succao urvs
 mudanca status
 mudanca status
 parada normal
 pahh discharge line rd stage
 us vsd common trip
-tahh downstr cool uc
-tahh downstr cool uc
+tahh downstr cool puc
+tahh downstr cool puc
 parada normal
 mudanca status
 parada normal
@@ -9225,7 +9225,7 @@ parada normal
 parada normal
 pahh separador atmosferico
 parada normal
-pall cool water downstr uc
+pall cool water downstr puc
 pahh discharge line st stage
 us vsd common trip
 parada normal
@@ -9240,19 +9240,19 @@ parada normal
 pahh discharge line rd stage
 mudanca status
 parada normal
-lall nivel baixo tq uc selagem urvs
-pall pressao baixa sist selagem urv
-lall nivel baixo tq uc selagem urvs
-tahh temp alta gas header succao urvs
+lall nivel baixo tquc selagem urvs
+pall pressao baixa sistselagem urv
+lall nivel baixo tquc selagem urvs
+tahh temp alta gasheader succao urvs
 parada normal
 mudanca status
-lss gsp generator set suply breaker tripped by protect
+lssgsp generator set suply breaker tripped by protect
 lsdl fc ssloc low hydraulic pressure shutdown
 parada normal
 parada normal
-tahh downstr cool uc
-tahh downstr cool uc
-tahh downstr cool uc
+tahh downstr cool puc
+tahh downstr cool puc
+tahh downstr cool puc
 xsl esd
 pahh discharge line st stage
 us vsd common trip
@@ -9271,7 +9271,7 @@ lsdl fc gas upstream pressure fault shutdown
 parada normal
 parada normal
 lsdl fc gas upstream pressure fault shutdown
-lhh ggba gg bearing cooling air pressure high shutdown
+lhhggba gg bearing cooling air pressure high shutdown
 mudanca status
 mudanca status
 mudanca status
@@ -9279,18 +9279,18 @@ parada normal
 parada normal
 parada normal
 xsl esd
-tahh downstr cool uc
-pall inlet drum uc
-tahh downstr cool uc
-tahh downstr cool uc
+tahh downstr cool puc
+pall inlet drum vuc
+tahh downstr cool puc
+tahh downstr cool puc
 tahh discharge line rd stage
 xsl esd
 parada normal
 tahh lo return motor nde
 us vsd common trip
-tahh downstr cool uc
-tahh downstr cool uc
-tahh downstr cool uc
+tahh downstr cool puc
+tahh downstr cool puc
+tahh downstr cool puc
 tahh discharge line rd stage
 us vsd common trip
 parada normal
@@ -9309,7 +9309,7 @@ mudanca status
 parada normal
 lahh nivel alto succao urvs
 esd emergency shutdown
-lall nivel baixo uc urv
+lall nivel baixo vuca urv
 esd emergency shutdown
 esd emergency shutdown
 lahh nivel alto succao urvs
@@ -9327,14 +9327,14 @@ mudanca status
 mudanca status
 xsl esd
 esd emergency shutdown
-lall nivel baixo uc urv
+lall nivel baixo vuca urv
 us vsd common trip
 us vsd common trip
 parada normal
 parada normal
 parada normal
-tahh downstr cool uc
-tahh downstr cool uc
+tahh downstr cool puc
+tahh downstr cool puc
 us vsd common trip
 us vsd common trip
 us vsd common trip
@@ -9350,14 +9350,14 @@ us vsd common trip
 us vsd common trip
 pdall pressao dif baixa gasxoleo urv
 lsdl fc ssloc control valve driver shutdown
-lhh gbhdey gearbox hss drive end vibration high shutd
+lhhgbhdey gearbox hss drive end vibration high shutd
 lsdl fc ssloc control valve driver shutdown
 parada normal
-lss gp generator protection shutdown
+lssgp generator protection shutdown
 parada normal
 parada normal
 parada normal
-lall drum uc
+lall drum vuc
 tahh discharge line rd stage
 parada normal
 tahh motor cold air
@@ -9368,7 +9368,7 @@ parada normal
 mudanca status
 parada normal
 us vsd common trip
-pall inlet drum uc
+pall inlet drum vuc
 parada normal
 parada normal
 parada normal
@@ -9385,7 +9385,7 @@ parada normal
 pall prim leak hp compr nde
 parada normal
 parada normal
-lss gp generator protection shutdown
+lssgp generator protection shutdown
 parada normal
 parada normal
 pahh pressao alta descarga urv
@@ -9393,14 +9393,14 @@ pahh pressao alta descarga urv
 parada normal
 parada normal
 parada normal
-tahh temp alta gas header succao urvs
-tahh temp alta gas header succao urvs
+tahh temp alta gasheader succao urvs
+tahh temp alta gasheader succao urvs
 parada normal
-pahh cool water downstr uc
+pahh cool water downstr puc
 tahh motor cold air
 parada normal
 tahh motor cold air
-pall inlet drum uc
+pall inlet drum vuc
 parada normal
 mudanca status
 parada normal
@@ -9418,7 +9418,7 @@ parada normal
 parada normal
 mudanca status
 mudanca status
-pall inlet drum uc
+pall inlet drum vuc
 parada normal
 tahh discharge line rd stage
 mudanca status
@@ -9431,7 +9431,7 @@ parada normal
 parada normal
 parada normal
 pahh prim leak lp compr
-tahh downstr cool uc
+tahh downstr cool puc
 parada normal
 mudanca status
 mudanca status
@@ -9441,7 +9441,7 @@ parada normal
 parada normal
 parada normal
 parada normal
-pall inlet drum uc
+pall inlet drum vuc
 parada normal
 parada normal
 parada normal
@@ -9458,28 +9458,28 @@ parada normal
 parada normal
 parada normal
 mudanca status
-lll fgs fuel gas supply temperature low shutdown
+lllfgs fuel gas supply temperature low shutdown
 mudanca status
 parada normal
 parada normal
-lall nivel baixo uc urv
+lall nivel baixo vuca urv
 parada normal
 parada normal
 mudanca status
 parada normal
 mudanca status
-pahh cool water downstr uc
-pahh cool water downstr uc
+pahh cool water downstr puc
+pahh cool water downstr puc
 parada normal
 mudanca status
 parada normal
 parada normal
 xsl esd
 parada normal
-pall inlet drum uc
+pall inlet drum vuc
 parada normal
 parada normal
-pall inlet drum uc
+pall inlet drum vuc
 parada normal
 parada normal
 parada normal
@@ -9490,7 +9490,7 @@ parada normal
 lsdl fc ssloc flow control valve high dp shutdown
 mudanca status
 parada normal
-lall nivel baixo uc urv
+lall nivel baixo vuca urv
 mudanca status
 mudanca status
 parada normal
@@ -9500,9 +9500,9 @@ parada normal
 mudanca status
 mudanca status
 mudanca status
-lsdl fc ssloc low dp shutdown
+lsdl fc ssloc ll low dp shutdown
 parada normal
-lss gp generator protection shutdown
+lssgp generator protection shutdown
 parada normal
 parada normal
 parada normal
@@ -9513,17 +9513,17 @@ parada normal
 parada normal
 parada normal
 parada normal
-lss sd common vibration shutdown
-lss fcsdn ecs common shutdown
+lsssd common vibration shutdown
+lssfcsdn ecs common shutdown
 parada normal
 us vsd common trip
-lss gp generator protection shutdown
+lssgp generator protection shutdown
 us vsd common trip
 mudanca status
 us vsd common trip
 us vsd common trip
-tahh downstr cool uc
-pall inlet drum uc
+tahh downstr cool puc
+pall inlet drum vuc
 parada normal
 tahh discharge line rd stage
 lsdl fc nl underspeed shutdown
@@ -9531,14 +9531,14 @@ parada normal
 parada normal
 parada normal
 us vsd common trip
-tahh downstr cool uc
+tahh downstr cool puc
 tahh discharge line rd stage
 lahh nivel alto succao urvs
 lahh separador atmosferico
 esd emergency shutdown
 parada normal
 parada normal
-pall pressao baixa sist selagem urv
+pall pressao baixa sistselagem urv
 parada normal
 mudanca status
 mudanca status
@@ -9558,10 +9558,10 @@ mudanca status
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
-pall pressao baixa sist selagem urv
+pall pressao baixa sistselagem urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
-tahh temp alta gas header succao urvs
+tahh temp alta gasheader succao urvs
 parada normal
 esd emergency shutdown
 esd emergency shutdown
@@ -9584,7 +9584,7 @@ parada normal
 us vsd common trip
 parada normal
 us vsd common trip
-tahh downstr cool uc
+tahh downstr cool puc
 lsdl fc ssloc low hydraulic pressure shutdown
 us vsd common trip
 psll vsd cu pressure fault
@@ -9593,7 +9593,7 @@ lsdl fc gas downstream pressure fault shutdown
 lsdl fc gas downstream pressure fault shutdown
 parada normal
 mudanca status
-lss gp generator protection shutdown
+lssgp generator protection shutdown
 mudanca status
 parada normal
 esd emergency shutdown
@@ -9603,15 +9603,15 @@ pahh pressao alta descarga urv
 parada normal
 parada normal
 parada normal
-tahh downstr cool uc
+tahh downstr cool puc
 parada normal
 us vsd common trip
 us vsd common trip
 parada normal
-tahh downstr cool uc
+tahh downstr cool puc
 parada normal
 parada normal
-pahh cool water downstr uc
+pahh cool water downstr puc
 psll vsd cu pressure fault
 xsl esd
 xsl esd
@@ -9626,11 +9626,11 @@ mudanca status
 mudanca status
 parada normal
 mudanca status
-lhh ptta pt axial displacement high shutdown
+lhhptta pt axial displacement high shutdown
 parada normal
 pahh prim leak hp compr
-lall drum uc
-tahh downstr cool uc
+lall drum vuc
+tahh downstr cool puc
 psll vsd cu pressure fault
 mudanca status
 parada normal
@@ -9642,7 +9642,7 @@ parada normal
 parada normal
 parada normal
 tahh discharge line rd stage
-tahh downstr cool uc
+tahh downstr cool puc
 tahh discharge line rd stage
 vahh lp compressor shaft
 pahh discharge line st stage
@@ -9650,10 +9650,10 @@ parada normal
 parada normal
 parada normal
 parada normal
-tahh downstr cool uc
-lahh drum uc
-lahh drum uc
-lsspb emergency shutdown pushbutton on mgcp
+tahh downstr cool puc
+lahh drum vuc
+lahh drum vuc
+lsspbe emergency shutdown pushbutton on mgcp
 mudanca status
 parada normal
 pall discharge line st stage
@@ -9666,7 +9666,7 @@ tahh motor winding
 parada normal
 parada normal
 pdall pressao dif baixa gasxoleo urv
-tahh temp alta gas header succao urvs
+tahh temp alta gasheader succao urvs
 mudanca status
 parada normal
 parada normal
@@ -9678,13 +9678,13 @@ parada normal
 parada normal
 parada normal
 pdall pressao dif baixa gasxoleo urv
-lall nivel baixo tq uc selagem urvs
-lall nivel baixo tq uc selagem urvs
+lall nivel baixo tquc selagem urvs
+lall nivel baixo tquc selagem urvs
 mudanca status
 mudanca status
-lall nivel baixo tq uc selagem urvs
+lall nivel baixo tquc selagem urvs
 mudanca status
-lall nivel baixo tq uc selagem urvs
+lall nivel baixo tquc selagem urvs
 esd emergency shutdown
 parada normal
 parada normal
@@ -9707,7 +9707,7 @@ parada normal
 parada normal
 parada normal
 lsdl fc nl failsafe shutdown
-lhh ggba gg bearing cooling air pressure high shutdown
+lhhggba gg bearing cooling air pressure high shutdown
 parada normal
 mudanca status
 parada normal
@@ -9732,8 +9732,8 @@ parada normal
 parada normal
 parada normal
 mudanca status
-tall downstr cool uc
-tahh downstr cool uc
+tall downstr cool puc
+tahh downstr cool puc
 esd emergency shutdown
 parada normal
 mudanca status
@@ -9761,11 +9761,11 @@ parada normal
 lsdl fc nl failsafe shutdown
 parada normal
 parada normal
-lss gsp generator set suply breaker tripped by protect
+lssgsp generator set suply breaker tripped by protect
 mudanca status
 parada normal
 tahh lo return hp compr
-tahh downstr cool uc
+tahh downstr cool puc
 parada normal
 us vsd common trip
 esd emergency shutdown
@@ -9781,16 +9781,16 @@ tahh hp compressor journal bear
 tahh hp compressor journal bear
 xsl esd
 xsl esd
-tahh downstr cool uc
-tahh downstr cool uc
+tahh downstr cool puc
+tahh downstr cool puc
 pahh prim leak lp compr nde
-tahh downstr cool uc
-tahh downstr cool uc
-tahh downstr cool uc
+tahh downstr cool puc
+tahh downstr cool puc
+tahh downstr cool puc
 parada normal
 pahh suction line rd stage
 xsl esd
-pall inlet drum uc
+pall inlet drum vuc
 xsl esd
 pahh discharge line nd stage
 parada normal
@@ -9824,9 +9824,9 @@ esd emergency shutdown
 pdall pressao dif baixa gasxoleo urv
 esd emergency shutdown
 esd emergency shutdown
-lall nivel baixo tq uc selagem urvs
+lall nivel baixo tquc selagem urvs
 tahh temp alta montante
-tahh temp alta enrolamento motor urv
+tahhd temp alta enrolamento motor urv
 esd emergency shutdown
 pahh pressao alta succao urvs
 pdall pressao dif baixa gasxoleo urv
@@ -9839,7 +9839,7 @@ xsl esd
 parada normal
 parada normal
 mudanca status
-tahh downstr cool uc
+tahh downstr cool puc
 hs esd panel
 qahh analyzer
 parada normal
@@ -9895,9 +9895,9 @@ parada normal
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
-tahh temp alta gas header succao urvs
-tahh temp alta gas header succao urvs
-lall nivel baixo tq uc selagem urvs
+tahh temp alta gasheader succao urvs
+tahh temp alta gasheader succao urvs
+lall nivel baixo tquc selagem urvs
 pdall pressao dif baixa gasxoleo urv
 tahh temp alta descarga urv
 pdall pressao dif baixa gasxoleo urv
@@ -9909,7 +9909,7 @@ mudanca status
 us vsd common trip
 us vsd common trip
 hs esd panel
-pall inlet drum uc
+pall inlet drum vuc
 mudanca status
 parada normal
 parada normal
@@ -9927,29 +9927,29 @@ parada normal
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
-lall nivel baixo uc urv
-lall nivel baixo uc urv
-lahh nivel alto uc urv
-lahh nivel alto uc urv
+lall nivel baixo vuca urv
+lall nivel baixo vuca urv
+lahh nivel alto vuca urv
+lahh nivel alto vuca urv
 pdall pressao dif baixa gasxoleo urv
 tahh temp alta descarga urv
-lall nivel baixo uc urv
+lall nivel baixo vuca urv
 pdall pressao dif baixa gasxoleo urv
 pahh pressao alta descarga urv
 parada normal
 parada normal
 parada normal
 pdall pressao dif baixa gasxoleo urv
-lahh nivel alto uc urv
+lahh nivel alto vuca urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
-tahh temp alta gas header succao urvs
+tahh temp alta gasheader succao urvs
 pdall pressao dif baixa gasxoleo urv
 parada normal
 pahh pressao alta descarga urv
 pdall pressao dif baixa gasxoleo urv
-lahh nivel alto uc urv
+lahh nivel alto vuca urv
 tahh temp alta descarga urv
 parada normal
 pdall pressao dif baixa gasxoleo urv
@@ -9960,7 +9960,7 @@ tahh hp compressor outside thrust bear
 parada normal
 parada normal
 parada normal
-pdall cooler uc
+pdall cooler puc
 tahh discharge line st stage
 tahh discharge line st stage
 tahh discharge line st stage
@@ -9987,7 +9987,7 @@ parada normal
 xsl esd
 mudanca status
 xsl esd
-tahh downstr cool uc
+tahh downstr cool puc
 parada normal
 parada normal
 parada normal
@@ -9998,21 +9998,21 @@ parada normal
 parada normal
 parada normal
 parada normal
-lhh ptta pt axial displacement high shutdown
+lhhptta pt axial displacement high shutdown
 parada normal
 parada normal
 parada normal
 parada normal
 parada normal
 parada normal
-lall nivel baixo uc urv
-lall nivel baixo uc urv
+lall nivel baixo vuca urv
+lall nivel baixo vuca urv
 mudanca status
 pall pressao baixa succao urvs
 mudanca status
-pall pressao baixa sist selagem urv
+pall pressao baixa sistselagem urv
 pdall pressao dif baixa gasxoleo urv
-lll qms main lube oil supply pressure low shutdown
+lllqms main lube oil supply pressure low shutdown
 parada normal
 parada normal
 parada normal
@@ -10033,28 +10033,28 @@ parada normal
 parada normal
 parada normal
 lss phase differential current shutdown
-lahh nivel alto uc urv
+lahh nivel alto vuca urv
 tahh temp alta descarga urv
-lahh nivel alto uc urv
-lahh nivel alto uc urv
-lahh nivel alto uc urv
-lahh nivel alto uc urv
+lahh nivel alto vuca urv
+lahh nivel alto vuca urv
+lahh nivel alto vuca urv
+lahh nivel alto vuca urv
 pdall pressao dif baixa gasxoleo urv
 tahh temp alta descarga urv
-lahh nivel alto uc urv
-lahh nivel alto uc urv
+lahh nivel alto vuca urv
+lahh nivel alto vuca urv
 pall pressao baixa descarga urv
 pdall pressao dif baixa gasxoleo urv
 parada normal
 esd emergency shutdown
 pdall pressao dif baixa gasxoleo urv
-lall nivel baixo uc urv
-lahh nivel alto uc urv
+lall nivel baixo vuca urv
+lahh nivel alto vuca urv
 pdall pressao dif baixa gasxoleo urv
 esd emergency shutdown
 pdall pressao dif baixa gasxoleo urv
 pahh pressao alta succao urvs
-lahh nivel alto uc urv
+lahh nivel alto vuca urv
 pahh pressao alta descarga urv
 parada normal
 tahh discharge line rd stage
@@ -10073,14 +10073,14 @@ xsl esd
 tall discharge line rd stage
 tall discharge line rd stage
 tall discharge line rd stage
-tahh downstr cool uc
+tahh downstr cool puc
 tall discharge line rd stage
 tall discharge line rd stage
 tall discharge line rd stage
 tall discharge line rd stage
 tall discharge line rd stage
 tall discharge line rd stage
-tahh downstr cool uc
+tahh downstr cool puc
 tall discharge line rd stage
 tall discharge line rd stage
 tall discharge line rd stage
@@ -10089,14 +10089,14 @@ xsl esd
 tall discharge line rd stage
 parada normal
 mudanca status
-tahh downstr cool uc
-lahh drum uc
+tahh downstr cool puc
+lahh drum vuc
 vahh gearbox housing
 tall discharge line rd stage
-tahh downstr cool uc
+tahh downstr cool puc
 tall discharge line rd stage
 parada normal
-lll ggnh gg nh speed low shutdown
+lllggnh gg nh speed low shutdown
 parada normal
 parada normal
 parada normal
@@ -10126,9 +10126,9 @@ parada normal
 tall temp baixa descarga urv
 parada normal
 pdall pressao dif baixa gasxoleo urv
-lahh nivel alto uc urv
-lahh nivel alto uc urv
-lahh nivel alto uc urv
+lahh nivel alto vuca urv
+lahh nivel alto vuca urv
+lahh nivel alto vuca urv
 parada normal
 parada normal
 parada normal
@@ -10139,7 +10139,7 @@ parada normal
 parada normal
 mudanca status
 mudanca status
-lhh ptnex pt non drive end vibration high shutdown
+lhhptnex pt non drive end vibration high shutdown
 parada normal
 parada normal
 parada normal
@@ -10163,14 +10163,14 @@ lsdl fc vigv position controller shutdown
 mudanca status
 parada normal
 pahh pressao alta succao urvs
-lahh nivel alto uc urv
+lahh nivel alto vuca urv
 pahh pressao alta succao urvs
 esd emergency shutdown
 esd emergency shutdown
 pahh pressao alta succao urvs
-lahh nivel alto uc urv
+lahh nivel alto vuca urv
 esd emergency shutdown
-lahh drum uc
+lahh drum vuc
 esd emergency shutdown
 pall discharge line rd stage
 esd emergency shutdown
@@ -10185,9 +10185,9 @@ parada normal
 tahh discharge line rd stage
 tahh discharge line rd stage
 pall discharge line st stage
-lahh drum uc
+lahh drum vuc
 pahh prim leak hp compr
-lhh gblnex gearbox lss non drive end vibr high shutdo
+lhhgblnex gearbox lss non drive end vibr high shutdo
 parada normal
 parada normal
 parada normal
@@ -10195,9 +10195,9 @@ parada normal
 parada normal
 parada normal
 parada normal
-lhh ggba gg bearing cooling air pressure high shutdown
-lhh ggba gg bearing cooling air pressure high shutdown
-lhh ggba gg bearing cooling air pressure high shutdown
+lhhggba gg bearing cooling air pressure high shutdown
+lhhggba gg bearing cooling air pressure high shutdown
+lhhggba gg bearing cooling air pressure high shutdown
 parada normal
 parada normal
 parada normal
@@ -10207,10 +10207,10 @@ esd emergency shutdown
 pahh discharge line st stage
 pahh discharge line st stage
 pahh discharge line st stage
-pall inlet drum uc
+pall inlet drum vuc
 xsl esd
 xsl esd
-tall downstr cool uc
+tall downstr cool puc
 tahh discharge line rd stage
 esd emergency shutdown
 tahh discharge line rd stage
@@ -10218,14 +10218,14 @@ tahh discharge line rd stage
 psll vsd cu pressure fault
 xsl esd
 tahh motor journal bear
-pahh inlet drum uc
+pahh inlet drum vuc
 mudanca status
 pahh pressao alta descarga urv
 pdall pressao dif baixa gasxoleo urv
 pahh pressao alta descarga urv
 esd emergency shutdown
 esd emergency shutdown
-tahh temp alta gas header succao urvs
+tahh temp alta gasheader succao urvs
 esd emergency shutdown
 esd emergency shutdown
 lall nivel baixo succao urvs
@@ -10239,10 +10239,10 @@ parada normal
 parada normal
 parada normal
 tahh discharge line rd stage
-pahh inlet drum uc
-pall pressao baixa sist selagem urv
-tahh temp alta enrolamento motor urv
-tahh temp alta enrolamento motor urv
+pahh inlet drum vuc
+pall pressao baixa sistselagem urv
+tahhc temp alta enrolamento motor urv
+tahhc temp alta enrolamento motor urv
 vahh resumo trips circuito vibracao urv
 tahh temp alta descarga urv
 tahh temp alta descarga urv
@@ -10252,20 +10252,20 @@ pdall pressao dif baixa gasxoleo urv
 tall temp baixa descarga urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
-lall nivel baixo uc urv
+lall nivel baixo vuca urv
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
 mudanca status
-pall pressao baixa sist selagem urv
+pall pressao baixa sistselagem urv
 us vsd common trip
 pahh discharge line st stage
 esd emergency shutdown
 tahh motor winding
 tahh discharge line rd stage
-tahh downstr cool uc
+tahh downstr cool puc
 tahh discharge line rd stage
 pahh discharge line st stage
-tahh downstr cool uc
+tahh downstr cool puc
 tahh discharge line rd stage
 parada normal
 parada normal
@@ -10274,8 +10274,8 @@ pahh prim leak hp compr
 pahh prim leak hp compr
 parada normal
 esd emergency shutdown
-pall pressao baixa sist selagem urv
-lahh nivel alto uc urv
+pall pressao baixa sistselagem urv
+lahh nivel alto vuca urv
 parada normal
 lahh separador atmosferico
 mudanca status
@@ -10284,7 +10284,7 @@ parada normal
 parada normal
 parada normal
 parada normal
-lsspb emergency shutdown pushbutton on mgcp
+lsspbe emergency shutdown pushbutton on mgcp
 mudanca status
 parada normal
 parada normal
@@ -10296,7 +10296,7 @@ parada normal
 parada normal
 parada normal
 parada normal
-lhh ptdex pt drive end vibration high shutdown
+lhhptdex pt drive end vibration high shutdown
 parada normal
 parada normal
 parada normal
@@ -10305,22 +10305,22 @@ parada normal
 parada normal
 pdall pressao dif baixa gasxoleo urv
 pdall pressao dif baixa gasxoleo urv
-lahh nivel alto uc urv
+lahh nivel alto vuca urv
 pdall pressao dif baixa gasxoleo urv
 parada normal
-lahh nivel alto uc urv
+lahh nivel alto vuca urv
 lahh separador atmosferico
 esd emergency shutdown
 parada normal
-pall pressao baixa sist selagem urv
+pall pressao baixa sistselagem urv
 parada normal
 mudanca status
 mudanca status
 mudanca status
 us vsd common trip
-lahh drum uc
+lahh drum vuc
 esd emergency shutdown
-lall drum uc
+lall drum vuc
 esd emergency shutdown
 parada normal
 esd emergency shutdown

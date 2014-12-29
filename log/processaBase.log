@@ -191,3 +191,30 @@ outPut\evnt_tx_desc_WithoutStopWords.txt_NGramasPresencas.txt
 
 
 Tue Nov 25 13:46:32 BRST 2014 Fim
+Wed Dec 03 11:33:43 BRST 2014 INICIO
+
+
+Parametros de Entrada:
+##parametros para carregar a base
+# se for um arquivo pega as linhas dele, se for um diretorio pega os arquivos txt dentro dele
+nomeArquivoBaseTxt = evnt_tx_desc.txt
+nomeArquivoCategoriasDocs = 
+stemme = false
+stopWord = true
+stopList = ptStopList.txt
+podeNumero = false
+minLocalFreq = 1
+minGlobalFreq = 2
+minSizeWord = 2
+maxSizeWord = 100
+
+inputCategFileName =
+inputLucineIndexName =
+nomeArquivoLog = processaBase.log
+
+
+Arquivos gerados:
+outPut\evnt_tx_desc_WithoutStopWords.txt
+
+
+Wed Dec 03 11:33:44 BRST 2014 Fim

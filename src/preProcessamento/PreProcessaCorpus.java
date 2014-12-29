@@ -105,11 +105,14 @@ public class PreProcessaCorpus {
 		String linhatemp = "";
 		Matcher matcher;
 		
+		//substitui caracteres invalidos por espaco para nao juntar palavras que tem apenas um caracter invalido no meio, como por exemplo sdf-sdf -> sdf sdf
 		for (int i = 0; i < linha.length(); i++) {
 			String caractere = "" + linha.charAt(i);
 			matcher = pattern.matcher(caractere);
 			if (matcher.matches()) {
-				linhatemp =  linhatemp + linha.charAt(i);
+				linhatemp =  linhatemp + caractere;
+			} else {
+				linhatemp =  linhatemp + " ";
 			}
 		}
 		linha = linhatemp;
